@@ -24,6 +24,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script
+        # ВАЖНО: Здесь мы передаем секреты скрипту!
+        env:
+          API_EMAIL: ${{ secrets.API_EMAIL }}
+          API_KEY: ${{ secrets.API_KEY }}
         run: python main_chipidip.py
 
       - name: Commit and push changes
