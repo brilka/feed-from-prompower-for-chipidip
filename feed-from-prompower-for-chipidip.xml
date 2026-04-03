@@ -103,7 +103,7 @@
 <!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->
 <id>PPK.20.1U.RAL7035</id>
 <!--  кол-во товара, доступное для продажи. В API Prompower и Unimat это instock -->
-<qty>1</qty>
+<qty>0</qty>
 <!--  ссылка на карточку товара на сайте поставщика. Используется для просмотра информации о товаре складом или отделом закупок Чип и Дип. У Prompower это значение в path в API (но в path в API указан неполный путь, например, /mcb/ESM163C12 - поэтому в начале нужно дописать www.prompower.ru ). Для Unimat url недоступен.  -->
 <url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.20.1U.RAL7035</url>
 <!--  список ценовых предложений. costPrice и rPrice рассчитаны согласно ТЗ с НДС 1.22 -->
@@ -121,20 +121,21 @@
 <!--  Описание товара. Может быть в формате html. Не оябязательное поле. Для Prompower и Unimat это description в API  -->
 <description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх200мм, RAL7035]]></description>
 <!--  список параметров товара. Максимум 20 параметров для одного товара. -->
-<param name="Ширина" unit="мм">1</param>
-<param name="Высота" unit="мм">12</param>
-<param name="Глубина" unit="мм">13</param>
-<param name="Глубина шкафа" unit="мм">2</param>
-<param name="Ширина шкафа" unit="мм">3</param>
-<param name="Высота шкафа" unit="мм">4</param>
+<param name="Ширина" unit="мм">0</param>
+<param name="Высота" unit="мм">0</param>
+<param name="Глубина" unit="мм">0</param>
+<param name="Глубина шкафа" unit="мм">0</param>
+<param name="Ширина шкафа" unit="мм">0</param>
+<param name="Высота шкафа" unit="мм">0</param>
 <!--  Дополнительные файлы для скачивания. Парсинг с кэшированием (обновляется 1 числа месяца). -->
 <docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <!--  Код группы товара из каталога Чип и Дип... (сокращено) -->
+<itemGroupId>3062</itemGroupId>
 <!--  Единица измерения товара. Допустимые значения (соглано ОКЕИ) -->
 <unitID>шт</unitID>
 <!--  Вес товара в граммах. Используется для вычисления тарифов по доставке товара. -->
-<weight>1.14</weight>
+<weight>1140</weight>
 </offer>
 <offer>
 <id>PPK.40.2U</id>
@@ -155,8 +156,9 @@
 <param name="Высота шкафа" unit="мм">0</param>
 <docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
+<itemGroupId>3062</itemGroupId>
 <unitID>шт</unitID>
-<weight>2.39</weight>
+<weight>2390</weight>
 </offer>
 <offer>
 <id>PPK.40.2U.RAL7035</id>
@@ -177,162 +179,9 @@
 <param name="Высота шкафа" unit="мм">0</param>
 <docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
+<itemGroupId>3062</itemGroupId>
 <unitID>шт</unitID>
-<weight>2.39</weight>
-</offer>
-<offer>
-<id>PPK.45.1U</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.45.1U</url>
-<price qty="1" costPrice="2744.51" rPrice="2888.96"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.1U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 1Uх450мм</name>
-<partNumber>PPK.45.1U</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх450мм]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>2.71</weight>
-</offer>
-<offer>
-<id>PPK.45.1U.RAL7035</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.45.1U.RAL7035</url>
-<price qty="1" costPrice="2744.51" rPrice="2888.96"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.1U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 1Uх450мм, RAL7035</name>
-<partNumber>PPK.45.1U.RAL7035</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх450мм, RAL7035]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>2.71</weight>
-</offer>
-<offer>
-<id>PPK.45.2U</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.45.2U</url>
-<price qty="1" costPrice="2741.03" rPrice="2885.3"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.2U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 2Uх450мм</name>
-<partNumber>PPK.45.2U</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 2Uх450мм]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>2.71</weight>
-</offer>
-<offer>
-<id>PPK.45.2U.RAL7035</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.45.2U.RAL7035</url>
-<price qty="1" costPrice="2741.03" rPrice="2885.3"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.2U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 2Uх450мм, RAL7035</name>
-<partNumber>PPK.45.2U.RAL7035</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 2Uх450мм, RAL7035]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>2.71</weight>
-</offer>
-<offer>
-<id>PPK.60.1U</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.60.1U</url>
-<price qty="1" costPrice="2986.74" rPrice="3143.94"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.1U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 1Uх600мм</name>
-<partNumber>PPK.60.1U</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх600мм]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>3.14</weight>
-</offer>
-<offer>
-<id>PPK.60.1U.RAL7035</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.60.1U.RAL7035</url>
-<price qty="1" costPrice="2986.74" rPrice="3143.94"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.1U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 1Uх600мм, RAL7035</name>
-<partNumber>PPK.60.1U.RAL7035</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх600мм, RAL7035]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>3.14</weight>
-</offer>
-<offer>
-<id>PPK.60.2U</id>
-<qty>0</qty>
-<url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.60.2U</url>
-<price qty="1" costPrice="2980.95" rPrice="3137.84"/>
-<categoryId>78</categoryId>
-<picture>https://www.prompower.ru/catalog/products/PPK.xx.2U.jpg</picture>
-<name>Полка перфорированная консольная; 19"; ВхГ: 2Uх600мм</name>
-<partNumber>PPK.60.2U</partNumber>
-<vendor>Prompower</vendor>
-<description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 2Uх600мм]]></description>
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
-<docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
-<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
-<unitID>шт</unitID>
-<weight>4.89</weight>
+<weight>2390</weight>
 </offer>
 <offer>
 <id>UN9013DB300XA0</id>
@@ -379,118 +228,6 @@
 <partNumber>UA-2DI4DOT-BD</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[ПЛАТА РАСШИРЕНИЯ expanding board 2DI4DO transistor]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UA2RTDBD</id>
-<qty>0</qty>
-<price qty="1" costPrice="4309.16" rPrice="4535.96"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>ПЛАТА РАСШИРЕНИЯ expanding board 2RTD</name>
-<partNumber>UA-2RTD-BD</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[ПЛАТА РАСШИРЕНИЯ expanding board 2RTD]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN8402AH100AA0</id>
-<qty>4444</qty>
-<price qty="1" costPrice="248.03" rPrice="261.08"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 840-2AH10-0AA0 КАБЕЛЬ PROFINET</name>
-<partNumber>UN 840-2AH10-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 840-2AH10-0AA0 КАБЕЛЬ PROFINET]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN8300EH100AA0</id>
-<qty>14023</qty>
-<price qty="1" costPrice="190.08" rPrice="200.08"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable</name>
-<partNumber>UN 830-0EH10-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN3901AB600AA0</id>
-<qty>34</qty>
-<price qty="1" costPrice="892.43" rPrice="939.4"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm</name>
-<partNumber>UN 390-1AB60-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN3901AD200AA0</id>
-<qty>31</qty>
-<price qty="1" costPrice="1112.64" rPrice="1171.2"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 390-1AD20-0AA0 ДИНРЕЙКА DIN Rail 320mm</name>
-<partNumber>UN 390-1AD20-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 390-1AD20-0AA0 ДИНРЕЙКА DIN Rail 320mm]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN3901AE800AA0</id>
-<qty>28</qty>
-<price qty="1" costPrice="1331.69" rPrice="1401.78"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 390-1AE80-0AA0 ДИНРЕЙКА DIN Rail 482mm</name>
-<partNumber>UN 390-1AE80-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 390-1AE80-0AA0 ДИНРЕЙКА DIN Rail 482mm]]></description>
-<itemGroupId>2804</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN3901AF300AA0</id>
-<qty>27</qty>
-<price qty="1" costPrice="1386.16" rPrice="1459.12"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 390-1AF30-0AA0 ДИНРЕЙКА DIN Rail 530mm</name>
-<partNumber>UN 390-1AF30-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 390-1AF30-0AA0 ДИНРЕЙКА DIN Rail 530mm]]></description>
 <itemGroupId>2804</itemGroupId>
 <unitID>шт</unitID>
 </offer>
