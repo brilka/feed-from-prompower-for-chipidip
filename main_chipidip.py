@@ -14,11 +14,11 @@ import json
 import os
 import re
 import datetime
+import time
 from bs4 import BeautifulSoup
 from xml.sax.saxutils import escape
 
 # --- НАСТРОЙКИ ---
-# Теперь скрипт берет email и ключ из безопасных переменных окружения GitHub
 EMAIL = os.getenv("API_EMAIL")
 KEY = os.getenv("API_KEY")
 
@@ -31,7 +31,7 @@ SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
 
-# Словарь сопоставления категорий
+# Словарь сопоставления (Он используется скриптом для поиска!)
 GROUP_MAP = {
     "Заземление": "3085", "Опции для преобразователей частоты": "2954", 
     "Дополнительные контактные приставки PULSE": "2945", "Колодки для реле": "2926", 
@@ -65,7 +65,9 @@ GROUP_MAP = {
     "Программируемые логические контроллеры UniMAT": "3061", "Серво": "2954"
 }
 
-# Хардкод картинок для Unimat
+# Делаем копию словаря для нечувствительного к регистру поиска
+NORMALIZED_GROUP_MAP = {k.strip().lower(): v for k, v in GROUP_MAP.items()}
+
 UNIMAT_PICTURES =[
     "https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png",
     "https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg",
@@ -75,7 +77,6 @@ UNIMAT_PICTURES =[
 ]
 
 def load_pdf_cache():
-    """Загружает кэш PDF ссылок, чтобы не парсить сайт каждый день."""
     if os.path.exists(CACHE_FILENAME):
         try:
             with open(CACHE_FILENAME, "r", encoding="utf-8") as f:
@@ -85,12 +86,10 @@ def load_pdf_cache():
     return {"last_update_month": -1, "urls": {}}
 
 def save_pdf_cache(cache_data):
-    """Сохраняет кэш в файл."""
     with open(CACHE_FILENAME, "w", encoding="utf-8") as f:
         json.dump(cache_data, f, ensure_ascii=False, indent=2)
 
 def make_api_request(endpoint):
-    """Функция для отправки POST запроса к API."""
     url = f"{API_URL}{endpoint}"
     payload = {"email": EMAIL, "key": KEY, "format": "json"}
     headers = {"Content-type": "application/json"}
@@ -99,20 +98,18 @@ def make_api_request(endpoint):
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"Ошибка при запросе к {url}: {e}")
+        print(f"[ОШИБКА API] при запросе к {url}: {e}")
         return[]
 
 def get_categories_dict():
-    """Сбор категорий через GET запрос."""
     try:
         resp = requests.get("https://prompower.ru/api/categories", timeout=30)
         return {cat['id']: {'title': cat.get('title', 'Без названия'), 'parentId': cat.get('parentId')} for cat in resp.json()}
     except Exception as e:
-        print(f"Ошибка при получении категорий: {e}")
+        print(f"[ОШИБКА] Получение категорий: {e}")
         return {}
 
 def scrape_docs(url):
-    """Парсит PDF-документацию со страницы. Таймаут 10 секунд."""
     docs =[]
     try:
         response = requests.get(url, timeout=10)
@@ -126,16 +123,17 @@ def scrape_docs(url):
                     full_link = SITE_URL + href if href.startswith('/') else href
                     if not any(d['url'] == full_link for d in docs):
                         docs.append({"url": full_link, "name": doc_name})
+            print(f"[УСПЕХ] Найдено {len(docs)} PDF по адресу: {url}")
+        else:
+            print(f"[ОШИБКА {response.status_code}] Не удалось загрузить страницу {url}")
     except Exception as e:
-        print(f"Ошибка парсинга PDF для {url}: {e}")
+        print(f"[СБОЙ ПАРСЕРА] Ошибка парсинга PDF для {url}: {e}")
     return docs
 
 def process_products(products, brand, categories_dict, pdf_cache, is_first_offer):
-    """Основной процесс формирования XML для списка товаров."""
     items_xml =[]
     param_regex = re.compile(r"^(.*?)(?:\s*\((.*?)\))?$")
     
-    # Проверка, нужно ли глобально обновить кэш (1-е число месяца)
     today = datetime.datetime.now()
     is_first_of_month = (today.day == 1)
     need_global_pdf_update = False
@@ -146,7 +144,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
 
     for prod in products:
         raw_price = prod.get('price')
-        # Пропускаем товары с нулевой или отсутствующей ценой
         if not raw_price or float(raw_price) <= 0:
             continue
             
@@ -157,24 +154,41 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         description = str(prod.get('description', ''))
         title = str(prod.get('title', ''))
         
-        url = f"{SITE_URL}{prod.get('path')}" if brand == "Prompower" and prod.get('path') else ""
+        # ИСПРАВЛЕНИЕ 1: Добавляем /catalog в URL
+        url = ""
+        if brand == "Prompower" and prod.get('path'):
+            path_str = prod.get('path')
+            if not path_str.startswith('/'):
+                path_str = '/' + path_str
+            url = f"{SITE_URL}/catalog{path_str}"
             
-        # Формулы цен (согласно ТЗ, НДС 1.22)
         cost_price = price_val * 1.22 * ((100 - mrp_percent) / 100)
-        
-        if mrp_percent == 0:
-            r_price = (price_val * 1.22) / 0.9
-        else:
-            r_price = price_val * 1.22
+        r_price = (price_val * 1.22) / 0.9 if mrp_percent == 0 else price_val * 1.22
             
         cost_price = round(cost_price, 2)
         r_price = round(r_price, 2)
         
+        # ИСПРАВЛЕНИЕ 2 и 4: Интеллектуальный поиск группы
         cat_id = prod.get('categoryId', '')
         item_group_id = ""
+        
         if cat_id and int(cat_id) in categories_dict:
-            cat_name = categories_dict[int(cat_id)]['title']
-            item_group_id = GROUP_MAP.get(cat_name, "")
+            cat_data = categories_dict[int(cat_id)]
+            cat_name = cat_data['title'].strip()
+            
+            # Ищем точное совпадение
+            item_group_id = NORMALIZED_GROUP_MAP.get(cat_name.lower(), "")
+            
+            # Если не нашли, проверяем родительскую категорию
+            if not item_group_id and cat_data.get('parentId'):
+                parent_id = int(cat_data['parentId'])
+                if parent_id in categories_dict:
+                    parent_name = categories_dict[parent_id]['title'].strip()
+                    item_group_id = NORMALIZED_GROUP_MAP.get(parent_name.lower(), "")
+                    
+            # Если всё равно не нашли - пишем в лог для отладки
+            if not item_group_id and is_first_of_month: # чтобы не спамить логи каждый день
+                print(f"[ВНИМАНИЕ] Категория '{cat_name}' (ID: {cat_id}) не найдена в словаре сопоставлений!")
             
         offer_xml = ["<offer>"]
         
@@ -200,10 +214,9 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             for pic in UNIMAT_PICTURES:
                 offer_xml.append(f"<picture>{escape(pic)}</picture>")
         else:
-            # Парсинг картинок Prompower (ищем в img)
-            images = prod.get('img',[])
+            images = prod.get('img', [])
             if isinstance(images, str): images = [images] 
-            if not images and prod.get('image'): images =[prod.get('image')]
+            if not images and prod.get('image'): images = [prod.get('image')]
                 
             for img in images[:10]:
                 img_url = img if img.startswith('http') else SITE_URL + img
@@ -247,7 +260,81 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             for doc in docs:
                 offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
                 
-        if is_first_offer: offer_xml.append('<!--  Код группы товара из каталога Чип и Дип. -->')
+        # ИСПРАВЛЕНИЕ 3: Длинный комментарий для itemGroupId
+        if is_first_offer: 
+            long_comment = """<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий: 
+3085;Заземление;
+2954;Опции для преобразователей частоты;
+2945;Дополнительные контактные приставки PULSE;
+2926;Колодки для реле;
+2804;Прокладка кабеля;
+3109;MCB (Miniature Circuit Breaker);
+2947;Реле общего назначения;
+2947;Контакторы PULSE;
+3067;Панели основания;
+2954;Аксессуары для сервосистем;
+2947;Контакторы;
+2947;Миниатюрные силовые реле;
+2954;Сувенирная продукция;
+2947;Реле тонкие;
+2925;Кабели для датчиков;
+2947;Миниконтакторы;
+2947;Миниконтакторы PULSE;
+3067;Цоколи;
+3184;Климат + Свет;
+2939;Блок питания HDR в пластиковом корпусе;
+3124;Пластроны;
+2939;Блок питания MDR в пластиковом корпусе;
+3069;Боковые панели;
+3062;Секционирование;
+1403;Индуктивные датчики;
+3115;Дополнительные контактные приставки для MCB;
+2968;Опции для устройств плавного пуска;
+3061;Модули расширения ПЛК PMP20/PMP30;
+2939;Блок питания NDR в металлическом корпусе;
+2930;Автоматы защиты двигателя PULSE;
+2744;Фотоэлектрические датчики;
+3071;Полки;
+3067;Потолочные панели;
+2954;Преобразователи частоты PD100;
+2954;Преобразователи частоты PD101;
+2954;Тормозные резисторы;
+2954;Преобразователи частоты PD150;
+3061;Панели оператора PH1;
+3069;Задние панели;
+3413;Промышленные коммутаторы;
+3061;Панели оператора PH;
+2954;ЭМС фильтры;
+3062;Сейсмостойкость;
+2954;Дроссели dU/dt;
+2968;Устройства плавного пуска P2S 050;
+2954;Дроссели для цепей постоянного тока;
+2954;Преобразователи частоты PD210;
+2954;Преобразователи частоты PD110;
+2968;Устройства плавного пуска P2S 100;
+2954;Сервоприводы;
+2968;Регуляторы мощности;
+3061;Программируемые логические контроллеры PMP20;
+2954;Преобразователи частоты PD310;
+2958;Электродвигатели класс энергоэфф. IE1;
+3061;ПЛК PMP301;
+3072;Каркасы;
+2954;Синус-фильтры;
+2954;Внешние тормозные модули для ПЧ;
+2954;Преобразователи частоты PD310 IP54;
+3061;Промышленный монитор;
+2968;Устройства плавного пуска P2S 300;
+3061;Промышленный ПК;
+3061;ПЛК PMP30;
+3061;Панельный ПК;
+2804;Кабели и аксессуары;
+3061;Модули для ПЛК;
+3061;Панели оператора UniMAT;
+3061;ПЛК UniMAT;
+2954;Серво
+   -->"""
+            offer_xml.append(long_comment)
+            
         if item_group_id:
             offer_xml.append(f"<itemGroupId>{item_group_id}</itemGroupId>")
             
@@ -266,7 +353,10 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
     return items_xml, is_first_offer
 
 def main():
+    # ИСПРАВЛЕНИЕ 6: Засекаем время
+    start_time = time.time()
     print("Запуск генерации XML-feed для Чип и Дип...")
+    
     categories_dict = get_categories_dict()
     prompower_products = make_api_request("getProducts")
     unimat_products = make_api_request("getUnimatProducts")
@@ -310,6 +400,13 @@ def main():
         print(f"Файл {XML_FILENAME} успешно сгенерирован!")
     except Exception as e:
         print(f"Ошибка сохранения файла: {e}")
+
+    # Остановка таймера
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print(f"=========================================")
+    print(f"Парсинг и формирование завершены за {execution_time:.2f} секунд.")
+    print(f"=========================================")
 
 if __name__ == "__main__":
     main()
