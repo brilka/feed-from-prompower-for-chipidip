@@ -37,6 +37,7 @@ SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
 
+# ДОПОЛНЕНО: Добавлены недостающие категории шкафов (19" комплектующие, Электротехнические шкафы, Двери и т.д.)
 GROUP_MAP = {
     "Заземление": "3085", "Опции для преобразователей частоты": "2954", 
     "Дополнительные контактные приставки PULSE": "2945", "Колодки для реле": "2926", 
@@ -67,7 +68,15 @@ GROUP_MAP = {
     "Устройства плавного пуска P2S 300": "2968", "Промышленный ПК": "3061", 
     "Программируемые логические контроллеры PMP30": "3061", "Панельный ПК": "3061", 
     "Кабели и аксессуары": "2804", "Модули для ПЛК": "3061", "Панели оператора UniMAT": "3061", 
-    "Программируемые логические контроллеры UniMAT": "3061", "Серво": "2954"
+    "Программируемые логические контроллеры UniMAT": "3061", "Серво": "2954",
+    # НОВЫЕ КАТЕГОРИИ:
+    "19“ комплектующие": "3062",
+    "Электротехнические шкафы": "3062",
+    "Аксессуары": "3062",
+    "Двери": "3069",
+    "Монтажные панели": "3069",
+    "Соединители": "3062",
+    "Шасси": "3072"
 }
 
 NORMALIZED_GROUP_MAP = {k.strip().lower(): v for k, v in GROUP_MAP.items()}
@@ -153,11 +162,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
     is_first_of_month = (today.day == 1)
     need_global_pdf_update = True if DEBUG_MODE else (is_first_of_month and pdf_cache.get("last_update_month") != today.month)
 
-    # ДЛЯ ОТЛАДКИ: Если это Prompower, выведем структуру самого первого товара, чтобы своими глазами увидеть ключи
-    if DEBUG_MODE and brand == "Prompower" and len(products) > 0:
-        print("\n[!!! РЕНТГЕН API !!!] Структура первого товара Prompower:")
-        print(json.dumps(products[0], ensure_ascii=False, indent=2)[:1000] + "\n... (обрезано)\n")
-
     for prod in products:
         raw_price = prod.get('price')
         if not raw_price or float(raw_price) <= 0:
@@ -179,11 +183,9 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         cost_price = round(price_val * 1.22 * ((100 - mrp_percent) / 100), 2)
         r_price = round((price_val * 1.22) / 0.9 if mrp_percent == 0 else price_val * 1.22, 2)
         
-        # --- СУПЕР-ПОИСК КАТЕГОРИИ ---
         item_group_id = ""
         cat_id = prod.get('categoryId', '')
         
-        # Ищем любой ключ, похожий на 'category' (Category, CATEGORY и т.д.)
         cat_raw = None
         for k, v in prod.items():
             if k.lower() == 'category':
@@ -191,7 +193,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 break
                 
         direct_category_name = ""
-        # Обрабатываем, если категория пришла словарем или списком
         if isinstance(cat_raw, str):
             direct_category_name = cat_raw
         elif isinstance(cat_raw, dict):
@@ -201,12 +202,9 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             
         direct_category_name = direct_category_name.strip()
         
-        # Шаг 1: Ищем по текстовому имени
         if direct_category_name:
             item_group_id = NORMALIZED_GROUP_MAP.get(direct_category_name.lower(), "")
             
-        # Шаг 2: Если не нашли по тексту, ищем по дереву (categoryId)
-        fallback_used = False
         if not item_group_id and cat_id and int(cat_id) in categories_dict:
             current_id = int(cat_id)
             for _ in range(5):
@@ -214,25 +212,16 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 cat_data = categories_dict[current_id]
                 cat_name = cat_data['title'].strip()
                 item_group_id = NORMALIZED_GROUP_MAP.get(cat_name.lower(), "")
-                if item_group_id: 
-                    fallback_used = True
-                    break
+                if item_group_id: break
                 if cat_data.get('parentId'):
                     current_id = int(cat_data['parentId'])
                 else:
                     break
                     
-        # ЛОГИРОВАНИЕ ОШИБОК ДЛЯ ОТЛАДКИ
-        if DEBUG_MODE and brand == "Prompower":
-            if item_group_id:
-                pass # Всё ок, не спамим лог
-            else:
-                print(f"\n[ОШИБКА СОПОСТАВЛЕНИЯ - {brand}] Артикул: {article}")
-                print(f"  > Значение из API 'category': '{direct_category_name}'")
-                print(f"  > Значение из API 'categoryId': '{cat_id}'")
-                if cat_id and int(cat_id) in categories_dict:
-                    print(f"  > В дереве категорий это папка: '{categories_dict[int(cat_id)]['title']}'")
-                print("  => РЕЗУЛЬТАТ: В словаре GROUP_MAP совпадений не найдено!")
+        if DEBUG_MODE and brand == "Prompower" and not item_group_id:
+            print(f"\n[ОШИБКА СОПОСТАВЛЕНИЯ - {brand}] Артикул: {article}")
+            print(f"  > Значение из API 'category': '{direct_category_name}'")
+            print("  => РЕЗУЛЬТАТ: В словаре GROUP_MAP совпадений не найдено!")
                 
         offer_xml =["<offer>"]
         
@@ -304,8 +293,17 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         offer_xml.append("<unitID>шт</unitID>")
         
         if is_first_offer: offer_xml.append('<!--  Вес товара в граммах. Используется для вычисления тарифов по доставке товара. -->')
+        
+        # --- ИСПРАВЛЕНИЕ: УМНОЖЕНИЕ ВЕСА НА 1000 ДЛЯ ПЕРЕВОДА В ГРАММЫ ---
         weight = prod.get('weight')
-        if brand == "Prompower" and weight: offer_xml.append(f"<weight>{weight}</weight>")
+        if brand == "Prompower" and weight:
+            try:
+                # Пробуем перевести в число, умножить на 1000 и округлить до целого
+                weight_grams = int(float(weight) * 1000)
+                offer_xml.append(f"<weight>{weight_grams}</weight>")
+            except (ValueError, TypeError):
+                # Если пришла какая-то ерунда вместо цифр, выводим как есть
+                offer_xml.append(f"<weight>{escape(str(weight))}</weight>")
             
         offer_xml.append("</offer>")
         items_xml.append("\n".join(offer_xml))
