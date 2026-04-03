@@ -2,9 +2,19 @@ name: Update Chip&Dip XML Feed
 
 on:
   schedule:
-    # Запуск каждый день в 01:00 по UTC (04:00 по Москве)
+    # Запуск каждый день по расписанию (всегда в полном объеме)
     - cron: '0 1 * * *'
-  workflow_dispatch: # Кнопка для ручного запуска
+  workflow_dispatch:
+    # Добавляем меню для ручного запуска
+    inputs:
+      debug_mode:
+        description: 'Включить режим отладки (парсинг только нескольких товаров с принудительным обновлением PDF)'
+        type: boolean
+        default: false
+      debug_limit:
+        description: 'Сколько позиций проверять (если отладка включена)'
+        type: number
+        default: 3
 
 jobs:
   build:
@@ -24,10 +34,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script
-        # ВАЖНО: Здесь мы передаем секреты скрипту!
         env:
           API_EMAIL: ${{ secrets.API_EMAIL }}
           API_KEY: ${{ secrets.API_KEY }}
+          # Пробрасываем галочки из интерфейса в скрипт
+          DEBUG_MODE: ${{ github.event.inputs.debug_mode }}
+          DEBUG_LIMIT: ${{ github.event.inputs.debug_limit }}
         run: python main_chipidip.py
 
       - name: Commit and push changes
