@@ -103,7 +103,7 @@
 <!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->
 <id>PPK.20.1U.RAL7035</id>
 <!--  кол-во товара, доступное для продажи. В API Prompower и Unimat это instock -->
-<qty>0</qty>
+<qty>1</qty>
 <!--  ссылка на карточку товара на сайте поставщика. Используется для просмотра информации о товаре складом или отделом закупок Чип и Дип. У Prompower это значение в path в API (но в path в API указан неполный путь, например, /mcb/ESM163C12 - поэтому в начале нужно дописать www.prompower.ru ). Для Unimat url недоступен.  -->
 <url>https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components/PPK.20.1U.RAL7035</url>
 <!--  список ценовых предложений. costPrice и rPrice рассчитаны согласно ТЗ с НДС 1.22 -->
@@ -121,12 +121,12 @@
 <!--  Описание товара. Может быть в формате html. Не оябязательное поле. Для Prompower и Unimat это description в API  -->
 <description><![CDATA[Полка перфорированная консольная; 19"; ВхГ: 1Uх200мм, RAL7035]]></description>
 <!--  список параметров товара. Максимум 20 параметров для одного товара. -->
-<param name="Ширина" unit="мм">0</param>
-<param name="Высота" unit="мм">0</param>
-<param name="Глубина" unit="мм">0</param>
-<param name="Глубина шкафа" unit="мм">0</param>
-<param name="Ширина шкафа" unit="мм">0</param>
-<param name="Высота шкафа" unit="мм">0</param>
+<param name="Ширина" unit="мм">1</param>
+<param name="Высота" unit="мм">12</param>
+<param name="Глубина" unit="мм">13</param>
+<param name="Глубина шкафа" unit="мм">2</param>
+<param name="Ширина шкафа" unit="мм">3</param>
+<param name="Высота шкафа" unit="мм">4</param>
 <!--  Дополнительные файлы для скачивания. Парсинг с кэшированием (обновляется 1 числа месяца). -->
 <docFile url="https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf" name="Электротехнические шкафы серии PPCAB. Каталог продукции"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
