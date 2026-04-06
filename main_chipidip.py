@@ -37,7 +37,6 @@ SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
 
-# ОБНОВЛЕННЫЙ СЛОВАРЬ (С добавлением алиасов для сверхнадежности)
 GROUP_MAP = {
     "19“ комплектующие": "2953",
     "Аксессуары": "2953",
@@ -63,7 +62,7 @@ GROUP_MAP = {
     "Колодки для реле": "2926",
     "Прокладка кабеля": "2804",
     "MCB (Miniature Circuit Breaker)": "3109",
-    "MCB": "3109",  # Алиас
+    "MCB": "3109",
     "Реле общего назначения": "2947",
     "Контакторы PULSE": "2947",
     "Панели основания": "3067",
@@ -112,9 +111,9 @@ GROUP_MAP = {
     "Программируемые логические контроллеры PMP20": "3061",
     "Преобразователи частоты PD310": "2954",
     "Электродвигатели класс энергоэфф. IE1": "2958",
-    "Электродвигатели класс энергоэффективности IE1": "2958", # Алиас
+    "Электродвигатели класс энергоэффективности IE1": "2958",
     "ПЛК PMP301": "3061",
-    "Программируемые логические контроллеры PMP301": "3061", # Алиас
+    "Программируемые логические контроллеры PMP301": "3061",
     "Каркасы": "3072",
     "Синус-фильтры": "2954",
     "Внешние тормозные модули для ПЧ": "2954",
@@ -123,13 +122,13 @@ GROUP_MAP = {
     "Устройства плавного пуска P2S 300": "2968",
     "Промышленный ПК": "3061",
     "ПЛК PMP30": "3061",
-    "Программируемые логические контроллеры PMP30": "3061", # Алиас
+    "Программируемые логические контроллеры PMP30": "3061",
     "Панельный ПК": "3061",
     "Кабели и аксессуары": "2804",
     "Модули для ПЛК": "3061",
     "Панели оператора UniMAT": "3061",
     "ПЛК UniMAT": "3061",
-    "Программируемые логические контроллеры UniMAT": "3061", # Алиас
+    "Программируемые логические контроллеры UniMAT": "3061",
     "Серво": "2954"
 }
 
@@ -176,7 +175,7 @@ def get_categories_dict():
         if resp.status_code == 200:
             for cat in resp.json():
                 categories[int(cat['id'])] = {'title': cat.get('title', 'Без названия'), 'parentId': cat.get('parentId')}
-    except Exception as e:
+    except:
         pass
 
     endpoints_to_try =["https://prompower.ru/api/unimatCategories", "https://prompower.ru/api/unimat-categories"]
@@ -217,13 +216,17 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
     need_global_pdf_update = True if DEBUG_MODE else (is_first_of_month and pdf_cache.get("last_update_month") != today.month)
 
     for prod in products:
+        article = str(prod.get('article', '')).strip()
+        # ИСПРАВЛЕНИЕ 2: Пропускаем товары, у которых нет артикула
+        if not article:
+            continue
+            
         raw_price = prod.get('price')
         if not raw_price or float(raw_price) <= 0:
             continue
             
         price_val = float(raw_price)
         mrp_percent = float(prod.get('MRPPercent', 0))
-        article = str(prod.get('article', ''))
         instock = str(prod.get('instock', 0))
         description = str(prod.get('description', ''))
         title = str(prod.get('title', ''))
@@ -272,11 +275,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 else:
                     break
                     
-        if DEBUG_MODE and brand == "Prompower" and not item_group_id:
-            print(f"\n[ОШИБКА СОПОСТАВЛЕНИЯ - {brand}] Артикул: {article}")
-            print(f"  > Значение из API 'category': '{direct_category_name}'")
-            print("  => РЕЗУЛЬТАТ: В словаре GROUP_MAP совпадений не найдено!")
-                
         offer_xml =["<offer>"]
         
         if is_first_offer: offer_xml.append('<!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->')
@@ -338,97 +336,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 docs = pdf_cache["urls"][url]
             for doc in docs: offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
                 
-        if is_first_offer: 
-            long_comment = """<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий: 
-2953;19“ комплектующие;
-2953;Аксессуары;
-3059;Двери;
-2968;Коллаборативные роботы;
-2958;Модификационные комплекты для моторов;
-3061;Модули расширения ПЛК PMP301;
-3054;Монтажные панели;
-2958;Моторные дроссели;
-2958;Моторы;
-2954;Серводвигатели;
-2954;Сетевые дроссели;
-3073;Соединительные комплекты;
-3073;Шасси;
-3073;Шкафы электротехнические;
-2958;Опции для двигателей;
-3061;Аксессуары для ПЛК;
-2947;Аксессуары для реле;
-2945;Дополнительные контактные приставки;
-3085;Заземление;
-2954;Опции для преобразователей частоты;
-2945;Дополнительные контактные приставки PULSE;
-2926;Колодки для реле;
-2804;Прокладка кабеля;
-3109;MCB (Miniature Circuit Breaker);
-2947;Реле общего назначения;
-2947;Контакторы PULSE;
-3067;Панели основания;
-2954;Аксессуары для сервосистем;
-2947;Контакторы;
-2947;Миниатюрные силовые реле;
-2954;Сувенирная продукция;
-2947;Реле тонкие;
-2925;Кабели для датчиков;
-2947;Миниконтакторы;
-2947;Миниконтакторы PULSE;
-3067;Цоколи;
-3184;Климат + Свет;
-2939;Блок питания HDR в пластиковом корпусе;
-3124;Пластроны;
-2939;Блок питания MDR в пластиковом корпусе;
-3069;Боковые панели;
-3062;Секционирование;
-1403;Индуктивные датчики;
-3115;Дополнительные контактные приставки для MCB;
-2968;Опции для устройств плавного пуска;
-3061;Модули расширения ПЛК PMP20/PMP30;
-2939;Блок питания NDR в металлическом корпусе;
-2930;Автоматы защиты двигателя PULSE;
-2744;Фотоэлектрические датчики;
-3071;Полки;
-3067;Потолочные панели;
-2954;Преобразователи частоты PD100;
-2954;Преобразователи частоты PD101;
-2954;Тормозные резисторы;
-2954;Преобразователи частоты PD150;
-3061;Панели оператора PH1;
-3069;Задние панели;
-3413;Промышленные коммутаторы;
-3061;Панели оператора PH;
-2954;ЭМС фильтры;
-3062;Сейсмостойкость;
-2954;Дроссели dU/dt;
-2968;Устройства плавного пуска P2S 050;
-2954;Дроссели для цепей постоянного тока;
-2954;Преобразователи частоты PD210;
-2954;Преобразователи частоты PD110;
-2968;Устройства плавного пуска P2S 100;
-2954;Сервоприводы;
-2968;Регуляторы мощности;
-3061;Программируемые логические контроллеры PMP20;
-2954;Преобразователи частоты PD310;
-2958;Электродвигатели класс энергоэфф. IE1;
-3061;ПЛК PMP301;
-3072;Каркасы;
-2954;Синус-фильтры;
-2954;Внешние тормозные модули для ПЧ;
-2954;Преобразователи частоты PD310 IP54;
-3061;Промышленный монитор;
-2968;Устройства плавного пуска P2S 300;
-3061;Промышленный ПК;
-3061;ПЛК PMP30;
-3061;Панельный ПК;
-2804;Кабели и аксессуары;
-3061;Модули для ПЛК;
-3061;Панели оператора UniMAT;
-3061;ПЛК UniMAT;
-2954;Серво;
-   -->"""
-            offer_xml.append(long_comment)
+        if is_first_offer: offer_xml.append("""<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий... -->""")
             
         if item_group_id:
             offer_xml.append(f"<itemGroupId>{item_group_id}</itemGroupId>")
@@ -444,6 +352,39 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 offer_xml.append(f"<weight>{weight_grams}</weight>")
             except (ValueError, TypeError):
                 offer_xml.append(f"<weight>{escape(str(weight))}</weight>")
+                
+        # ИСПРАВЛЕНИЕ 1: Добавление габаритов из props для Prompower
+        item_width = None
+        item_height = None
+        item_depth = None
+        
+        if brand == "Prompower":
+            for prop in prod.get('props',[]):
+                p_name = prop.get('name', '').strip().lower()
+                p_val = prop.get('value')
+                
+                # Пропускаем пустые или нулевые значения габаритов
+                if p_val in[0, 0.0, "0", "", None]:
+                    continue
+                    
+                if p_name in ['ширина (мм)', 'ширина']:
+                    if item_width is None: item_width = p_val
+                elif p_name in['высота (мм)', 'высота']:
+                    if item_height is None: item_height = p_val
+                elif p_name in ['глубина (мм)', 'глубина']:
+                    if item_depth is None: item_depth = p_val
+                    
+        if is_first_offer: offer_xml.append('<!--  Ширина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
+        if item_width is not None:
+            offer_xml.append(f"<width>{escape(str(item_width))}</width>")
+            
+        if is_first_offer: offer_xml.append('<!--  Высота товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
+        if item_height is not None:
+            offer_xml.append(f"<height>{escape(str(item_height))}</height>")
+            
+        if is_first_offer: offer_xml.append('<!--  Глубина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
+        if item_depth is not None:
+            offer_xml.append(f"<depth>{escape(str(item_depth))}</depth>")
             
         offer_xml.append("</offer>")
         items_xml.append("\n".join(offer_xml))
@@ -457,7 +398,6 @@ def main():
     if DEBUG_MODE:
         print(f"!!! РЕЖИМ ОТЛАДКИ ВКЛЮЧЕН !!!")
         print(f"ВНИМАНИЕ: Скрипт обработает {DEBUG_LIMIT} товаров для Prompower и {DEBUG_LIMIT} товаров для Unimat.")
-        print(f"Итого в файле будет до {DEBUG_LIMIT * 2} товаров.")
     print("=========================================")
     
     categories_dict = get_categories_dict()
