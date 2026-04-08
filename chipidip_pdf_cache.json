@@ -73510,6 +73510,16 @@
         "url": "https://www.prompower.ru/catalog/CAD/Prompower_DL-1000EBK5.pdf",
         "name": "Технический паспорт ЭМС-фильтр PROMPOWER DL-1000EBK5"
       }
+    ],
+    "https://www.prompower.ru/catalog/inductive-sensors/KT118D16PADS1253TA": [
+      {
+        "url": "https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
