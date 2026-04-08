@@ -142,6 +142,11 @@ UNIMAT_PICTURES =[
     "https://unimat-russia.ru/uploads/product-33.png"
 ]
 
+# ИСПРАВЛЕНИЕ: Список из 10 файлов .png с GitHub Pages
+DEFAULT_PROMPOWER_PICTURES =[
+    f"https://brilka.github.io/feed-from-prompower-for-chipidip/{i}.png" for i in range(1, 11)
+]
+
 def load_pdf_cache():
     if os.path.exists(CACHE_FILENAME):
         try:
@@ -217,7 +222,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
 
     for prod in products:
         article = str(prod.get('article', '')).strip()
-        # ИСПРАВЛЕНИЕ 2: Пропускаем товары, у которых нет артикула
         if not article:
             continue
             
@@ -237,8 +241,15 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             if not path_str.startswith('/'): path_str = '/' + path_str
             url = f"{SITE_URL}/catalog{path_str}"
             
-        cost_price = round(price_val * 1.22 * ((100 - mrp_percent) / 100), 2)
-        r_price = round((price_val * 1.22) / 0.9 if mrp_percent == 0 else price_val * 1.22, 2)
+        if mrp_percent == 0:
+            cost_price = (price_val * 1.22) / 0.85
+            r_price = (price_val * 1.22) / 0.9
+        else:
+            cost_price = (price_val * 1.22) * 0.85
+            r_price = price_val * 1.22
+            
+        cost_price = round(cost_price, 2)
+        r_price = round(r_price, 2)
         
         item_group_id = ""
         cat_id = prod.get('categoryId', '')
@@ -275,7 +286,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 else:
                     break
                     
-        offer_xml =["<offer>"]
+        offer_xml = ["<offer>"]
         
         if is_first_offer: offer_xml.append('<!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->')
         offer_xml.append(f"<id>{escape(article)}</id>")
@@ -287,24 +298,36 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             if is_first_offer: offer_xml.append('<!--  ссылка на карточку товара на сайте поставщика. Используется для просмотра информации о товаре складом или отделом закупок Чип и Дип. У Prompower это значение в path в API (но в path в API указан неполный путь, например, /mcb/ESM163C12 - поэтому в начале нужно дописать www.prompower.ru ). Для Unimat url недоступен.  -->')
             offer_xml.append(f"<url>{escape(url)}</url>")
             
-        if is_first_offer: offer_xml.append('<!--  список ценовых предложений. costPrice и rPrice рассчитаны согласно ТЗ с НДС 1.22 -->')
+        if is_first_offer: 
+            offer_xml.append('<!--  costPrice - цена продажи (за единицу измерения) поставщика для Чип и Дип.  Для Prompower и Unimat costPrice определяется так: Вариант1. если MRPPercent в API для данной позиции отсутствует или равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и полученное значение разделить на 0.85. Вариант2. если MRPPercent в API для данной позиции присутствует и не равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и умножить на (0.85).  -->')
         offer_xml.append(f'<price qty="1" costPrice="{cost_price}" rPrice="{r_price}"/>')
         
         if cat_id:
             if is_first_offer: offer_xml.append('<!--  принадлежность товара к категории поставщика. Код категории должен быть указан в списке categories. Не обязателльное поле  -->')
             offer_xml.append(f"<categoryId>{cat_id}</categoryId>")
             
-        if is_first_offer: offer_xml.append('<!--  Список ссылок на фото данного товара. Максимум 10 фото. -->')
+        if is_first_offer: 
+            offer_xml.append('<!--  Список ссылок на фото данного товара. Максимум 10 фото. Фото должны быть без водяных знаков. Не обязательное поле. Для Prompower фото загружаются по API - у разных товаров может быть разное количество фото: нужно предусмотреть, чтобы код правильно обработал подгрузку всех доступных фото. Если в каком-то img API Prompower нет значения, т.е. отсутствует ссылка на фото, то нужно подгрузить все фото, которые лежат здесь: https://brilka.github.io/feed-from-prompower-for-chipidip/ (в коде нужно указать все ссылки в списке DEFAULT_PROMPOWER_PICTURES ). Для Unimat у всех позиций нужно указать 5 фото со следующими адресами: https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png ; https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg ; https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg ; https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg ; https://unimat-russia.ru/uploads/product-33.png  -->')
+        
+        final_images =[]
         if brand == "Unimat":
-            for pic in UNIMAT_PICTURES: offer_xml.append(f"<picture>{escape(pic)}</picture>")
+            final_images = UNIMAT_PICTURES
         else:
-            images = prod.get('img',[])
-            if isinstance(images, str): images =[images] 
-            if not images and prod.get('image'): images =[prod.get('image')]
-            for img in images[:10]:
-                img_url = img if img.startswith('http') else SITE_URL + img
-                offer_xml.append(f"<picture>{escape(img_url)}</picture>")
+            api_images = prod.get('img',[])
+            if isinstance(api_images, str): api_images = [api_images]
+            if not api_images and prod.get('image'): api_images = [prod.get('image')]
+            
+            for img in api_images:
+                if img and str(img).strip():
+                    img_url = img if img.startswith('http') else SITE_URL + img
+                    final_images.append(img_url)
+            
+            if len(final_images) == 0:
+                final_images = DEFAULT_PROMPOWER_PICTURES
                 
+        for pic in final_images[:10]:
+            offer_xml.append(f"<picture>{escape(pic)}</picture>")
+            
         if is_first_offer: offer_xml.append('<!--  Наименование товара. Макс. 250 символов. Обязателльное поле. Для Prompower и Unimat это description в API  -->')
         safe_name = (description if description else (title if title else "Товар без названия"))[:250]
         offer_xml.append(f"<name>{escape(safe_name)}</name>")
@@ -319,7 +342,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         if description: offer_xml.append(f"<description><![CDATA[{description}]]></description>")
             
         if is_first_offer: offer_xml.append('<!--  список параметров товара. Максимум 20 параметров для одного товара. -->')
-        for prop in prod.get('props',[])[:20]:
+        for prop in prod.get('props', [])[:20]:
             p_name, p_val = prop.get('name', ''), prop.get('value', '')
             match = param_regex.match(p_name)
             clean_name = match.group(1).strip() if match else p_name
@@ -336,7 +359,97 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 docs = pdf_cache["urls"][url]
             for doc in docs: offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
                 
-        if is_first_offer: offer_xml.append("""<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий... -->""")
+        if is_first_offer: 
+            long_comment = """<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий: 
+2953;19“ комплектующие;
+2953;Аксессуары;
+3059;Двери;
+2968;Коллаборативные роботы;
+2958;Модификационные комплекты для моторов;
+3061;Модули расширения ПЛК PMP301;
+3054;Монтажные панели;
+2958;Моторные дроссели;
+2958;Моторы;
+2954;Серводвигатели;
+2954;Сетевые дроссели;
+3073;Соединительные комплекты;
+3073;Шасси;
+3073;Шкафы электротехнические;
+2958;Опции для двигателей;
+3061;Аксессуары для ПЛК;
+2947;Аксессуары для реле;
+2945;Дополнительные контактные приставки;
+3085;Заземление;
+2954;Опции для преобразователей частоты;
+2945;Дополнительные контактные приставки PULSE;
+2926;Колодки для реле;
+2804;Прокладка кабеля;
+3109;MCB (Miniature Circuit Breaker);
+2947;Реле общего назначения;
+2947;Контакторы PULSE;
+3067;Панели основания;
+2954;Аксессуары для сервосистем;
+2947;Контакторы;
+2947;Миниатюрные силовые реле;
+2954;Сувенирная продукция;
+2947;Реле тонкие;
+2925;Кабели для датчиков;
+2947;Миниконтакторы;
+2947;Миниконтакторы PULSE;
+3067;Цоколи;
+3184;Климат + Свет;
+2939;Блок питания HDR в пластиковом корпусе;
+3124;Пластроны;
+2939;Блок питания MDR в пластиковом корпусе;
+3069;Боковые панели;
+3062;Секционирование;
+1403;Индуктивные датчики;
+3115;Дополнительные контактные приставки для MCB;
+2968;Опции для устройств плавного пуска;
+3061;Модули расширения ПЛК PMP20/PMP30;
+2939;Блок питания NDR в металлическом корпусе;
+2930;Автоматы защиты двигателя PULSE;
+2744;Фотоэлектрические датчики;
+3071;Полки;
+3067;Потолочные панели;
+2954;Преобразователи частоты PD100;
+2954;Преобразователи частоты PD101;
+2954;Тормозные резисторы;
+2954;Преобразователи частоты PD150;
+3061;Панели оператора PH1;
+3069;Задние панели;
+3413;Промышленные коммутаторы;
+3061;Панели оператора PH;
+2954;ЭМС фильтры;
+3062;Сейсмостойкость;
+2954;Дроссели dU/dt;
+2968;Устройства плавного пуска P2S 050;
+2954;Дроссели для цепей постоянного тока;
+2954;Преобразователи частоты PD210;
+2954;Преобразователи частоты PD110;
+2968;Устройства плавного пуска P2S 100;
+2954;Сервоприводы;
+2968;Регуляторы мощности;
+3061;Программируемые логические контроллеры PMP20;
+2954;Преобразователи частоты PD310;
+2958;Электродвигатели класс энергоэфф. IE1;
+3061;ПЛК PMP301;
+3072;Каркасы;
+2954;Синус-фильтры;
+2954;Внешние тормозные модули для ПЧ;
+2954;Преобразователи частоты PD310 IP54;
+3061;Промышленный монитор;
+2968;Устройства плавного пуска P2S 300;
+3061;Промышленный ПК;
+3061;ПЛК PMP30;
+3061;Панельный ПК;
+2804;Кабели и аксессуары;
+3061;Модули для ПЛК;
+3061;Панели оператора UniMAT;
+3061;ПЛК UniMAT;
+2954;Серво;
+   -->"""
+            offer_xml.append(long_comment)
             
         if item_group_id:
             offer_xml.append(f"<itemGroupId>{item_group_id}</itemGroupId>")
@@ -353,7 +466,6 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             except (ValueError, TypeError):
                 offer_xml.append(f"<weight>{escape(str(weight))}</weight>")
                 
-        # ИСПРАВЛЕНИЕ 1: Добавление габаритов из props для Prompower
         item_width = None
         item_height = None
         item_depth = None
@@ -363,15 +475,14 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 p_name = prop.get('name', '').strip().lower()
                 p_val = prop.get('value')
                 
-                # Пропускаем пустые или нулевые значения габаритов
-                if p_val in[0, 0.0, "0", "", None]:
+                if p_val in [0, 0.0, "0", "", None]:
                     continue
                     
                 if p_name in ['ширина (мм)', 'ширина']:
                     if item_width is None: item_width = p_val
-                elif p_name in['высота (мм)', 'высота']:
+                elif p_name in ['высота (мм)', 'высота']:
                     if item_height is None: item_height = p_val
-                elif p_name in ['глубина (мм)', 'глубина']:
+                elif p_name in['глубина (мм)', 'глубина']:
                     if item_depth is None: item_depth = p_val
                     
         if is_first_offer: offer_xml.append('<!--  Ширина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
