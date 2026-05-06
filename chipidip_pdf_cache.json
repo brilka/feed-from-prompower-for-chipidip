@@ -73650,6 +73650,16 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
+    ],
+    "https://www.prompower.ru/catalog/inductive-sensors/KT208D04PBDS845TA": [
+      {
+        "url": "https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
