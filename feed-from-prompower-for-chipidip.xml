@@ -10827,7 +10827,7 @@
 </offer>
 <offer>
 <id>PGV2ME06</id>
-<qty>32</qty>
+<qty>62</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-motor-protection/PGV2ME06</url>
 <price qty="1" costPrice="3469.8" rPrice="4082.12"/>
 <categoryId>60</categoryId>
@@ -13275,7 +13275,7 @@
 </offer>
 <offer>
 <id>CPSEM05PS</id>
-<qty>15</qty>
+<qty>13</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CPSEM05PS</url>
 <price qty="1" costPrice="1486.02" rPrice="1748.26"/>
 <categoryId>55</categoryId>
@@ -13475,7 +13475,7 @@
 </offer>
 <offer>
 <id>CPSCTM03PS</id>
-<qty>199</qty>
+<qty>198</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CPSCTM03PS</url>
 <price qty="1" costPrice="2043.93" rPrice="2404.62"/>
 <categoryId>55</categoryId>
@@ -13555,7 +13555,7 @@
 </offer>
 <offer>
 <id>CPSCTB03PS</id>
-<qty>33</qty>
+<qty>32</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CPSCTB03PS</url>
 <price qty="1" costPrice="2787.46" rPrice="3279.36"/>
 <categoryId>55</categoryId>
@@ -14055,7 +14055,7 @@
 </offer>
 <offer>
 <id>CML15T03PS</id>
-<qty>139</qty>
+<qty>138</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CML15T03PS</url>
 <price qty="1" costPrice="1858.3" rPrice="2186.24"/>
 <categoryId>55</categoryId>
@@ -14295,7 +14295,7 @@
 </offer>
 <offer>
 <id>CME05A05PS</id>
-<qty>27</qty>
+<qty>25</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CME05A05PS</url>
 <price qty="1" costPrice="1152.11" rPrice="1355.42"/>
 <categoryId>55</categoryId>
@@ -15716,7 +15716,7 @@
 </offer>
 <offer>
 <id>HDR3024</id>
-<qty>108</qty>
+<qty>107</qty>
 <url>https://www.prompower.ru/catalog/power-hdr/HDR3024</url>
 <price qty="1" costPrice="1558.61" rPrice="1833.66"/>
 <categoryId>29</categoryId>
@@ -15919,7 +15919,7 @@
 </offer>
 <offer>
 <id>MDR2024</id>
-<qty>444</qty>
+<qty>441</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-mdr/MDR2024</url>
 <price qty="1" costPrice="1381.28" rPrice="1625.04"/>
 <categoryId>101</categoryId>
@@ -16093,7 +16093,7 @@
 </offer>
 <offer>
 <id>NDR12012</id>
-<qty>17</qty>
+<qty>15</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR12012</url>
 <price qty="1" costPrice="3052.93" rPrice="3591.68"/>
 <categoryId>30</categoryId>
@@ -16122,7 +16122,7 @@
 </offer>
 <offer>
 <id>NDR12024</id>
-<qty>659</qty>
+<qty>657</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR12024</url>
 <price qty="1" costPrice="3052.93" rPrice="3591.68"/>
 <categoryId>30</categoryId>
@@ -30849,7 +30849,7 @@
 </offer>
 <offer>
 <id>KT112D08PAD350TA</id>
-<qty>143</qty>
+<qty>128</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KT112D08PAD350TA</url>
 <price qty="1" costPrice="1632.24" rPrice="1920.28"/>
 <categoryId>76</categoryId>
@@ -30877,7 +30877,7 @@
 </offer>
 <offer>
 <id>KT112D08PADS1250TA</id>
-<qty>285</qty>
+<qty>325</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KT112D08PADS1250TA</url>
 <price qty="1" costPrice="1632.24" rPrice="1920.28"/>
 <categoryId>76</categoryId>
@@ -31297,7 +31297,7 @@
 </offer>
 <offer>
 <id>KT130D25PAD355LY</id>
-<qty>87</qty>
+<qty>85</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KT130D25PAD355LY</url>
 <price qty="1" costPrice="2433.84" rPrice="2863.34"/>
 <categoryId>76</categoryId>
@@ -31997,7 +31997,7 @@
 </offer>
 <offer>
 <id>KJ118D08PAD355LY</id>
-<qty>132</qty>
+<qty>122</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KJ118D08PAD355LY</url>
 <price qty="1" costPrice="1846.9" rPrice="2172.82"/>
 <categoryId>76</categoryId>
@@ -32187,7 +32187,7 @@
 </offer>
 <offer>
 <id>KJTJ8S3TA</id>
-<qty>623</qty>
+<qty>619</qty>
 <url>https://www.prompower.ru/catalog/sensor-cables/KJTJ8S3TA</url>
 <price qty="1" costPrice="925.0" rPrice="1088.24"/>
 <categoryId>36</categoryId>
@@ -40049,7 +40049,7 @@
 </offer>
 <offer>
 <id>PP2RF05S</id>
-<qty>3621</qty>
+<qty>3616</qty>
 <url>https://www.prompower.ru/catalog/relays/relay-terminal/PP2RF05S</url>
 <price qty="1" costPrice="424.13" rPrice="498.98"/>
 <categoryId>23</categoryId>
@@ -40130,7 +40130,7 @@
 </offer>
 <offer>
 <id>PPYF14SL</id>
-<qty>1125</qty>
+<qty>1025</qty>
 <url>https://www.prompower.ru/catalog/relays/relay-terminal/PPYF14SL</url>
 <price qty="1" costPrice="932.26" rPrice="1096.78"/>
 <categoryId>23</categoryId>
@@ -41081,7 +41081,7 @@
 </offer>
 <offer>
 <id>JLC1D3210AC220</id>
-<qty>105</qty>
+<qty>100</qty>
 <url>https://www.prompower.ru/catalog/nka/contactors/JLC1D3210AC220</url>
 <price qty="1" costPrice="781.9" rPrice="919.88"/>
 <categoryId>7</categoryId>
@@ -41236,7 +41236,7 @@
 </offer>
 <offer>
 <id>JLC1D1210AC220</id>
-<qty>15</qty>
+<qty>0</qty>
 <url>https://www.prompower.ru/catalog/nka/contactors/JLC1D1210AC220</url>
 <price qty="1" costPrice="301.77" rPrice="355.02"/>
 <categoryId>7</categoryId>
@@ -42081,7 +42081,7 @@
 </offer>
 <offer>
 <id>PMY4NAC230</id>
-<qty>2998</qty>
+<qty>2898</qty>
 <url>https://www.prompower.ru/catalog/relays/mini-relays/PMY4NAC230</url>
 <price qty="1" costPrice="838.93" rPrice="986.98"/>
 <categoryId>9</categoryId>
@@ -42321,7 +42321,7 @@
 </offer>
 <offer>
 <id>JLC1K1210AC220</id>
-<qty>196</qty>
+<qty>186</qty>
 <url>https://www.prompower.ru/catalog/nka/mini-contactors/JLC1K1210AC220</url>
 <price qty="1" costPrice="394.06" rPrice="463.6"/>
 <categoryId>24</categoryId>
@@ -43830,7 +43830,7 @@
 </offer>
 <offer>
 <id>PMP01NESED</id>
-<qty>26</qty>
+<qty>24</qty>
 <url>https://www.prompower.ru/catalog/plc/plc-pmp301-modules/PMP01NESED</url>
 <price qty="1" costPrice="4311.85" rPrice="5072.76"/>
 <categoryId>74</categoryId>
@@ -43886,7 +43886,7 @@
 </offer>
 <offer>
 <id>PMP01E8PX8YT</id>
-<qty>7</qty>
+<qty>5</qty>
 <url>https://www.prompower.ru/catalog/plc/plc-pmp301-modules/PMP01E8PX8YT</url>
 <price qty="1" costPrice="5508.54" rPrice="6480.64"/>
 <categoryId>74</categoryId>
@@ -83561,7 +83561,7 @@
 </offer>
 <offer>
 <id>Keyboardbracket</id>
-<qty>48</qty>
+<qty>45</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/Keyboardbracket</url>
 <price qty="1" costPrice="501.91" rPrice="590.48"/>
 <categoryId>21</categoryId>
@@ -83704,7 +83704,7 @@
 </offer>
 <offer>
 <id>PD310PG1HTL</id>
-<qty>95</qty>
+<qty>96</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/PD310PG1HTL</url>
 <price qty="1" costPrice="4788.87" rPrice="5633.96"/>
 <categoryId>21</categoryId>
@@ -83725,7 +83725,7 @@
 </offer>
 <offer>
 <id>PD310KEY7</id>
-<qty>130</qty>
+<qty>127</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/PD310KEY7</url>
 <price qty="1" costPrice="1960.97" rPrice="2307.02"/>
 <categoryId>21</categoryId>
@@ -83787,7 +83787,7 @@
 </offer>
 <offer>
 <id>PD310EC1</id>
-<qty>61</qty>
+<qty>59</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/PD310EC1</url>
 <price qty="1" costPrice="12998.79" rPrice="15292.7"/>
 <categoryId>21</categoryId>
@@ -83988,7 +83988,7 @@
 </offer>
 <offer>
 <id>PH1102SFE</id>
-<qty>29</qty>
+<qty>28</qty>
 <url>https://www.prompower.ru/catalog/hmi/ph1/PH1102SFE</url>
 <price qty="1" costPrice="28315.28" rPrice="33312.1"/>
 <categoryId>99</categoryId>
@@ -105221,7 +105221,7 @@
 </offer>
 <offer>
 <id>PD100A4075</id>
-<qty>2</qty>
+<qty>3</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd100/PD100A4075</url>
 <price qty="1" costPrice="16266.19" rPrice="15362.51"/>
 <categoryId>13</categoryId>
@@ -105688,7 +105688,7 @@
 </offer>
 <offer>
 <id>PD150A4055B</id>
-<qty>33</qty>
+<qty>31</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4055B</url>
 <price qty="1" costPrice="14632.07" rPrice="17214.2"/>
 <categoryId>70</categoryId>
@@ -105863,7 +105863,7 @@
 </offer>
 <offer>
 <id>PD150A4015B</id>
-<qty>9</qty>
+<qty>8</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4015B</url>
 <price qty="1" costPrice="8957.61" rPrice="10538.36"/>
 <categoryId>70</categoryId>
@@ -106073,7 +106073,7 @@
 </offer>
 <offer>
 <id>PD210A4055B</id>
-<qty>58</qty>
+<qty>56</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4055B</url>
 <price qty="1" costPrice="28459.43" rPrice="33481.68"/>
 <categoryId>49</categoryId>
@@ -106109,7 +106109,7 @@
 </offer>
 <offer>
 <id>PD210A4075B</id>
-<qty>60</qty>
+<qty>59</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4075B</url>
 <price qty="1" costPrice="36349.96" rPrice="42764.66"/>
 <categoryId>49</categoryId>
@@ -106253,7 +106253,7 @@
 </offer>
 <offer>
 <id>PD210A4220B</id>
-<qty>33</qty>
+<qty>31</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4220B</url>
 <price qty="1" costPrice="79814.78" rPrice="93899.74"/>
 <categoryId>49</categoryId>
@@ -106433,7 +106433,7 @@
 </offer>
 <offer>
 <id>PD210A4007B</id>
-<qty>89</qty>
+<qty>87</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4007B</url>
 <price qty="1" costPrice="16646.96" rPrice="19584.66"/>
 <categoryId>49</categoryId>
@@ -106469,7 +106469,7 @@
 </offer>
 <offer>
 <id>PD210A4015B</id>
-<qty>61</qty>
+<qty>60</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4015B</url>
 <price qty="1" costPrice="17240.12" rPrice="20282.5"/>
 <categoryId>49</categoryId>
@@ -106505,7 +106505,7 @@
 </offer>
 <offer>
 <id>PD210A4022B</id>
-<qty>55</qty>
+<qty>50</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4022B</url>
 <price qty="1" costPrice="18927.32" rPrice="22267.44"/>
 <categoryId>49</categoryId>
@@ -106541,7 +106541,7 @@
 </offer>
 <offer>
 <id>PD210A4040B</id>
-<qty>57</qty>
+<qty>50</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4040B</url>
 <price qty="1" costPrice="23077.4" rPrice="27149.88"/>
 <categoryId>49</categoryId>
@@ -106928,7 +106928,7 @@
 </offer>
 <offer>
 <id>PD310A413K</id>
-<qty>3</qty>
+<qty>2</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A413K</url>
 <price qty="1" costPrice="491247.64" rPrice="577938.4"/>
 <categoryId>42</categoryId>
@@ -106973,7 +106973,7 @@
 </offer>
 <offer>
 <id>PD310A4150B</id>
-<qty>20</qty>
+<qty>18</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4150B</url>
 <price qty="1" costPrice="74706.52" rPrice="87890.02"/>
 <categoryId>42</categoryId>
@@ -109986,7 +109986,7 @@
 </offer>
 <offer>
 <id>PD310AB015B</id>
-<qty>96</qty>
+<qty>95</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310AB015B</url>
 <price qty="1" costPrice="25950.92" rPrice="30530.5"/>
 <categoryId>42</categoryId>
@@ -110211,7 +110211,7 @@
 </offer>
 <offer>
 <id>PD310A4007B</id>
-<qty>46</qty>
+<qty>44</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4007B</url>
 <price qty="1" costPrice="23442.42" rPrice="27579.32"/>
 <categoryId>42</categoryId>
@@ -110256,7 +110256,7 @@
 </offer>
 <offer>
 <id>PD310A4015B</id>
-<qty>37</qty>
+<qty>35</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4015B</url>
 <price qty="1" costPrice="23624.93" rPrice="27794.04"/>
 <categoryId>42</categoryId>
@@ -111446,7 +111446,7 @@
 </offer>
 <offer>
 <id>PMP3060A32E</id>
-<qty>68</qty>
+<qty>67</qty>
 <url>https://www.prompower.ru/catalog/plc/pmp30/PMP3060A32E</url>
 <price qty="1" costPrice="69274.71" rPrice="81499.66"/>
 <categoryId>46</categoryId>
@@ -111477,7 +111477,7 @@
 </offer>
 <offer>
 <id>PMP30124A8</id>
-<qty>0</qty>
+<qty>47</qty>
 <url>https://www.prompower.ru/catalog/plc/pmp301/PMP30124A8</url>
 <price qty="1" costPrice="35777.54" rPrice="42091.22"/>
 <categoryId>73</categoryId>
@@ -112154,7 +112154,7 @@
 </offer>
 <offer>
 <id>PPS1G0612</id>
-<qty>203</qty>
+<qty>200</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PPS1G0612</url>
 <price qty="1" costPrice="10034.01" rPrice="11804.72"/>
 <categoryId>19</categoryId>
@@ -113504,7 +113504,7 @@
 </offer>
 <offer>
 <id>PG2R2SDC24</id>
-<qty>232</qty>
+<qty>222</qty>
 <url>https://www.prompower.ru/catalog/relays/common-relays/PG2R2SDC24</url>
 <price qty="1" costPrice="495.69" rPrice="583.16"/>
 <categoryId>10</categoryId>
@@ -113721,7 +113721,7 @@
 </offer>
 <offer>
 <id>PG2R1SDC24</id>
-<qty>2010</qty>
+<qty>2001</qty>
 <url>https://www.prompower.ru/catalog/relays/common-relays/PG2R1SDC24</url>
 <price qty="1" costPrice="495.69" rPrice="583.16"/>
 <categoryId>10</categoryId>
@@ -113752,7 +113752,7 @@
 </offer>
 <offer>
 <id>PG2RVSR700DC24</id>
-<qty>203</qty>
+<qty>143</qty>
 <url>https://www.prompower.ru/catalog/relays/thin-relays/PG2RVSR700DC24</url>
 <price qty="1" costPrice="814.04" rPrice="957.7"/>
 <categoryId>11</categoryId>
@@ -124206,7 +124206,7 @@
 </offer>
 <offer>
 <id>PSD5L120P2PTA</id>
-<qty>1</qty>
+<qty>0</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-drivers/PSD5L120P2PTA</url>
 <price qty="1" costPrice="19561.97" rPrice="23014.08"/>
 <categoryId>54</categoryId>
@@ -139239,7 +139239,7 @@
 </offer>
 <offer>
 <id>P2S050422A</id>
-<qty>15</qty>
+<qty>12</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-050/P2S050422A</url>
 <price qty="1" costPrice="30792.68" rPrice="36226.68"/>
 <categoryId>68</categoryId>
@@ -139735,7 +139735,7 @@
 </offer>
 <offer>
 <id>P2S050437A</id>
-<qty>11</qty>
+<qty>9</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-050/P2S050437A</url>
 <price qty="1" costPrice="36726.39" rPrice="43207.52"/>
 <categoryId>68</categoryId>
@@ -140231,7 +140231,7 @@
 </offer>
 <offer>
 <id>P2S100430BA</id>
-<qty>29</qty>
+<qty>25</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-100/P2S100430BA</url>
 <price qty="1" costPrice="40183.75" rPrice="47275.0"/>
 <categoryId>27</categoryId>
@@ -140634,7 +140634,7 @@
 </offer>
 <offer>
 <id>P2S10047T5BB</id>
-<qty>5</qty>
+<qty>3</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-100/P2S10047T5BB</url>
 <price qty="1" costPrice="22754.89" rPrice="26770.46"/>
 <categoryId>27</categoryId>
@@ -140932,7 +140932,7 @@
 </offer>
 <offer>
 <id>P2S3004185B</id>
-<qty>14</qty>
+<qty>13</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-300/P2S3004185B</url>
 <price qty="1" costPrice="164806.26" rPrice="193889.72"/>
 <categoryId>28</categoryId>
@@ -156969,7 +156969,7 @@
 <offer>
 <id>UN8300EH100AA0</id>
 <qty>13144</qty>
-<price qty="1" costPrice="170.07" rPrice="200.08"/>
+<price qty="1" costPrice="166.96" rPrice="196.42"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -156985,7 +156985,7 @@
 <offer>
 <id>UN3901AB600AA0</id>
 <qty>31</qty>
-<price qty="1" costPrice="798.49" rPrice="939.4"/>
+<price qty="1" costPrice="805.75" rPrice="947.94"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157001,7 +157001,7 @@
 <offer>
 <id>UN3901AD200AA0</id>
 <qty>31</qty>
-<price qty="1" costPrice="995.52" rPrice="1171.2"/>
+<price qty="1" costPrice="1000.7" rPrice="1177.3"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157017,7 +157017,7 @@
 <offer>
 <id>UN3901AE800AA0</id>
 <qty>28</qty>
-<price qty="1" costPrice="1191.51" rPrice="1401.78"/>
+<price qty="1" costPrice="1194.62" rPrice="1405.44"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157033,7 +157033,7 @@
 <offer>
 <id>UN3901AF300AA0</id>
 <qty>28</qty>
-<price qty="1" costPrice="1240.25" rPrice="1459.12"/>
+<price qty="1" costPrice="1250.62" rPrice="1471.32"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157049,7 +157049,7 @@
 <offer>
 <id>UN3901AJ300AA0</id>
 <qty>27</qty>
-<price qty="1" costPrice="2383.03" rPrice="2803.56"/>
+<price qty="1" costPrice="2389.25" rPrice="2810.88"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157065,7 +157065,7 @@
 <offer>
 <id>UN9720CE200XA0</id>
 <qty>13</qty>
-<price qty="1" costPrice="31852.49" rPrice="37473.52"/>
+<price qty="1" costPrice="30565.58" rPrice="35959.5"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157081,7 +157081,7 @@
 <offer>
 <id>UN2906AA200XA0</id>
 <qty>15</qty>
-<price qty="1" costPrice="405.47" rPrice="477.02"/>
+<price qty="1" costPrice="388.88" rPrice="457.5"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157097,7 +157097,7 @@
 <offer>
 <id>UN9013CB300XA0</id>
 <qty>11</qty>
-<price qty="1" costPrice="3046.71" rPrice="3584.36"/>
+<price qty="1" costPrice="2917.08" rPrice="3431.86"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157113,7 +157113,7 @@
 <offer>
 <id>UN9013DB300XA0</id>
 <qty>5</qty>
-<price qty="1" costPrice="5073.0" rPrice="5968.24"/>
+<price qty="1" costPrice="4862.49" rPrice="5720.58"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157129,7 +157129,7 @@
 <offer>
 <id>UN9013EB100XA0</id>
 <qty>24</qty>
-<price qty="1" costPrice="6326.74" rPrice="7443.22"/>
+<price qty="1" costPrice="6612.95" rPrice="7779.94"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157145,7 +157145,7 @@
 <offer>
 <id>UA2DI4DOTBD</id>
 <qty>0</qty>
-<price qty="1" costPrice="1879.04" rPrice="2210.64"/>
+<price qty="1" costPrice="24730.38" rPrice="29094.56"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157161,7 +157161,7 @@
 <offer>
 <id>UN9720CB200XA0</id>
 <qty>32</qty>
-<price qty="1" costPrice="11583.29" rPrice="13627.4"/>
+<price qty="1" costPrice="11114.57" rPrice="13075.96"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157193,7 +157193,7 @@
 <offer>
 <id>UN2918GF230XA0</id>
 <qty>40</qty>
-<price qty="1" costPrice="724.86" rPrice="852.78"/>
+<price qty="1" costPrice="694.79" rPrice="817.4"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157209,7 +157209,7 @@
 <offer>
 <id>UA4AIBD</id>
 <qty>0</qty>
-<price qty="1" costPrice="4348.14" rPrice="5115.46"/>
+<price qty="1" costPrice="4695.54" rPrice="5524.16"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157225,7 +157225,7 @@
 <offer>
 <id>UN9720CA230XA0</id>
 <qty>5</qty>
-<price qty="1" costPrice="9262.48" rPrice="10897.04"/>
+<price qty="1" costPrice="8891.24" rPrice="10460.28"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
@@ -157241,7 +157241,7 @@
 <offer>
 <id>UN1211BF220XA8</id>
 <qty>6</qty>
-<price qty="1" costPrice="5049.36" rPrice="4768.84"/>
+<price qty="1" costPrice="3451.88" rPrice="3260.11"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157258,7 +157258,7 @@
 <offer>
 <id>UN1211BH220XA8</id>
 <qty>84</qty>
-<price qty="1" costPrice="7582.66" rPrice="7161.4"/>
+<price qty="1" costPrice="5178.54" rPrice="4890.84"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157275,7 +157275,7 @@
 <offer>
 <id>UN1211BL220XA8</id>
 <qty>94</qty>
-<price qty="1" costPrice="13346.8" rPrice="12605.31"/>
+<price qty="1" costPrice="9124.16" rPrice="8617.27"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157292,7 +157292,7 @@
 <offer>
 <id>UN2883AT080AA0</id>
 <qty>3</qty>
-<price qty="1" costPrice="22590.01" rPrice="26576.48"/>
+<price qty="1" costPrice="16921.77" rPrice="19907.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157309,7 +157309,7 @@
 <offer>
 <id>UN2883AT080AB0</id>
 <qty>13</qty>
-<price qty="1" costPrice="22590.01" rPrice="26576.48"/>
+<price qty="1" costPrice="16921.77" rPrice="19907.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157326,7 +157326,7 @@
 <offer>
 <id>UN2885AE010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="2360.21" rPrice="2776.72"/>
+<price qty="1" costPrice="3855.57" rPrice="4535.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157343,7 +157343,7 @@
 <offer>
 <id>UN1221BF220XA8</id>
 <qty>17</qty>
-<price qty="1" costPrice="6171.76" rPrice="5828.89"/>
+<price qty="1" costPrice="4219.76" rPrice="3985.33"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157360,7 +157360,7 @@
 <offer>
 <id>UN1221BH220XA8</id>
 <qty>110</qty>
-<price qty="1" costPrice="10813.51" rPrice="10212.76"/>
+<price qty="1" costPrice="7397.51" rPrice="6986.53"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157377,7 +157377,7 @@
 <offer>
 <id>UN1221BL220XA8</id>
 <qty>113</qty>
-<price qty="1" costPrice="18668.87" rPrice="17631.71"/>
+<price qty="1" costPrice="12768.38" rPrice="12059.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157394,7 +157394,7 @@
 <offer>
 <id>UN1221HF220XA8</id>
 <qty>10</qty>
-<price qty="1" costPrice="7021.46" rPrice="6631.38"/>
+<price qty="1" costPrice="4795.32" rPrice="4528.91"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157411,7 +157411,7 @@
 <offer>
 <id>UN1221HH220XA8</id>
 <qty>26</qty>
-<price qty="1" costPrice="13346.8" rPrice="12605.31"/>
+<price qty="1" costPrice="9124.16" rPrice="8617.27"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157428,7 +157428,7 @@
 <offer>
 <id>UN1231BF220XA8</id>
 <qty>12</qty>
-<price qty="1" costPrice="6171.76" rPrice="5828.89"/>
+<price qty="1" costPrice="4219.76" rPrice="3985.33"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157445,7 +157445,7 @@
 <offer>
 <id>UN1231BH220XA8</id>
 <qty>10</qty>
-<price qty="1" costPrice="8977.76" rPrice="8479.0"/>
+<price qty="1" costPrice="6137.32" rPrice="5796.36"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157462,7 +157462,7 @@
 <offer>
 <id>UN1231BL220XA8</id>
 <qty>12</qty>
-<price qty="1" costPrice="16831.69" rPrice="15896.6"/>
+<price qty="1" costPrice="11508.19" rPrice="10868.84"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157479,7 +157479,7 @@
 <offer>
 <id>UN1231HF220XA8</id>
 <qty>14</qty>
-<price qty="1" costPrice="6460.26" rPrice="6101.36"/>
+<price qty="1" costPrice="4410.66" rPrice="4165.62"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157496,7 +157496,7 @@
 <offer>
 <id>UN1231PH220XA8</id>
 <qty>5</qty>
-<price qty="1" costPrice="9028.0" rPrice="8526.44"/>
+<price qty="1" costPrice="6520.54" rPrice="6158.29"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157513,7 +157513,7 @@
 <offer>
 <id>UN1231PL220XA8</id>
 <qty>15</qty>
-<price qty="1" costPrice="17682.82" rPrice="16700.44"/>
+<price qty="1" costPrice="12083.74" rPrice="11412.42"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157530,7 +157530,7 @@
 <offer>
 <id>UN2885BA010AA0</id>
 <qty>4</qty>
-<price qty="1" costPrice="2088.52" rPrice="2457.08"/>
+<price qty="1" costPrice="1945.41" rPrice="2288.72"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157547,7 +157547,7 @@
 <offer>
 <id>UN2885CM010AA0</id>
 <qty>3</qty>
-<price qty="1" costPrice="3992.45" rPrice="4697.0"/>
+<price qty="1" costPrice="3500.91" rPrice="4118.72"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157564,7 +157564,7 @@
 <offer>
 <id>UN2211BF320XB0</id>
 <qty>96</qty>
-<price qty="1" costPrice="7067.15" rPrice="8314.3"/>
+<price qty="1" costPrice="6030.15" rPrice="7094.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157581,7 +157581,7 @@
 <offer>
 <id>UN2211BH320XB0</id>
 <qty>162</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157598,7 +157598,7 @@
 <offer>
 <id>UN2221BF320XB0</id>
 <qty>96</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="6030.15" rPrice="7094.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157615,7 +157615,7 @@
 <offer>
 <id>UN2221BH320XB0</id>
 <qty>55</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157632,7 +157632,7 @@
 <offer>
 <id>UN2221HF320XB0</id>
 <qty>120</qty>
-<price qty="1" costPrice="7067.15" rPrice="8314.3"/>
+<price qty="1" costPrice="6030.15" rPrice="7094.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157649,7 +157649,7 @@
 <offer>
 <id>UN2221HH320XB0</id>
 <qty>74</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157666,7 +157666,7 @@
 <offer>
 <id>UN2231BH320XB0</id>
 <qty>26</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157683,7 +157683,7 @@
 <offer>
 <id>UN2231BL320XB0</id>
 <qty>74</qty>
-<price qty="1" costPrice="18003.36" rPrice="21180.42"/>
+<price qty="1" costPrice="15366.27" rPrice="18077.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157700,7 +157700,7 @@
 <offer>
 <id>UN2231PH320XB0</id>
 <qty>57</qty>
-<price qty="1" costPrice="10936.2" rPrice="12866.12"/>
+<price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157716,8 +157716,8 @@
 </offer>
 <offer>
 <id>UN2231PL320XB0</id>
-<qty>55</qty>
-<price qty="1" costPrice="18003.36" rPrice="21180.42"/>
+<qty>53</qty>
+<price qty="1" costPrice="15366.27" rPrice="18077.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157734,7 +157734,7 @@
 <offer>
 <id>UN3317PF110AB0</id>
 <qty>35</qty>
-<price qty="1" costPrice="37220.0" rPrice="43788.24"/>
+<price qty="1" costPrice="37734.36" rPrice="44393.36"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157750,8 +157750,8 @@
 </offer>
 <offer>
 <id>UN2314HD320XB0</id>
-<qty>31</qty>
-<price qty="1" costPrice="13899.95" rPrice="16352.88"/>
+<qty>33</qty>
+<price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157768,7 +157768,7 @@
 <offer>
 <id>UN2314HF320XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="23025.55" rPrice="27088.88"/>
+<price qty="1" costPrice="19644.93" rPrice="23111.68"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157785,7 +157785,7 @@
 <offer>
 <id>UN2315PD320XB0</id>
 <qty>34</qty>
-<price qty="1" costPrice="20061.8" rPrice="23602.12"/>
+<price qty="1" costPrice="17116.72" rPrice="20137.32"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157802,7 +157802,7 @@
 <offer>
 <id>UN2315PF320XB0</id>
 <qty>2</qty>
-<price qty="1" costPrice="31903.3" rPrice="37533.3"/>
+<price qty="1" costPrice="27230.58" rPrice="32035.98"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157819,7 +157819,7 @@
 <offer>
 <id>UN1310HC220XA8</id>
 <qty>14</qty>
-<price qty="1" costPrice="10098.73" rPrice="9537.69"/>
+<price qty="1" costPrice="6905.2" rPrice="6521.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157836,7 +157836,7 @@
 <offer>
 <id>UN1310HF220XA8</id>
 <qty>5</qty>
-<price qty="1" costPrice="16831.69" rPrice="15896.6"/>
+<price qty="1" costPrice="11508.19" rPrice="10868.84"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157853,7 +157853,7 @@
 <offer>
 <id>UN1317PB220XA8</id>
 <qty>14</qty>
-<price qty="1" costPrice="12904.73" rPrice="12187.8"/>
+<price qty="1" costPrice="8822.75" rPrice="8332.6"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157870,7 +157870,7 @@
 <offer>
 <id>UN1317PC220XA8</id>
 <qty>11</qty>
-<price qty="1" costPrice="22442.26" rPrice="21195.47"/>
+<price qty="1" costPrice="15343.29" rPrice="14490.89"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157887,7 +157887,7 @@
 <offer>
 <id>UN1317PD220XA8</id>
 <qty>18</qty>
-<price qty="1" costPrice="14876.82" rPrice="14050.33"/>
+<price qty="1" costPrice="10164.75" rPrice="9600.04"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157904,7 +157904,7 @@
 <offer>
 <id>UN1317PF220XA8</id>
 <qty>20</qty>
-<price qty="1" costPrice="26370.66" rPrice="24905.62"/>
+<price qty="1" costPrice="18028.73" rPrice="17027.13"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157921,7 +157921,7 @@
 <offer>
 <id>UN1320HB220XA8</id>
 <qty>24</qty>
-<price qty="1" costPrice="11221.13" rPrice="10597.73"/>
+<price qty="1" costPrice="7671.65" rPrice="7245.44"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157938,7 +157938,7 @@
 <offer>
 <id>UN1320HD220XA8</id>
 <qty>11</qty>
-<price qty="1" costPrice="16831.69" rPrice="15896.6"/>
+<price qty="1" costPrice="11508.19" rPrice="10868.84"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157955,7 +157955,7 @@
 <offer>
 <id>UN1350KD220XA8</id>
 <qty>98</qty>
-<price qty="1" costPrice="14027.13" rPrice="13247.84"/>
+<price qty="1" costPrice="9590.64" rPrice="9057.82"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157972,7 +157972,7 @@
 <offer>
 <id>UN1531AA030XB0</id>
 <qty>78</qty>
-<price qty="1" costPrice="13930.02" rPrice="16388.26"/>
+<price qty="1" costPrice="14115.64" rPrice="16606.64"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157989,7 +157989,7 @@
 <offer>
 <id>UN3071EA010AA0</id>
 <qty>33</qty>
-<price qty="1" costPrice="9863.94" rPrice="11604.64"/>
+<price qty="1" costPrice="10002.9" rPrice="11768.12"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158006,7 +158006,7 @@
 <offer>
 <id>UN3071KA010AA0</id>
 <qty>58</qty>
-<price qty="1" costPrice="17811.51" rPrice="20954.72"/>
+<price qty="1" costPrice="17505.6" rPrice="20594.82"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158023,7 +158023,7 @@
 <offer>
 <id>UN2315QD320XB0</id>
 <qty>11</qty>
-<price qty="1" costPrice="20061.8" rPrice="23602.12"/>
+<price qty="1" costPrice="17116.72" rPrice="20137.32"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158040,7 +158040,7 @@
 <offer>
 <id>UN3211BH020AA0</id>
 <qty>10</qty>
-<price qty="1" costPrice="6657.54" rPrice="7832.4"/>
+<price qty="1" costPrice="6751.91" rPrice="7943.42"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158056,8 +158056,8 @@
 </offer>
 <offer>
 <id>UN3211BL000AA0</id>
-<qty>97</qty>
-<price qty="1" costPrice="13316.12" rPrice="15666.02"/>
+<qty>96</qty>
+<price qty="1" costPrice="13503.81" rPrice="15886.84"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158074,7 +158074,7 @@
 <offer>
 <id>UN3211FH000AA0</id>
 <qty>11</qty>
-<price qty="1" costPrice="8795.83" rPrice="10348.04"/>
+<price qty="1" costPrice="8919.24" rPrice="10493.22"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158091,7 +158091,7 @@
 <offer>
 <id>UN3221BF010AA0</id>
 <qty>99</qty>
-<price qty="1" costPrice="7960.01" rPrice="9364.72"/>
+<price qty="1" costPrice="7641.65" rPrice="8990.18"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158108,7 +158108,7 @@
 <offer>
 <id>UN3221BH010AA0</id>
 <qty>107</qty>
-<price qty="1" costPrice="9348.55" rPrice="10998.3"/>
+<price qty="1" costPrice="9447.07" rPrice="11114.2"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158124,8 +158124,8 @@
 </offer>
 <offer>
 <id>UN3221BL000AA0</id>
-<qty>90</qty>
-<price qty="1" costPrice="18671.18" rPrice="21966.1"/>
+<qty>88</qty>
+<price qty="1" costPrice="18922.14" rPrice="22261.34"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158141,8 +158141,8 @@
 </offer>
 <offer>
 <id>UN3221HH010AA0</id>
-<qty>20</qty>
-<price qty="1" costPrice="14138.46" rPrice="16633.48"/>
+<qty>19</qty>
+<price qty="1" costPrice="14337.56" rPrice="16867.72"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158159,7 +158159,7 @@
 <offer>
 <id>UN3231BL000AA0</id>
 <qty>57</qty>
-<price qty="1" costPrice="17319.97" rPrice="20376.44"/>
+<price qty="1" costPrice="17560.56" rPrice="20659.48"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158176,7 +158176,7 @@
 <offer>
 <id>UN3311KF020AB0</id>
 <qty>57</qty>
-<price qty="1" costPrice="21459.68" rPrice="25246.68"/>
+<price qty="1" costPrice="21756.26" rPrice="25595.6"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158193,7 +158193,7 @@
 <offer>
 <id>UN3317KF020AB0</id>
 <qty>97</qty>
-<price qty="1" costPrice="31520.65" rPrice="37083.12"/>
+<price qty="1" costPrice="31954.12" rPrice="37593.08"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158210,7 +158210,7 @@
 <offer>
 <id>UN3317PF010AB0</id>
 <qty>59</qty>
-<price qty="1" costPrice="37220.0" rPrice="43788.24"/>
+<price qty="1" costPrice="37706.36" rPrice="44360.42"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158227,7 +158227,7 @@
 <offer>
 <id>UN2315QF320XB0</id>
 <qty>10</qty>
-<price qty="1" costPrice="28983.11" rPrice="34097.78"/>
+<price qty="1" costPrice="24702.38" rPrice="29061.62"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158244,7 +158244,7 @@
 <offer>
 <id>UN3325HD010AB0</id>
 <qty>41</qty>
-<price qty="1" costPrice="25771.52" rPrice="30319.44"/>
+<price qty="1" costPrice="26118.92" rPrice="30728.14"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158261,7 +158261,7 @@
 <offer>
 <id>UN3325HF000AB0</id>
 <qty>19</qty>
-<price qty="1" costPrice="48657.08" rPrice="57243.62"/>
+<price qty="1" costPrice="49320.76" rPrice="58024.42"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158278,7 +158278,7 @@
 <offer>
 <id>UN3411CH020AE0</id>
 <qty>50</qty>
-<price qty="1" costPrice="48239.17" rPrice="56751.96"/>
+<price qty="1" costPrice="48903.88" rPrice="57533.98"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158295,7 +158295,7 @@
 <offer>
 <id>UN2324HB320XB0</id>
 <qty>41</qty>
-<price qty="1" costPrice="15038.57" rPrice="17692.44"/>
+<price qty="1" costPrice="12837.02" rPrice="15102.38"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158311,8 +158311,8 @@
 </offer>
 <offer>
 <id>UN2324HD320XB0</id>
-<qty>25</qty>
-<price qty="1" costPrice="23930.85" rPrice="28153.94"/>
+<qty>22</qty>
+<price qty="1" costPrice="20422.68" rPrice="24026.68"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158329,7 +158329,7 @@
 <offer>
 <id>UN2344HE320XB0</id>
 <qty>12</qty>
-<price qty="1" costPrice="20967.1" rPrice="24667.18"/>
+<price qty="1" costPrice="17894.47" rPrice="21052.32"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158346,7 +158346,7 @@
 <offer>
 <id>UARS485BD</id>
 <qty>4</qty>
-<price qty="1" costPrice="3452.17" rPrice="4061.38"/>
+<price qty="1" costPrice="3056.04" rPrice="3595.34"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158363,7 +158363,7 @@
 <offer>
 <id>UN2211BF220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="4053.63" rPrice="4768.98"/>
+<price qty="1" costPrice="3333.95" rPrice="3922.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158380,7 +158380,7 @@
 <offer>
 <id>UN2211BH220XA0</id>
 <qty>48</qty>
-<price qty="1" costPrice="5883.94" rPrice="6922.28"/>
+<price qty="1" costPrice="5640.24" rPrice="6635.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158397,7 +158397,7 @@
 <offer>
 <id>UN2211BL220XA0</id>
 <qty>28</qty>
-<price qty="1" costPrice="10748.5" rPrice="12645.3"/>
+<price qty="1" costPrice="10308.82" rPrice="12128.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158414,7 +158414,7 @@
 <offer>
 <id>UN2221BF220XA0</id>
 <qty>4</qty>
-<price qty="1" costPrice="4864.57" rPrice="5723.02"/>
+<price qty="1" costPrice="4668.57" rPrice="5492.44"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158431,7 +158431,7 @@
 <offer>
 <id>UN2221BH220XA0</id>
 <qty>68</qty>
-<price qty="1" costPrice="8721.17" rPrice="10260.2"/>
+<price qty="1" costPrice="8363.4" rPrice="9839.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158448,7 +158448,7 @@
 <offer>
 <id>UN2221BL220XA0</id>
 <qty>32</qty>
-<price qty="1" costPrice="14999.17" rPrice="17646.08"/>
+<price qty="1" costPrice="14393.56" rPrice="16933.6"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158465,7 +158465,7 @@
 <offer>
 <id>UN2221HF220XA0</id>
 <qty>19</qty>
-<price qty="1" costPrice="5478.47" rPrice="6445.26"/>
+<price qty="1" costPrice="5251.37" rPrice="6178.08"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158482,7 +158482,7 @@
 <offer>
 <id>UN2221HH220XA0</id>
 <qty>1</qty>
-<price qty="1" costPrice="10748.5" rPrice="12645.3"/>
+<price qty="1" costPrice="10308.82" rPrice="12128.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158499,7 +158499,7 @@
 <offer>
 <id>UN2231BF220XA0</id>
 <qty>5</qty>
-<price qty="1" costPrice="4864.57" rPrice="5723.02"/>
+<price qty="1" costPrice="4668.57" rPrice="5492.44"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158516,7 +158516,7 @@
 <offer>
 <id>UN2231BH220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="6890.86" rPrice="8106.9"/>
+<price qty="1" costPrice="6612.95" rPrice="7779.94"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158533,7 +158533,7 @@
 <offer>
 <id>UN2231BL220XA0</id>
 <qty>15</qty>
-<price qty="1" costPrice="13585.74" rPrice="15983.22"/>
+<price qty="1" costPrice="13031.98" rPrice="15331.74"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158550,7 +158550,7 @@
 <offer>
 <id>UN2231HF220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="5073.0" rPrice="5968.24"/>
+<price qty="1" costPrice="4862.49" rPrice="5720.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158567,7 +158567,7 @@
 <offer>
 <id>UN2231PH220XA0</id>
 <qty>19</qty>
-<price qty="1" costPrice="7296.33" rPrice="8583.92"/>
+<price qty="1" costPrice="7001.82" rPrice="8237.44"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158584,7 +158584,7 @@
 <offer>
 <id>UN2310HC220XA0</id>
 <qty>1</qty>
-<price qty="1" costPrice="8107.27" rPrice="9537.96"/>
+<price qty="1" costPrice="7780.61" rPrice="9153.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158601,7 +158601,7 @@
 <offer>
 <id>UN2310HF220XA0</id>
 <qty>1</qty>
-<price qty="1" costPrice="16214.53" rPrice="19075.92"/>
+<price qty="1" costPrice="15560.18" rPrice="18306.1"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158618,7 +158618,7 @@
 <offer>
 <id>UN2310HH320XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="16214.53" rPrice="19075.92"/>
+<price qty="1" costPrice="15755.14" rPrice="18535.46"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158635,7 +158635,7 @@
 <offer>
 <id>UN2317PB220XA0</id>
 <qty>8</qty>
-<price qty="1" costPrice="12160.9" rPrice="14306.94"/>
+<price qty="1" costPrice="12226.23" rPrice="14383.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158652,7 +158652,7 @@
 <offer>
 <id>UN2317PC220XA0</id>
 <qty>8</qty>
-<price qty="1" costPrice="21288.57" rPrice="25045.38"/>
+<price qty="1" costPrice="20422.68" rPrice="24026.68"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158669,7 +158669,7 @@
 <offer>
 <id>UN2317PD220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="12160.9" rPrice="14306.94"/>
+<price qty="1" costPrice="11670.4" rPrice="13729.88"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158686,7 +158686,7 @@
 <offer>
 <id>UN2317PF220XA0</id>
 <qty>1</qty>
-<price qty="1" costPrice="21079.1" rPrice="24798.94"/>
+<price qty="1" costPrice="20228.76" rPrice="23798.54"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158703,7 +158703,7 @@
 <offer>
 <id>UN2317PH220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="21079.1" rPrice="24798.94"/>
+<price qty="1" costPrice="20228.76" rPrice="23798.54"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158720,7 +158720,7 @@
 <offer>
 <id>UN2317PL220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="31619.17" rPrice="37199.02"/>
+<price qty="1" costPrice="30703.5" rPrice="36121.76"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158737,7 +158737,7 @@
 <offer>
 <id>UN2320HB220XA0</id>
 <qty>5</qty>
-<price qty="1" costPrice="9126.64" rPrice="10737.22"/>
+<price qty="1" costPrice="8752.28" rPrice="10296.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158754,7 +158754,7 @@
 <offer>
 <id>UN2320HD220XA0</id>
 <qty>22</qty>
-<price qty="1" costPrice="16829.47" rPrice="19799.38"/>
+<price qty="1" costPrice="16144.02" rPrice="18992.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158771,7 +158771,7 @@
 <offer>
 <id>UN2350KD220XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="11559.44" rPrice="13599.34"/>
+<price qty="1" costPrice="11086.57" rPrice="13043.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158788,7 +158788,7 @@
 <offer>
 <id>UN2601AA000XA0</id>
 <qty>19</qty>
-<price qty="1" costPrice="18241.87" rPrice="21461.02"/>
+<price qty="1" costPrice="17505.6" rPrice="20594.82"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158805,7 +158805,7 @@
 <offer>
 <id>UN2670AA000XA0</id>
 <qty>34</qty>
-<price qty="1" costPrice="11583.29" rPrice="13627.4"/>
+<price qty="1" costPrice="9724.99" rPrice="11441.16"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158822,7 +158822,7 @@
 <offer>
 <id>UN2770AA220XA0</id>
 <qty>19</qty>
-<price qty="1" costPrice="16214.53" rPrice="19075.92"/>
+<price qty="1" costPrice="15560.18" rPrice="18306.1"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158839,7 +158839,7 @@
 <offer>
 <id>UN2231PL220XA0</id>
 <qty>3</qty>
-<price qty="1" costPrice="14188.23" rPrice="16692.04"/>
+<price qty="1" costPrice="13615.81" rPrice="16018.6"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158856,7 +158856,7 @@
 <offer>
 <id>UN1551PN010AA0</id>
 <qty>29</qty>
-<price qty="1" costPrice="12271.86" rPrice="14437.48"/>
+<price qty="1" costPrice="11809.36" rPrice="13893.36"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158873,7 +158873,7 @@
 <offer>
 <id>UN2882DE080AA0</id>
 <qty>19</qty>
-<price qty="1" costPrice="4520.28" rPrice="5317.98"/>
+<price qty="1" costPrice="4278.66" rPrice="5033.72"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158890,7 +158890,7 @@
 <offer>
 <id>UN2882DE080AB0</id>
 <qty>5</qty>
-<price qty="1" costPrice="4520.28" rPrice="5317.98"/>
+<price qty="1" costPrice="4278.66" rPrice="5033.72"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158907,7 +158907,7 @@
 <offer>
 <id>UN2882DE160AA0</id>
 <qty>27</qty>
-<price qty="1" costPrice="6596.36" rPrice="7760.42"/>
+<price qty="1" costPrice="6335.03" rPrice="7452.98"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158924,7 +158924,7 @@
 <offer>
 <id>UN2882DR080A</id>
 <qty>0</qty>
-<price qty="1" costPrice="5036.71" rPrice="5925.54"/>
+<price qty="1" costPrice="4862.49" rPrice="5720.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158942,7 +158942,7 @@
 <offer>
 <id>UN2882DR080AA0</id>
 <qty>14</qty>
-<price qty="1" costPrice="5036.71" rPrice="5925.54"/>
+<price qty="1" costPrice="4862.49" rPrice="5720.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158959,7 +158959,7 @@
 <offer>
 <id>UN2882DR160AA0</id>
 <qty>4</qty>
-<price qty="1" costPrice="8684.88" rPrice="10217.5"/>
+<price qty="1" costPrice="7196.78" rPrice="8466.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158976,7 +158976,7 @@
 <offer>
 <id>UN2882DR160AB0</id>
 <qty>1</qty>
-<price qty="1" costPrice="8684.88" rPrice="10217.5"/>
+<price qty="1" costPrice="7196.78" rPrice="8466.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -158993,7 +158993,7 @@
 <offer>
 <id>UN2882DR320AA0</id>
 <qty>18</qty>
-<price qty="1" costPrice="15465.82" rPrice="18195.08"/>
+<price qty="1" costPrice="12254.23" rPrice="14416.74"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159008,9 +159008,26 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN2882DR320AB0</id>
+<qty>0</qty>
+<price qty="1" costPrice="12254.23" rPrice="14416.74"/>
+<categoryId>47</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 288-2DR32-0AB0 МОДУЛЬ ВВОДА-ВЫВОДА РЕЛЕЙНЫХ СИГНАЛОВ EM DR32 16DI 24VDC/16DO RLY</name>
+<partNumber>UN 288-2DR32-0AB0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 288-2DR32-0AB0 МОДУЛЬ ВВОДА-ВЫВОДА РЕЛЕЙНЫХ СИГНАЛОВ EM DR32 16DI 24VDC/16DO RLY]]></description>
+<itemGroupId>3061</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN2882DT080AA0</id>
 <qty>14</qty>
-<price qty="1" costPrice="5036.71" rPrice="5925.54"/>
+<price qty="1" costPrice="4862.49" rPrice="5720.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159027,7 +159044,7 @@
 <offer>
 <id>UN2882DT080AB0</id>
 <qty>5</qty>
-<price qty="1" costPrice="5036.71" rPrice="5925.54"/>
+<price qty="1" costPrice="4084.74" rPrice="4805.58"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159044,7 +159061,7 @@
 <offer>
 <id>UN2882DT160AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="8684.88" rPrice="10217.5"/>
+<price qty="1" costPrice="8419.4" rPrice="9905.18"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159060,8 +159077,8 @@
 </offer>
 <offer>
 <id>UN2882DT320AA0</id>
-<qty>8</qty>
-<price qty="1" costPrice="15465.82" rPrice="18195.08"/>
+<qty>9</qty>
+<price qty="1" costPrice="14587.48" rPrice="17161.74"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159078,7 +159095,7 @@
 <offer>
 <id>UN2882QR160AA0</id>
 <qty>22</qty>
-<price qty="1" costPrice="9212.71" rPrice="10838.48"/>
+<price qty="1" costPrice="8836.28" rPrice="10395.62"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159095,7 +159112,7 @@
 <offer>
 <id>UN2882QT160AA0</id>
 <qty>20</qty>
-<price qty="1" costPrice="9212.71" rPrice="10838.48"/>
+<price qty="1" costPrice="8752.28" rPrice="10296.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159112,7 +159129,7 @@
 <offer>
 <id>UN2883AE040AA0</id>
 <qty>1</qty>
-<price qty="1" costPrice="7812.76" rPrice="9191.48"/>
+<price qty="1" costPrice="7390.7" rPrice="8694.94"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159129,7 +159146,7 @@
 <offer>
 <id>UN2883AE040AB0</id>
 <qty>5</qty>
-<price qty="1" costPrice="7812.76" rPrice="9191.48"/>
+<price qty="1" costPrice="7390.7" rPrice="8694.94"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159146,7 +159163,7 @@
 <offer>
 <id>UN2883AE080AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="15637.96" rPrice="18397.6"/>
+<price qty="1" costPrice="10697.69" rPrice="12585.52"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159163,7 +159180,7 @@
 <offer>
 <id>UN2883AE080AB0</id>
 <qty>11</qty>
-<price qty="1" costPrice="15637.96" rPrice="18397.6"/>
+<price qty="1" costPrice="10697.69" rPrice="12585.52"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159180,7 +159197,7 @@
 <offer>
 <id>UN2883AM030AA1</id>
 <qty>7</qty>
-<price qty="1" costPrice="8340.59" rPrice="9812.46"/>
+<price qty="1" costPrice="7974.53" rPrice="9381.8"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159197,7 +159214,7 @@
 <offer>
 <id>UN2883AM060AA0</id>
 <qty>8</qty>
-<price qty="1" costPrice="15637.96" rPrice="18397.6"/>
+<price qty="1" costPrice="11281.52" rPrice="13272.38"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159214,7 +159231,7 @@
 <offer>
 <id>UN2883AM060AB0</id>
 <qty>3</qty>
-<price qty="1" costPrice="15637.96" rPrice="18397.6"/>
+<price qty="1" costPrice="11281.52" rPrice="13272.38"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159231,7 +159248,7 @@
 <offer>
 <id>UN2883AQ020AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="8512.73" rPrice="10014.98"/>
+<price qty="1" costPrice="15866.1" rPrice="18666.0"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159248,7 +159265,7 @@
 <offer>
 <id>UN2883AQ040AA1</id>
 <qty>14</qty>
-<price qty="1" costPrice="16325.49" rPrice="19206.46"/>
+<price qty="1" costPrice="14198.6" rPrice="16704.24"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159265,7 +159282,7 @@
 <offer>
 <id>UN2883AR020AB0</id>
 <qty>10</qty>
-<price qty="1" costPrice="9556.99" rPrice="11243.52"/>
+<price qty="1" costPrice="7891.57" rPrice="9284.2"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159282,7 +159299,7 @@
 <offer>
 <id>UN2883AR040AA0</id>
 <qty>4</qty>
-<price qty="1" costPrice="18241.87" rPrice="21461.02"/>
+<price qty="1" costPrice="14587.48" rPrice="17161.74"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159299,7 +159316,7 @@
 <offer>
 <id>UN2883AT040AA0</id>
 <qty>2</qty>
-<price qty="1" costPrice="11731.58" rPrice="13801.86"/>
+<price qty="1" costPrice="11281.52" rPrice="13272.38"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159316,7 +159333,7 @@
 <offer>
 <id>UH507W34G010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="25477.02" rPrice="29972.96"/>
+<price qty="1" costPrice="15449.23" rPrice="18175.56"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159333,7 +159350,7 @@
 <offer>
 <id>UH507W3WA010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="14482.74" rPrice="17038.52"/>
+<price qty="1" costPrice="32342.99" rPrice="38050.58"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159350,7 +159367,7 @@
 <offer>
 <id>UH507W3WF010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="15920.02" rPrice="18729.44"/>
+<price qty="1" costPrice="14059.65" rPrice="16540.76"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159367,7 +159384,7 @@
 <offer>
 <id>UH5101AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="19691.59" rPrice="23166.58"/>
+<price qty="1" costPrice="21089.47" rPrice="24811.14"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159384,7 +159401,7 @@
 <offer>
 <id>UH5104EU010AA8</id>
 <qty>1</qty>
-<price qty="1" costPrice="21717.89" rPrice="25550.46"/>
+<price qty="1" costPrice="16671.85" rPrice="19613.94"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159401,7 +159418,7 @@
 <offer>
 <id>UH510W34G010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="33302.22" rPrice="39179.08"/>
+<price qty="1" costPrice="22479.05" rPrice="26445.94"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159418,7 +159435,7 @@
 <offer>
 <id>UH510W3WA010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="21717.89" rPrice="25550.46"/>
+<price qty="1" costPrice="47237.42" rPrice="55573.44"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159435,7 +159452,7 @@
 <offer>
 <id>UH510W3WF010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="23167.62" rPrice="27256.02"/>
+<price qty="1" costPrice="21089.47" rPrice="24811.14"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159452,7 +159469,7 @@
 <offer>
 <id>UA407AE20RDM00</id>
 <qty>0</qty>
-<price qty="1" costPrice="20563.71" rPrice="24192.6"/>
+<price qty="1" costPrice="23062.88" rPrice="27132.8"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159467,26 +159484,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UA407AE20RAM00</id>
-<qty>0</qty>
-<price qty="1" costPrice="23745.23" rPrice="27935.56"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>ПАНЕЛЬНЫЙ КОНТРОЛЛЕР 7inch 10DI 10DO RLY 2AI 2AO 1*ethernet</name>
-<partNumber>UA 407AE-20RAM-00</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[ПАНЕЛЬНЫЙ КОНТРОЛЛЕР 7inch 10DI 10DO RLY 2AI 2AO 1*ethernet]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UH4074EU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="12160.9" rPrice="14306.94"/>
+<price qty="1" costPrice="10308.82" rPrice="12128.02"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159503,7 +159503,7 @@
 <offer>
 <id>UH407A2AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="11288.78" rPrice="13280.92"/>
+<price qty="1" costPrice="12365.19" rPrice="14547.28"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159520,7 +159520,7 @@
 <offer>
 <id>UH407A2EU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="12738.51" rPrice="14986.48"/>
+<price qty="1" costPrice="7529.66" rPrice="8858.42"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159537,7 +159537,7 @@
 <offer>
 <id>UH4104EU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="18819.48" rPrice="22140.56"/>
+<price qty="1" costPrice="16671.85" rPrice="19613.94"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159554,7 +159554,7 @@
 <offer>
 <id>UH5071AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="11731.58" rPrice="13801.86"/>
+<price qty="1" costPrice="19117.1" rPrice="22490.7"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159571,7 +159571,7 @@
 <offer>
 <id>UH5074EU010AA8</id>
 <qty>0</qty>
-<price qty="1" costPrice="13180.27" rPrice="15506.2"/>
+<price qty="1" costPrice="12504.15" rPrice="14710.76"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159588,7 +159588,7 @@
 <offer>
 <id>UA407AS20RDM00</id>
 <qty>0</qty>
-<price qty="1" costPrice="18241.87" rPrice="21461.02"/>
+<price qty="1" costPrice="20811.55" rPrice="24484.18"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159605,7 +159605,7 @@
 <offer>
 <id>UA407AS20RAM00</id>
 <qty>0</qty>
-<price qty="1" costPrice="21423.38" rPrice="25203.98"/>
+<price qty="1" costPrice="19978.84" rPrice="23504.52"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159622,7 +159622,7 @@
 <offer>
 <id>UA407WWA30RAMS</id>
 <qty>32</qty>
-<price qty="1" costPrice="19342.12" rPrice="22755.44"/>
+<price qty="1" costPrice="15560.18" rPrice="18306.1"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159639,7 +159639,7 @@
 <offer>
 <id>UH4042AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="9262.48" rPrice="10897.04"/>
+<price qty="1" costPrice="10141.86" rPrice="11931.6"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159656,7 +159656,7 @@
 <offer>
 <id>UA407WWA18RAMN</id>
 <qty>1</qty>
-<price qty="1" costPrice="19175.17" rPrice="22559.02"/>
+<price qty="1" costPrice="15560.18" rPrice="18306.1"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159673,7 +159673,7 @@
 <offer>
 <id>UA407WWA18TAMN</id>
 <qty>4</qty>
-<price qty="1" costPrice="19175.17" rPrice="22559.02"/>
+<price qty="1" costPrice="19451.01" rPrice="22883.54"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159690,7 +159690,7 @@
 <offer>
 <id>UA407WWA20RAMS</id>
 <qty>0</qty>
-<price qty="1" costPrice="18310.31" rPrice="21541.54"/>
+<price qty="1" costPrice="14726.44" rPrice="17325.22"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159707,7 +159707,7 @@
 <offer>
 <id>UH4042EU010AA0</id>
 <qty>8</qty>
-<price qty="1" costPrice="10429.11" rPrice="12269.54"/>
+<price qty="1" costPrice="8891.24" rPrice="10460.28"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159724,7 +159724,7 @@
 <offer>
 <id>UH4074AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="10711.17" rPrice="12601.38"/>
+<price qty="1" costPrice="11809.36" rPrice="13893.36"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159741,7 +159741,7 @@
 <offer>
 <id>UN1242CE230XB8</id>
 <qty>2</qty>
-<price qty="1" costPrice="25248.26" rPrice="23845.58"/>
+<price qty="1" costPrice="16714.0" rPrice="15785.44"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159756,26 +159756,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1242DB230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="24687.06" rPrice="23315.56"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-2DB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124XP-2R AC/DC/RLY. Local Digital 10DI/8DO, Local analog 4AI/2AO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485</name>
-<partNumber>UN 124-2DB23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 124-2DB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124XP-2R AC/DC/RLY. Local Digital 10DI/8DO, Local analog 4AI/2AO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1242DD230XB8</id>
 <qty>2</qty>
-<price qty="1" costPrice="22442.26" rPrice="21195.47"/>
+<price qty="1" costPrice="15343.29" rPrice="14490.89"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159790,26 +159773,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1262AD230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="21319.86" rPrice="20135.42"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 126-2AD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126-2Q DC/DC/DC 24DI/16DO 2PPI</name>
-<partNumber>UN 126-2AD23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 126-2AD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126-2Q DC/DC/DC 24DI/16DO 2PPI]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1262AE230XB8</id>
 <qty>4</qty>
-<price qty="1" costPrice="22884.33" rPrice="21612.98"/>
+<price qty="1" costPrice="15644.71" rPrice="14775.56"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159824,26 +159790,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1262BD230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="23293.39" rPrice="21999.31"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 126-2BD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126-2R AC/DC/RLY 24DI/16DO 2PPI</name>
-<partNumber>UN 126-2BD23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 126-2BD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126-2R AC/DC/RLY 24DI/16DO 2PPI]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1262BE230XB8</id>
 <qty>1</qty>
-<price qty="1" costPrice="24840.64" rPrice="23460.6"/>
+<price qty="1" costPrice="16988.14" rPrice="16044.36"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159858,26 +159807,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1242DE230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="27491.62" rPrice="25964.31"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-2DE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124XPE-2R AC/DC/RLY 10DI/8DO 4AI/2AO 2PPI 1Eth.</name>
-<partNumber>UN 124-2DE23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 124-2DE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124XPE-2R AC/DC/RLY 10DI/8DO 4AI/2AO 2PPI 1Eth.]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN2141AD230XB8</id>
 <qty>0</qty>
-<price qty="1" costPrice="15207.6" rPrice="17891.3"/>
+<price qty="1" costPrice="14587.48" rPrice="17161.74"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159894,7 +159826,7 @@
 <offer>
 <id>UN2141BD230XB8</id>
 <qty>0</qty>
-<price qty="1" costPrice="16214.53" rPrice="19075.92"/>
+<price qty="1" costPrice="15560.18" rPrice="18306.1"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159911,7 +159843,7 @@
 <offer>
 <id>UN2142AD230XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="18192.09" rPrice="21402.46"/>
+<price qty="1" costPrice="17505.6" rPrice="20594.82"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159928,7 +159860,7 @@
 <offer>
 <id>UN2142BD230XB0</id>
 <qty>4</qty>
-<price qty="1" costPrice="19261.24" rPrice="22660.28"/>
+<price qty="1" costPrice="17783.51" rPrice="20921.78"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159945,7 +159877,7 @@
 <offer>
 <id>UN2162AD230XB8</id>
 <qty>0</qty>
-<price qty="1" costPrice="21288.57" rPrice="25045.38"/>
+<price qty="1" costPrice="20422.68" rPrice="24026.68"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159962,7 +159894,7 @@
 <offer>
 <id>UN2843BD230XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="22295.5" rPrice="26230.0"/>
+<price qty="1" costPrice="21645.3" rPrice="25465.06"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159979,7 +159911,7 @@
 <offer>
 <id>UN2843AD230XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="20268.16" rPrice="23844.9"/>
+<price qty="1" costPrice="19672.93" rPrice="23144.62"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -159996,7 +159928,7 @@
 <offer>
 <id>UN2162BD230XB8</id>
 <qty>0</qty>
-<price qty="1" costPrice="22295.5" rPrice="26230.0"/>
+<price qty="1" costPrice="21395.38" rPrice="25171.04"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160013,7 +159945,7 @@
 <offer>
 <id>UN1221AA230XB8</id>
 <qty>4</qty>
-<price qty="1" costPrice="9537.53" rPrice="9007.67"/>
+<price qty="1" costPrice="6520.54" rPrice="6158.29"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160030,7 +159962,7 @@
 <offer>
 <id>UN1221BA230XB8</id>
 <qty>4</qty>
-<price qty="1" costPrice="9537.53" rPrice="9007.67"/>
+<price qty="1" costPrice="6520.54" rPrice="6158.29"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160047,7 +159979,7 @@
 <offer>
 <id>UN2881SR200AA0</id>
 <qty>10</qty>
-<price qty="1" costPrice="11817.65" rPrice="13903.12"/>
+<price qty="1" costPrice="9531.07" rPrice="11213.02"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160062,9 +159994,26 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN2881SR200AB0</id>
+<qty>0</qty>
+<price qty="1" costPrice="9531.07" rPrice="11213.02"/>
+<categoryId>44</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 288-1SR20-0AB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР S7 200 smart PLC 12DI/8DO Rly 220V AC power	</name>
+<partNumber>UN 288-1SR20-0AB0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 288-1SR20-0AB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР S7 200 smart PLC 12DI/8DO Rly 220V AC power	]]></description>
+<itemGroupId>3061</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN2881SR20EXPA1</id>
 <qty>8</qty>
-<price qty="1" costPrice="18990.58" rPrice="22341.86"/>
+<price qty="1" costPrice="18200.39" rPrice="21412.22"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160081,7 +160030,7 @@
 <offer>
 <id>UN2881SR300AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="14765.84" rPrice="17371.58"/>
+<price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160098,7 +160047,7 @@
 <offer>
 <id>UN2881SR300AB0</id>
 <qty>10</qty>
-<price qty="1" costPrice="14765.84" rPrice="17371.58"/>
+<price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160115,7 +160064,7 @@
 <offer>
 <id>UN2881SR30EXPA1</id>
 <qty>2</qty>
-<price qty="1" costPrice="22442.75" rPrice="26403.24"/>
+<price qty="1" costPrice="21506.34" rPrice="25301.58"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160132,7 +160081,7 @@
 <offer>
 <id>UN2881SR400AA0</id>
 <qty>22</qty>
-<price qty="1" costPrice="19113.98" rPrice="22487.04"/>
+<price qty="1" costPrice="18339.35" rPrice="21575.7"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160149,7 +160098,7 @@
 <offer>
 <id>UN2881SR600AB0</id>
 <qty>6</qty>
-<price qty="1" costPrice="24666.08" rPrice="29018.92"/>
+<price qty="1" costPrice="19839.88" rPrice="23341.04"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160166,7 +160115,7 @@
 <offer>
 <id>UN2881ST200AA0</id>
 <qty>6</qty>
-<price qty="1" costPrice="11817.65" rPrice="13903.12"/>
+<price qty="1" costPrice="10503.77" rPrice="12357.38"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160183,7 +160132,7 @@
 <offer>
 <id>UN2881ST20EXPA1</id>
 <qty>0</qty>
-<price qty="1" costPrice="18990.58" rPrice="22341.86"/>
+<price qty="1" costPrice="18200.39" rPrice="21412.22"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160200,7 +160149,7 @@
 <offer>
 <id>UN2881ST300AA0</id>
 <qty>9</qty>
-<price qty="1" costPrice="14765.84" rPrice="17371.58"/>
+<price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160217,7 +160166,7 @@
 <offer>
 <id>UN2881ST300AB0</id>
 <qty>5</qty>
-<price qty="1" costPrice="14765.84" rPrice="17371.58"/>
+<price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160234,7 +160183,7 @@
 <offer>
 <id>UN2881ST30EXPA1</id>
 <qty>0</qty>
-<price qty="1" costPrice="22442.75" rPrice="26403.24"/>
+<price qty="1" costPrice="21506.34" rPrice="25301.58"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160251,7 +160200,7 @@
 <offer>
 <id>UN1221BA300XB8</id>
 <qty>4</qty>
-<price qty="1" costPrice="10098.73" rPrice="9537.69"/>
+<price qty="1" costPrice="6576.52" rPrice="6211.16"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160268,7 +160217,7 @@
 <offer>
 <id>UN2881ST400AB0</id>
 <qty>4</qty>
-<price qty="1" costPrice="19113.98" rPrice="22487.04"/>
+<price qty="1" costPrice="15366.27" rPrice="18077.96"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160285,7 +160234,7 @@
 <offer>
 <id>UN2881ST600AA0</id>
 <qty>5</qty>
-<price qty="1" costPrice="24666.08" rPrice="29018.92"/>
+<price qty="1" costPrice="19839.88" rPrice="23341.04"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160302,7 +160251,7 @@
 <offer>
 <id>UN1241AD230XB8</id>
 <qty>0</qty>
-<price qty="1" costPrice="12632.02" rPrice="11930.24"/>
+<price qty="1" costPrice="6987.01" rPrice="6598.84"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160317,26 +160266,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1241BB230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="14588.33" rPrice="13777.87"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-1BB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-1R AC/DC/RLY.  Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 1(one) RS485</name>
-<partNumber>UN 124-1BB23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 124-1BB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-1R AC/DC/RLY.  Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 1(one) RS485]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1241BD230XB8</id>
 <qty>68</qty>
-<price qty="1" costPrice="12632.02" rPrice="11930.24"/>
+<price qty="1" costPrice="8356.28" rPrice="7892.04"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160353,7 +160285,7 @@
 <offer>
 <id>UN1242AD230XB8</id>
 <qty>2</qty>
-<price qty="1" costPrice="15438.02" rPrice="14580.36"/>
+<price qty="1" costPrice="10001.13" rPrice="9445.51"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160370,7 +160302,7 @@
 <offer>
 <id>UN1242AE230XB8</id>
 <qty>61</qty>
-<price qty="1" costPrice="16831.69" rPrice="15896.6"/>
+<price qty="1" costPrice="11508.19" rPrice="10868.84"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160385,43 +160317,9 @@
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1242BB230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="18242.59" rPrice="17229.11"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-2BB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485</name>
-<partNumber>UN 124-2BB23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 124-2BB23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN1242BD230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="15438.02" rPrice="14580.36"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-2BD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-2R DC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485</name>
-<partNumber>UN 124-2BD23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 124-2BD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124-2R DC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485]]></description>
-<itemGroupId>3061</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN2881ST400AA0</id>
 <qty>13</qty>
-<price qty="1" costPrice="19113.98" rPrice="22487.04"/>
+<price qty="1" costPrice="17116.72" rPrice="20137.32"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160438,7 +160336,7 @@
 <offer>
 <id>UN1242BE230XB8</id>
 <qty>6</qty>
-<price qty="1" costPrice="18242.59" rPrice="17229.11"/>
+<price qty="1" costPrice="12466.96" rPrice="11774.36"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -160455,7 +160353,7 @@
 <offer>
 <id>UN1242CD230XB8</id>
 <qty>1</qty>
-<price qty="1" costPrice="21048.59" rPrice="19879.22"/>
+<price qty="1" costPrice="14384.52" rPrice="13585.38"/>
 <categoryId>44</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
