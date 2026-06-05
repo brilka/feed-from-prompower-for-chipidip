@@ -7295,7 +7295,7 @@
 </offer>
 <offer>
 <id>ESM263C202</id>
-<qty>25</qty>
+<qty>24</qty>
 <url>https://www.prompower.ru/catalog/mcb/ESM263C202</url>
 <price qty="1" costPrice="1113.74" rPrice="1310.28"/>
 <categoryId>4</categoryId>
@@ -13695,7 +13695,7 @@
 </offer>
 <offer>
 <id>CMXL6016PS</id>
-<qty>5</qty>
+<qty>3</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CMXL6016PS</url>
 <price qty="1" costPrice="13155.38" rPrice="15476.92"/>
 <categoryId>55</categoryId>
@@ -14255,7 +14255,7 @@
 </offer>
 <offer>
 <id>CME05A16PS</id>
-<qty>2</qty>
+<qty>1</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CME05A16PS</url>
 <price qty="1" costPrice="2377.84" rPrice="2797.46"/>
 <categoryId>55</categoryId>
@@ -14415,7 +14415,7 @@
 </offer>
 <offer>
 <id>CMBXL6016PS</id>
-<qty>8</qty>
+<qty>7</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CMBXL6016PS</url>
 <price qty="1" costPrice="15347.6" rPrice="18056.0"/>
 <categoryId>55</categoryId>
@@ -15295,7 +15295,7 @@
 </offer>
 <offer>
 <id>CPSLM16PS</id>
-<qty>10</qty>
+<qty>7</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CPSLM16PS</url>
 <price qty="1" costPrice="4868.71" rPrice="5727.9"/>
 <categoryId>55</categoryId>
@@ -15415,7 +15415,7 @@
 </offer>
 <offer>
 <id>CPSEM16PS</id>
-<qty>2</qty>
+<qty>1</qty>
 <url>https://www.prompower.ru/catalog/servo/servo-accessories/CPSEM16PS</url>
 <price qty="1" costPrice="3530.99" rPrice="4154.1"/>
 <categoryId>55</categoryId>
@@ -16122,7 +16122,7 @@
 </offer>
 <offer>
 <id>NDR12024</id>
-<qty>647</qty>
+<qty>627</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR12024</url>
 <price qty="1" costPrice="3052.93" rPrice="3591.68"/>
 <categoryId>30</categoryId>
@@ -20006,7 +20006,7 @@
 </offer>
 <offer>
 <id>PDBU4075</id>
-<qty>13</qty>
+<qty>12</qty>
 <url>https://www.prompower.ru/catalog/external-brake-units/PDBU4075</url>
 <price qty="1" costPrice="51993.11" rPrice="61168.36"/>
 <categoryId>71</categoryId>
@@ -26569,7 +26569,7 @@
 </offer>
 <offer>
 <id>PLA1KN11</id>
-<qty>16</qty>
+<qty>6</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-auxilliary-contacts/PLA1KN11</url>
 <price qty="1" costPrice="658.49" rPrice="774.7"/>
 <categoryId>61</categoryId>
@@ -30681,7 +30681,7 @@
 </offer>
 <offer>
 <id>KJ208D02PADS845TA</id>
-<qty>472</qty>
+<qty>457</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KJ208D02PADS845TA</url>
 <price qty="1" costPrice="1846.9" rPrice="2172.82"/>
 <categoryId>76</categoryId>
@@ -32026,7 +32026,7 @@
 </offer>
 <offer>
 <id>KJTJ12S4LY</id>
-<qty>1818</qty>
+<qty>1812</qty>
 <url>https://www.prompower.ru/catalog/sensor-cables/KJTJ12S4LY</url>
 <price qty="1" costPrice="822.34" rPrice="967.46"/>
 <categoryId>36</categoryId>
@@ -32118,7 +32118,7 @@
 </offer>
 <offer>
 <id>KJTJ12A4TA</id>
-<qty>646</qty>
+<qty>640</qty>
 <url>https://www.prompower.ru/catalog/sensor-cables/KJTJ12A4TA</url>
 <price qty="1" costPrice="925.0" rPrice="1088.24"/>
 <categoryId>36</categoryId>
@@ -40538,7 +40538,7 @@
 </offer>
 <offer>
 <id>JLP1D2510BDDC24</id>
-<qty>279</qty>
+<qty>271</qty>
 <url>https://www.prompower.ru/catalog/nka/contactors/JLP1D2510BDDC24</url>
 <price qty="1" costPrice="1576.24" rPrice="1854.4"/>
 <categoryId>7</categoryId>
@@ -41239,7 +41239,7 @@
 </offer>
 <offer>
 <id>JLP1D2501BDDC24</id>
-<qty>86</qty>
+<qty>78</qty>
 <url>https://www.prompower.ru/catalog/nka/contactors/JLP1D2501BDDC24</url>
 <price qty="1" costPrice="1576.24" rPrice="1854.4"/>
 <categoryId>7</categoryId>
@@ -42438,7 +42438,7 @@
 </offer>
 <offer>
 <id>PLP1K1201BD</id>
-<qty>169</qty>
+<qty>159</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-mini-contactors/PLP1K1201BD</url>
 <price qty="1" costPrice="3737.35" rPrice="4396.88"/>
 <categoryId>63</categoryId>
@@ -83693,7 +83693,7 @@
 </offer>
 <offer>
 <id>PD310IO1</id>
-<qty>41</qty>
+<qty>33</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/PD310IO1</url>
 <price qty="1" costPrice="3739.42" rPrice="4399.32"/>
 <categoryId>21</categoryId>
@@ -83734,7 +83734,7 @@
 </offer>
 <offer>
 <id>PD310EC1</id>
-<qty>57</qty>
+<qty>59</qty>
 <url>https://www.prompower.ru/catalog/inverters/inverter-options/PD310EC1</url>
 <price qty="1" costPrice="12998.79" rPrice="15292.7"/>
 <categoryId>21</categoryId>
@@ -105192,7 +105192,7 @@
 </offer>
 <offer>
 <id>PD100A4075</id>
-<qty>3</qty>
+<qty>2</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd100/PD100A4075</url>
 <price qty="1" costPrice="16266.19" rPrice="15362.51"/>
 <categoryId>13</categoryId>
@@ -105418,7 +105418,7 @@
 </offer>
 <offer>
 <id>PD110A4110</id>
-<qty>12</qty>
+<qty>11</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd110/PD110A4110</url>
 <price qty="1" costPrice="23323.53" rPrice="22027.78"/>
 <categoryId>15</categoryId>
@@ -105589,7 +105589,7 @@
 </offer>
 <offer>
 <id>PD150A4075B</id>
-<qty>50</qty>
+<qty>46</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4075B</url>
 <price qty="1" costPrice="19013.4" rPrice="22368.7"/>
 <categoryId>70</categoryId>
@@ -105659,7 +105659,7 @@
 </offer>
 <offer>
 <id>PD150A4040B</id>
-<qty>26</qty>
+<qty>12</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4040B</url>
 <price qty="1" costPrice="11879.87" rPrice="13976.32"/>
 <categoryId>70</categoryId>
@@ -106080,7 +106080,7 @@
 </offer>
 <offer>
 <id>PD210A4055B</id>
-<qty>56</qty>
+<qty>55</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4055B</url>
 <price qty="1" costPrice="28459.43" rPrice="33481.68"/>
 <categoryId>49</categoryId>
@@ -106152,7 +106152,7 @@
 </offer>
 <offer>
 <id>PD210A4110B</id>
-<qty>31</qty>
+<qty>30</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4110B</url>
 <price qty="1" costPrice="46612.11" rPrice="54837.78"/>
 <categoryId>49</categoryId>
@@ -106440,7 +106440,7 @@
 </offer>
 <offer>
 <id>PD210A4007B</id>
-<qty>85</qty>
+<qty>84</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4007B</url>
 <price qty="1" costPrice="16646.96" rPrice="19584.66"/>
 <categoryId>49</categoryId>
@@ -106584,7 +106584,7 @@
 </offer>
 <offer>
 <id>PD310A4075B</id>
-<qty>94</qty>
+<qty>90</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4075B</url>
 <price qty="1" costPrice="45927.69" rPrice="54032.58"/>
 <categoryId>42</categoryId>
@@ -106674,7 +106674,7 @@
 </offer>
 <offer>
 <id>PD310A4110B</id>
-<qty>20</qty>
+<qty>16</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4110B</url>
 <price qty="1" costPrice="57831.42" rPrice="68036.96"/>
 <categoryId>42</categoryId>
@@ -106944,7 +106944,7 @@
 </offer>
 <offer>
 <id>PD310A4150B</id>
-<qty>15</qty>
+<qty>14</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4150B</url>
 <price qty="1" costPrice="74706.52" rPrice="87890.02"/>
 <categoryId>42</categoryId>
@@ -107169,7 +107169,7 @@
 </offer>
 <offer>
 <id>PD310A4220B</id>
-<qty>8</qty>
+<qty>3</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4220B</url>
 <price qty="1" costPrice="98331.45" rPrice="115684.06"/>
 <categoryId>42</categoryId>
@@ -107619,7 +107619,7 @@
 </offer>
 <offer>
 <id>PD310A4370</id>
-<qty>10</qty>
+<qty>9</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4370</url>
 <price qty="1" costPrice="137965.59" rPrice="162312.46"/>
 <categoryId>42</categoryId>
@@ -110227,7 +110227,7 @@
 </offer>
 <offer>
 <id>PD310A4015B</id>
-<qty>32</qty>
+<qty>31</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4015B</url>
 <price qty="1" costPrice="23624.93" rPrice="27794.04"/>
 <categoryId>42</categoryId>
@@ -110362,7 +110362,7 @@
 </offer>
 <offer>
 <id>PD310A4055B</id>
-<qty>37</qty>
+<qty>32</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4055B</url>
 <price qty="1" costPrice="37398.37" rPrice="43998.08"/>
 <categoryId>42</categoryId>
@@ -112097,7 +112097,7 @@
 </offer>
 <offer>
 <id>PMP6EC</id>
-<qty>14</qty>
+<qty>15</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PMP6EC</url>
 <price qty="1" costPrice="21617.3" rPrice="25432.12"/>
 <categoryId>19</categoryId>
@@ -112123,7 +112123,7 @@
 </offer>
 <offer>
 <id>PPS1G0612</id>
-<qty>194</qty>
+<qty>179</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PPS1G0612</url>
 <price qty="1" costPrice="10034.01" rPrice="11804.72"/>
 <categoryId>19</categoryId>
@@ -140140,7 +140140,7 @@
 </offer>
 <offer>
 <id>P2S100422BA</id>
-<qty>37</qty>
+<qty>35</qty>
 <url>https://www.prompower.ru/catalog/softstarters/p2s-100/P2S100422BA</url>
 <price qty="1" costPrice="36959.72" rPrice="43482.02"/>
 <categoryId>27</categoryId>
@@ -141618,7 +141618,7 @@
 </offer>
 <offer>
 <id>PKLR300P</id>
-<qty>105</qty>
+<qty>85</qty>
 <url>https://www.prompower.ru/catalog/photo-sensors/PKLR300P</url>
 <price qty="1" costPrice="2039.78" rPrice="2399.74"/>
 <categoryId>16</categoryId>
@@ -156836,7 +156836,7 @@
 </offer>
 <offer>
 <id>DL65EBK5</id>
-<qty>5</qty>
+<qty>4</qty>
 <url>https://www.prompower.ru/catalog/emi-filters/DL65EBK5</url>
 <price qty="1" costPrice="25313.17" rPrice="29780.2"/>
 <categoryId>72</categoryId>
@@ -156940,7 +156940,7 @@
 </offer>
 <offer>
 <id>UN8300EH100AA0</id>
-<qty>13114</qty>
+<qty>13064</qty>
 <price qty="1" costPrice="166.96" rPrice="196.42"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -157552,7 +157552,7 @@
 </offer>
 <offer>
 <id>UN2211BH320XB0</id>
-<qty>154</qty>
+<qty>149</qty>
 <price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -157569,7 +157569,7 @@
 </offer>
 <offer>
 <id>UN2221BF320XB0</id>
-<qty>95</qty>
+<qty>94</qty>
 <price qty="1" costPrice="6030.15" rPrice="7094.3"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -157586,7 +157586,7 @@
 </offer>
 <offer>
 <id>UN2221BH320XB0</id>
-<qty>55</qty>
+<qty>53</qty>
 <price qty="1" costPrice="9336.11" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -157654,7 +157654,7 @@
 </offer>
 <offer>
 <id>UN2231BL320XB0</id>
-<qty>74</qty>
+<qty>73</qty>
 <price qty="1" costPrice="15366.27" rPrice="18077.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -157722,7 +157722,7 @@
 </offer>
 <offer>
 <id>UN2314HD320XB0</id>
-<qty>27</qty>
+<qty>26</qty>
 <price qty="1" costPrice="11864.32" rPrice="13958.02"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -158266,7 +158266,7 @@
 </offer>
 <offer>
 <id>UN2324HB320XB0</id>
-<qty>41</qty>
+<qty>40</qty>
 <price qty="1" costPrice="12837.02" rPrice="15102.38"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -158283,7 +158283,7 @@
 </offer>
 <offer>
 <id>UN2324HD320XB0</id>
-<qty>21</qty>
+<qty>18</qty>
 <price qty="1" costPrice="20422.68" rPrice="24026.68"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -158300,7 +158300,7 @@
 </offer>
 <offer>
 <id>UN2344HE320XB0</id>
-<qty>12</qty>
+<qty>10</qty>
 <price qty="1" costPrice="17894.47" rPrice="21052.32"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
