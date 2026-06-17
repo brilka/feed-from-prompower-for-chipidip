@@ -4,10 +4,10 @@
 Где он используется: В репозитории feed-from-prompower-for-chipidip на GitHub Actions.
 Что он делает:
 1. Забирает данные по API поставщика.
-2. Рассчитывает costPrice и rPrice с учетом НДС 22% (1.22) и скидок (MRPPercent).
+2. Рассчитывает costPrice и rPrice с учетом НДС 22% (1.22) и скидок (по сложной формуле с коэффициентом K).
 3. Раз в месяц (1-го числа) обходит сайт и кэширует ссылки на PDF-файлы. В остальные дни использует кэш.
 4. Генерирует XML-feed, строго соблюдая ограничения на длину строк (name) и требуемые теги.
-5. Генерирует аварийный XML-feed ZEROwarehouse, где все остатки (qty) равны 0. Он нужен для загрузки при нештатных ситуациях, когда что-то неправильно обновилось и на сайте Чип и Дип отображаются слишком низкие цены - в таком случае нужно в настройках лк Поставщика Чип и Дип заменить ссылку основного файла на ссылку аварийного, все остатки обнулятся и товары перестанут отображаться для Покупателей. После ликвидации причин ссылку нужно заменить обратно.
+5. Генерирует аварийный XML-feed ZEROwarehouse, где все остатки (qty) равны 0.
 """
 
 import requests
@@ -21,25 +21,31 @@ from bs4 import BeautifulSoup
 from xml.sax.saxutils import escape
 
 # --- НАСТРОЙКИ СЕКРЕТОВ И ОТЛАДКИ ---
+# Получаем ключи доступа к API из зашифрованных секретов GitHub
 EMAIL = os.getenv("API_EMAIL")
 KEY = os.getenv("API_KEY")
 
+# Проверяем, запущен ли режим отладки (задается вручную при запуске workflow)
 DEBUG_MODE = os.getenv("DEBUG_MODE", "false").lower() == "true"
 try:
     DEBUG_LIMIT = int(os.getenv("DEBUG_LIMIT", "3"))
 except:
     DEBUG_LIMIT = 3
 
+# Если ключи не найдены, останавливаем скрипт, чтобы не делать пустые запросы
 if not EMAIL or not KEY:
     print("КРИТИЧЕСКАЯ ОШИБКА: Не заданы секреты API_EMAIL или API_KEY в GitHub Secrets!")
     exit(1)
 
+# Базовые адреса API и названия итоговых файлов
 API_URL = "https://prompower.ru/api/prod/"
 SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
 XML_ZERO_FILENAME = "feed-from-prompower-for-chipidip-ZEROwarehouse.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
 
+# --- СЛОВАРЬ СОПОСТАВЛЕНИЯ КАТЕГОРИЙ ---
+# Ключ: Название категории от Prompower/Unimat. Значение: Код группы для Чип и Дип.
 GROUP_MAP = {
     "19“ комплектующие": "3073",
     "Аксессуары": "3073",
@@ -135,9 +141,12 @@ GROUP_MAP = {
     "Серво": "2585"
 }
 
+# Делаем дубликат словаря, где все названия написаны маленькими буквами.
+# Это нужно для надежного поиска (чтобы "MCB" и "mcb" считались одним и тем же)
 NORMALIZED_GROUP_MAP = {k.strip().lower(): v for k, v in GROUP_MAP.items()}
 
-UNIMAT_PICTURES =[
+# --- СТАТИЧНЫЕ ФАЙЛЫ И КАРТИНКИ ---
+UNIMAT_PICTURES = [
     "https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png",
     "https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg",
     "https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg",
@@ -145,7 +154,7 @@ UNIMAT_PICTURES =[
     "https://unimat-russia.ru/uploads/product-33.png"
 ]
 
-UNIMAT_PDFS =[
+UNIMAT_PDFS = [
     "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/HMI%20Catalogue%206-18.pdf",
     "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf",
     "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf",
@@ -157,11 +166,13 @@ UNIMAT_PDFS =[
     "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf"
 ]
 
-DEFAULT_PROMPOWER_PICTURES =[
+# Генерируем список дефолтных фото для Prompower (1.png - 10.png)
+DEFAULT_PROMPOWER_PICTURES = [
     f"https://brilka.github.io/feed-from-prompower-for-chipidip/{i}.png" for i in range(1, 11)
 ]
 
 def load_pdf_cache():
+    """Загружает кэш PDF-ссылок из файла json. Нужно для того, чтобы не парсить сайт каждый день."""
     if os.path.exists(CACHE_FILENAME):
         try:
             with open(CACHE_FILENAME, "r", encoding="utf-8") as f:
@@ -171,11 +182,13 @@ def load_pdf_cache():
     return {"last_update_month": -1, "urls": {}}
 
 def save_pdf_cache(cache_data):
+    """Сохраняет кэш PDF-ссылок. В режиме отладки сохранение отключено, чтобы не затереть боевой кэш."""
     if DEBUG_MODE: return
     with open(CACHE_FILENAME, "w", encoding="utf-8") as f:
         json.dump(cache_data, f, ensure_ascii=False, indent=2)
 
 def make_api_request(endpoint):
+    """Универсальная функция для отправки POST-запросов к API Prompower."""
     url = f"{API_URL}{endpoint}"
     payload = {"email": EMAIL, "key": KEY, "format": "json"}
     headers = {"Content-type": "application/json"}
@@ -185,10 +198,12 @@ def make_api_request(endpoint):
         return response.json()
     except Exception as e:
         print(f"[ОШИБКА API] при запросе к {url}: {e}")
-        return[]
+        return []
 
 def get_categories_dict():
+    """Получает иерархию категорий (и Prompower, и Unimat) и собирает их в удобный словарь."""
     categories = {}
+    # Сначала пытаемся получить категории Prompower
     try:
         resp = requests.get("https://prompower.ru/api/categories", timeout=30)
         if resp.status_code == 200:
@@ -197,7 +212,8 @@ def get_categories_dict():
     except:
         pass
 
-    endpoints_to_try =["https://prompower.ru/api/unimatCategories", "https://prompower.ru/api/unimat-categories"]
+    # Пытаемся получить категории Unimat через известные эндпоинты
+    endpoints_to_try = ["https://prompower.ru/api/unimatCategories", "https://prompower.ru/api/unimat-categories"]
     for ep in endpoints_to_try:
         try:
             resp = requests.get(ep, timeout=10)
@@ -209,7 +225,8 @@ def get_categories_dict():
     return categories
 
 def scrape_docs(url):
-    docs =[]
+    """Парсит HTML страницу товара и ищет на ней ссылки на PDF файлы (инструкции, чертежи и т.д.)."""
+    docs = []
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
@@ -217,9 +234,11 @@ def scrape_docs(url):
             for a_tag in soup.find_all('a', href=True):
                 href = a_tag['href']
                 if '.pdf' in href.lower():
+                    # Ищем div с классом text-caption (название документа)
                     div_tag = a_tag.find('div', class_=lambda x: x and "text-caption" in x)
                     doc_name = div_tag.text.strip() if div_tag else "Документация"
                     full_link = SITE_URL + href if href.startswith('/') else href
+                    # Избегаем дублей ссылок
                     if not any(d['url'] == full_link for d in docs):
                         docs.append({"url": full_link, "name": doc_name})
     except:
@@ -227,57 +246,93 @@ def scrape_docs(url):
     return docs
 
 def process_products(products, brand, categories_dict, pdf_cache, is_first_offer):
-    items_xml =[]
+    """Основная логика обработки массива товаров: пересчет цен, парсинг параметров, формирование XML блоков."""
+    items_xml = []
     param_regex = re.compile(r"^(.*?)(?:\s*\((.*?)\))?$")
     
     today = datetime.datetime.now()
     is_first_of_month = (today.day == 1)
+    
+    # Кэш PDF обновляется принудительно если это 1-е число месяца или если включен режим отладки
     need_global_pdf_update = True if DEBUG_MODE else (is_first_of_month and pdf_cache.get("last_update_month") != today.month)
 
     for prod in products:
         article = str(prod.get('article', '')).strip()
+        # Если у товара нет артикула - пропускаем (требование ТЗ)
         if not article:
             continue
             
         raw_price = prod.get('price')
+        # Если цены нет или она нулевая - пропускаем (требование ТЗ)
         if not raw_price or float(raw_price) <= 0:
             continue
             
+        # Извлекаем базовые параметры из API
         price_val = float(raw_price)
         mrp_percent = float(prod.get('MRPPercent', 0))
+        discount_percent = float(prod.get('discountPercent', 0)) # Скидка для расчета "B"
         instock = str(prod.get('instock', 0))
         description = str(prod.get('description', ''))
         title = str(prod.get('title', ''))
         
+        # Формируем корректную ссылку на карточку товара
         url = ""
         if brand == "Prompower" and prod.get('path'):
             path_str = prod.get('path')
             if not path_str.startswith('/'): path_str = '/' + path_str
             url = f"{SITE_URL}/catalog{path_str}"
             
-        # --- НОВАЯ ЛОГИКА РАСЧЕТА costPrice ---
+        # ========================================================
+        # РАСЧЕТ ЦЕНООБРАЗОВАНИЯ (costPrice и rPrice) СОГЛАСНО ТЗ
+        # ========================================================
+        
+        # rPrice (Рекомендованная цена) всегда считается одинаково для всех
+        r_price = price_val * 1.22
+        
+        # costPrice (Закупочная цена для Чип и Дип)
         if mrp_percent == 0:
+            # Вариант 1: MRPPercent отсутствует или 0
             cost_price = (price_val * 1.22) / 0.85
-            r_price = (price_val * 1.22) / 0.9
         else:
+            # Вариант 2: MRPPercent присутствует
             K = 1.25
-            B = price_val * 1.22 * ((100 - mrp_percent) / 100)
-            while True:
-                A = (price_val * 1.22) / K
-                if A == 0: break
-                if (B / A) > 0.85:
-                    K -= 0.01
-                else:
-                    break
-            cost_price = (price_val * 1.22) / K
-            r_price = price_val * 1.22
+            # Рассчитываем значение B (С учетом скидки)
+            B = price_val * 1.22 * ((100.0 - discount_percent) / 100.0)
             
+            # Цикл понижения коэффициента K, пока соотношение B/A не станет <= 0.85
+            while True:
+                # Защита от бесконечного цикла (если K опустится ниже или равно 0)
+                if K <= 0.01:
+                    A = B / 0.85 
+                    break
+                    
+                # Рассчитываем значение A (Используя текущий коэффициент K)
+                A = (price_val * 1.22) / K
+                
+                # Защита от деления на ноль
+                if A == 0:
+                    break
+                    
+                # Если B/A больше 0.85, уменьшаем K на 0.01 и проверяем заново
+                if (B / A) > 0.85:
+                    K = round(K - 0.01, 2) # Округляем до 2 знаков, чтобы избежать проблем с плавающей точкой
+                else:
+                    # Условие выполнено (B/A <= 0.85), прерываем цикл
+                    break
+                    
+            cost_price = A
+            
+        # Округляем итоговые цены до копеек (2 знака после запятой)
         cost_price = round(cost_price, 2)
         r_price = round(r_price, 2)
         
+        # ========================================================
+        # ПОИСК ГРУППЫ (itemGroupId)
+        # ========================================================
         item_group_id = ""
         cat_id = prod.get('categoryId', '')
         
+        # Ищем текстовое поле категории в товаре (category, Category и т.д.)
         cat_raw = None
         for k, v in prod.items():
             if k.lower() == 'category':
@@ -294,9 +349,11 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             
         direct_category_name = direct_category_name.strip()
         
+        # Сценарий А: Ищем по точному текстовому названию категории
         if direct_category_name:
             item_group_id = NORMALIZED_GROUP_MAP.get(direct_category_name.lower(), "")
             
+        # Сценарий Б (Fallback): Если не нашли, идем по дереву ID вверх (до 5 шагов)
         if not item_group_id and cat_id and int(cat_id) in categories_dict:
             current_id = int(cat_id)
             for _ in range(5):
@@ -305,11 +362,15 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
                 cat_name = cat_data['title'].strip()
                 item_group_id = NORMALIZED_GROUP_MAP.get(cat_name.lower(), "")
                 if item_group_id: break
+                # Поднимаемся к родителю
                 if cat_data.get('parentId'):
                     current_id = int(cat_data['parentId'])
                 else:
                     break
                     
+        # ========================================================
+        # ФОРМИРОВАНИЕ XML ТЕГОВ ТОВАРА
+        # ========================================================
         offer_xml = ["<offer>"]
         
         if is_first_offer: offer_xml.append('<!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->')
@@ -322,36 +383,50 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             if is_first_offer: offer_xml.append('<!--  ссылка на карточку товара на сайте поставщика. Используется для просмотра информации о товаре складом или отделом закупок Чип и Дип. У Prompower это значение в path в API (но в path в API указан неполный путь, например, /mcb/ESM163C12 - поэтому в начале нужно дописать www.prompower.ru ). Для Unimat url недоступен.  -->')
             offer_xml.append(f"<url>{escape(url)}</url>")
             
+        # Комментарий к costPrice (дословно из ТЗ)
         if is_first_offer: 
-            offer_xml.append('<!--  costPrice - цена продажи (за единицу измерения) поставщика для Чип и Дип. Для Prompower и Unimat costPrice определяется так: \nВариант1. если MRPPercent в API для данной позиции отсутствует или равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и полученное значение разделить на 0.85. \nВариант2. если MRPPercent в API для данной позиции присутствует и не равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и разделить на коэффициент K=(1.25). Обозначим полученное число A. Далее нужно осуществить проверку: нужно price (из API Prompower) умножить на НДС (1.22) и умножить на (100-discountPercent)/100. discountPercent взять из API Prompower. Обозначим полученное число B. Если B/A выше 0.85 - то нужно пересчитать costPrice с меньшим коэффициентом K - уменьшать его (с шагом 0.01) до тех пор, пока соотношение B/A не станет меньше или равно 0.85.\n-->')
+            price_comment = """<!--  costPrice - цена продажи (за единицу измерения) поставщика для Чип и Дип. Для Prompower и Unimat costPrice определяется так: 
+Вариант1. если MRPPercent в API для данной позиции отсутствует или равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и полученное значение разделить на 0.85. 
+Вариант2. если MRPPercent в API для данной позиции присутствует и не равен 0, то логика следующая: 
+costPrice=A в том случае, если B/A меньше или равно 0.85, где 
+A считается как price (из API Prompower) умножить на НДС (1.22) и разделить на коэффициент K (изначально при расчёте для каждой позиции K=1.25); 
+B считается как price (из API Prompower) умножить на НДС (1.22) и умножить на (100-discountPercent)/100. discountPercent взять из API Prompower. 
+Если B/A выше 0.85 - то нужно пересчитать A, уменьшая коэффициент K с шагом 0.01 (т.е. 1.25, 1.24, 1.23 и т.д.) до тех пор, пока соотношение B/A не станет меньше или равно 0.85.
+
+rPrice - рекомендуемая цена продажи на сайте Чип и Дип. Не обязательное поле (если не указано - будет использовано заданное ценообразование для поставщика, т.е. costPrice*1.25). Для всех позиций Prompower и Unimat rPrice равен price (из API Prompower) умножить на НДС (1.22).  -->"""
+            offer_xml.append(price_comment)
         offer_xml.append(f'<price qty="1" costPrice="{cost_price}" rPrice="{r_price}"/>')
         
         if cat_id:
             if is_first_offer: offer_xml.append('<!--  принадлежность товара к категории поставщика. Код категории должен быть указан в списке categories. Не обязателльное поле  -->')
             offer_xml.append(f"<categoryId>{cat_id}</categoryId>")
             
+        # ФОТОГРАФИИ
         if is_first_offer: 
             offer_xml.append('<!--  Список ссылок на фото данного товара. Максимум 10 фото. Фото должны быть без водяных знаков. Не обязательное поле. Для Prompower фото загружаются по API - у разных товаров может быть разное количество фото: нужно предусмотреть, чтобы код правильно обработал подгрузку всех доступных фото. Если в каком-то img API Prompower нет значения, т.е. отсутствует ссылка на фото, то нужно подгрузить все фото, которые лежат здесь: https://brilka.github.io/feed-from-prompower-for-chipidip/ (в коде нужно указать все ссылки в списке DEFAULT_PROMPOWER_PICTURES ). Для Unimat у всех позиций нужно указать 5 фото со следующими адресами: https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png ; https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg ; https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg ; https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg ; https://unimat-russia.ru/uploads/product-33.png  -->')
         
-        final_images =[]
+        final_images = []
         if brand == "Unimat":
             final_images = UNIMAT_PICTURES
         else:
             api_images = prod.get('img', [])
-            if isinstance(api_images, str): api_images =[api_images]
+            if isinstance(api_images, str): api_images = [api_images]
             if not api_images and prod.get('image'): api_images = [prod.get('image')]
             
+            # Собираем ссылки на картинки, если они есть
             for img in api_images:
                 if img and str(img).strip():
                     img_url = img if img.startswith('http') else SITE_URL + img
                     final_images.append(img_url)
             
+            # Если после всех проверок картинок нет, берем дефолтные 10 штук
             if len(final_images) == 0:
                 final_images = DEFAULT_PROMPOWER_PICTURES
                 
         for pic in final_images[:10]:
             offer_xml.append(f"<picture>{escape(pic)}</picture>")
             
+        # НАЗВАНИЕ
         if is_first_offer: offer_xml.append('<!--  Наименование товара. Макс. 250 символов. Обязателльное поле. Для Prompower и Unimat это description в API  -->')
         safe_name = (description if description else (title if title else "Товар без названия"))[:250]
         offer_xml.append(f"<name>{escape(safe_name)}</name>")
@@ -362,7 +437,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         if is_first_offer: offer_xml.append('<!--  Название производеителя (бренда) товара. Может быть полное или сокращенное название. Не оябязательное поле. Для Prompower нужно указывать Prompower. Для Unimat нужно указывать Unimat  -->')
         offer_xml.append(f"<vendor>{brand}</vendor>")
         
-        # --- НОВАЯ ЛОГИКА DESCRIPTION ДЛЯ UNIMAT ---
+        # ОПИСАНИЕ И СПЕЦИАЛЬНЫЙ ТЕКСТ ДЛЯ UNIMAT
         if is_first_offer: 
             desc_comment = """<!--  Описание товара. Может быть в формате html. Не обязательное поле. Для Prompower и Unimat это description в API. 
 Для Unimat дополнительно добавляется следующий текст:
@@ -391,15 +466,17 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             
         if final_desc: offer_xml.append(f"<description><![CDATA[{final_desc}]]></description>")
             
+        # ПАРАМЕТРЫ ТОВАРА (Характеристики)
         if is_first_offer: offer_xml.append('<!--  список параметров товара. Максимум 20 параметров для одного товара. -->')
-        for prop in prod.get('props',[])[:20]:
+        for prop in prod.get('props', [])[:20]:
             p_name, p_val = prop.get('name', ''), prop.get('value', '')
+            # Парсим название и единицу измерения (если она в скобках)
             match = param_regex.match(p_name)
             clean_name = match.group(1).strip() if match else p_name
             unit = match.group(2) if match and match.group(2) else ""
             offer_xml.append(f'<param name="{escape(clean_name)}" unit="{escape(unit)}">{escape(str(p_val))}</param>')
             
-        # --- НОВАЯ ЛОГИКА DOCFILE ДЛЯ PROMPOWER (Родители) И UNIMAT (Гитхаб) ---
+        # ДОКУМЕНТАЦИЯ (PDF файлы)
         if is_first_offer: 
             doc_comment = """<!--  Дополнительные файлы для скачивания. Например чертеж товара, файл документации (datasheet), инструкция по использованию. Файлы не должны содержать ссылок и логотипов на сайт поставщика. Допустимый формат файла - pdf, docx.  Не обязательное поле. 
 Для Prompower доступные файлы pdf определяются следующим образом: нужно спарсить их названия и адрес со страницы, которая ранее получилась в тегах url. На этих страницах у некоторых товаров есть доступные файлы pdf. В коде страницы они расположены в разделе после названия раздела "Техническая документация и материалы для скачивания" и в следующем разделе после названия раздела "Чертежи, 3D-модели" (в class="v-list-group__items"). Сначала встречается ссылка на файл, например, href="/docs/pulse-nka/LVC_PULSE_Catalog.pdf" (ссылка неполная, поэтому в начале ещё нужно добавить www.prompower.ru), затем, после тега <div class="text-caption col col-10"> встречается название файла, например, "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта". 
@@ -421,10 +498,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
   -->"""
             offer_xml.append(doc_comment)
 
+        # Обработка файлов Prompower (Парсинг сайта)
         if brand == "Prompower" and url:
             all_product_docs = []
             
-            # 1. Парсинг страницы товара
+            # 1. Сканируем страницу самого товара
             if need_global_pdf_update or url not in pdf_cache["urls"]:
                 product_docs = scrape_docs(url)
                 pdf_cache["urls"][url] = product_docs
@@ -432,7 +510,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
                 product_docs = pdf_cache["urls"][url]
             all_product_docs.extend(product_docs)
             
-            # 2. Парсинг родительской страницы
+            # 2. Сканируем родительскую страницу
             parent_url = "/".join(url.split("/")[:-1])
             if need_global_pdf_update or parent_url not in pdf_cache["urls"]:
                 parent_docs = scrape_docs(parent_url)
@@ -440,13 +518,13 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
             else:
                 parent_docs = pdf_cache["urls"][parent_url]
                 
-            # Добавляем родительские доки, которых нет у продукта
+            # Добавляем те документы родителя, которых нет на странице продукта
             existing_urls = [d['url'] for d in all_product_docs]
             for p_doc in parent_docs:
                 if p_doc['url'] not in existing_urls:
                     all_product_docs.append(p_doc)
             
-            # 3. Добавление референс-листа, если его нет
+            # 3. Добавляем референс-лист, если его еще нет в списке
             has_ref = False
             for d in all_product_docs:
                 if d['name'] == "Краткий референс-лист проектов по автоматизации":
@@ -458,17 +536,20 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
                     "name": "Краткий референс-лист проектов по автоматизации"
                 })
                 
+            # Генерируем теги docFile
             for doc in all_product_docs: 
                 offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
                 
+        # Обработка файлов Unimat (Прямые ссылки на GitHub)
         elif brand == "Unimat":
-            # Статичные файлы из GitHub с заменой blob на raw для правильного скачивания
             for pdf_url in UNIMAT_PDFS:
                 file_name_encoded = pdf_url.split('/')[-1].replace('.pdf', '')
                 file_name = urllib.parse.unquote(file_name_encoded)
+                # Меняем blob на raw, чтобы робот мог скачать сам файл, а не страницу гитхаба
                 download_url = pdf_url.replace("/blob/main/", "/raw/main/")
                 offer_xml.append(f'<docFile url="{escape(download_url)}" name="{escape(file_name)}"/>')
                 
+        # ГРУППА ТОВАРА
         if is_first_offer: 
             long_comment = """<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий: 
 3073;19“ комплектующие;
@@ -567,6 +648,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
         if is_first_offer: offer_xml.append('<!--  Единица измерения товара. Допустимые значения (соглано ОКЕИ) -->')
         offer_xml.append("<unitID>шт</unitID>")
         
+        # ВЕС ТОВАРА (с переводом кг -> граммы)
         if is_first_offer: offer_xml.append('<!--  Вес товара в граммах. Используется для вычисления тарифов по доставке товара. -->')
         weight = prod.get('weight')
         if brand == "Prompower" and weight:
@@ -576,15 +658,17 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
             except (ValueError, TypeError):
                 offer_xml.append(f"<weight>{escape(str(weight))}</weight>")
                 
+        # ГАБАРИТЫ ТОВАРА (Ширина, Высота, Глубина)
         item_width = None
         item_height = None
         item_depth = None
         
         if brand == "Prompower":
-            for prop in prod.get('props',[]):
+            for prop in prod.get('props', []):
                 p_name = prop.get('name', '').strip().lower()
                 p_val = prop.get('value')
                 
+                # Игнорируем нулевые и пустые значения
                 if p_val in [0, 0.0, "0", "", None]:
                     continue
                     
@@ -592,7 +676,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
                     if item_width is None: item_width = p_val
                 elif p_name in ['высота (мм)', 'высота']:
                     if item_height is None: item_height = p_val
-                elif p_name in['глубина (мм)', 'глубина']:
+                elif p_name in ['глубина (мм)', 'глубина']:
                     if item_depth is None: item_depth = p_val
                     
         if is_first_offer: offer_xml.append('<!--  Ширина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
@@ -630,9 +714,10 @@ def main():
         unimat_products = unimat_products[:DEBUG_LIMIT]
     
     pdf_cache = load_pdf_cache()
-    all_offers_xml =[]
+    all_offers_xml = []
     is_first_offer = True
     
+    # Обрабатываем оба бренда
     if prompower_products:
         xml_data, is_first_offer = process_products(prompower_products, "Prompower", categories_dict, pdf_cache, is_first_offer)
         all_offers_xml.extend(xml_data)
@@ -642,7 +727,8 @@ def main():
         
     save_pdf_cache(pdf_cache)
         
-    xml_lines =[
+    # Формируем итоговый текстовый массив (строки) XML документа
+    xml_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<shop>',
         '<name>Prompower и Unimat</name>',
@@ -651,6 +737,7 @@ def main():
         '<categories>'
     ]
     
+    # Добавляем все категории
     for cat_id, data in categories_dict.items():
         parent_attr = f' parentId="{data["parentId"]}"' if data['parentId'] else ''
         xml_lines.append(f'<category id="{cat_id}"{parent_attr}>{escape(data["title"])}</category>')
@@ -658,7 +745,7 @@ def main():
     xml_lines.append('</categories>')
     xml_lines.append('<!--  список товаров к продаже  -->')
     xml_lines.append('<offers>')
-    xml_lines.extend(all_offers_xml)
+    xml_lines.extend(all_offers_xml) # Вставляем список всех товаров (offers)
     xml_lines.append('</offers>')
     xml_lines.append('</shop>')
     
@@ -673,7 +760,7 @@ def main():
     # СБОРКА АВАРИЙНОГО ФАЙЛА (ZEROwarehouse)
     zero_xml_lines = []
     for line in xml_lines:
-        # Заменяем любое число внутри тега <qty> на 0
+        # Регулярным выражением заменяем любое число внутри тега <qty> на 0
         if "<qty>" in line:
             line = re.sub(r'<qty>.*?</qty>', '<qty>0</qty>', line)
         zero_xml_lines.append(line)
