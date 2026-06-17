@@ -7,6 +7,7 @@
 2. Рассчитывает costPrice и rPrice с учетом НДС 22% (1.22) и скидок (MRPPercent).
 3. Раз в месяц (1-го числа) обходит сайт и кэширует ссылки на PDF-файлы. В остальные дни использует кэш.
 4. Генерирует XML-feed, строго соблюдая ограничения на длину строк (name) и требуемые теги.
+5. Генерирует аварийный XML-feed ZEROwarehouse, где все остатки (qty) равны 0. Он нужен для загрузки при нештатных ситуациях, когда что-то неправильно обновилось и на сайте Чип и Дип отображаются слишком низкие цены - в таком случае нужно в настройках лк Поставщика Чип и Дип заменить ссылку основного файла на ссылку аварийного, все остатки обнулятся и товары перестанут отображаться для Покупателей. После ликвидации причин ссылку нужно заменить обратно.
 """
 
 import requests
@@ -15,6 +16,7 @@ import os
 import re
 import datetime
 import time
+import urllib.parse
 from bs4 import BeautifulSoup
 from xml.sax.saxutils import escape
 
@@ -35,56 +37,57 @@ if not EMAIL or not KEY:
 API_URL = "https://prompower.ru/api/prod/"
 SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
+XML_ZERO_FILENAME = "feed-from-prompower-for-chipidip-ZEROwarehouse.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
 
 GROUP_MAP = {
-    "19“ комплектующие": "2953",
-    "Аксессуары": "2953",
+    "19“ комплектующие": "3073",
+    "Аксессуары": "3073",
     "Двери": "3059",
-    "Коллаборативные роботы": "2968",
-    "Модификационные комплекты для моторов": "2958",
-    "Модули расширения ПЛК PMP301": "3061",
+    "Коллаборативные роботы": "2584",
+    "Модификационные комплекты для моторов": "2178",
+    "Модули расширения ПЛК PMP301": "2273",
     "Монтажные панели": "3054",
-    "Моторные дроссели": "2958",
-    "Моторы": "2958",
-    "Серводвигатели": "2954",
-    "Сетевые дроссели": "2954",
+    "Моторные дроссели": "2926",
+    "Моторы": "2178",
+    "Серводвигатели": "2585",
+    "Сетевые дроссели": "2926",
     "Соединительные комплекты": "3073",
     "Шасси": "3073",
     "Шкафы электротехнические": "3073",
-    "Опции для двигателей": "2958",
-    "Аксессуары для ПЛК": "3061",
-    "Аксессуары для реле": "2947",
-    "Дополнительные контактные приставки": "2945",
-    "Заземление": "3085",
+    "Опции для двигателей": "2178",
+    "Аксессуары для ПЛК": "2273",
+    "Аксессуары для реле": "2459",
+    "Дополнительные контактные приставки": "2947",
+    "Заземление": "3073",
     "Опции для преобразователей частоты": "2954",
-    "Дополнительные контактные приставки PULSE": "2945",
-    "Колодки для реле": "2926",
-    "Прокладка кабеля": "2804",
+    "Дополнительные контактные приставки PULSE": "2947",
+    "Колодки для реле": "3010",
+    "Прокладка кабеля": "3065",
     "MCB (Miniature Circuit Breaker)": "3109",
     "MCB": "3109",
-    "Реле общего назначения": "2947",
+    "Реле общего назначения": "1559",
     "Контакторы PULSE": "2947",
     "Панели основания": "3067",
-    "Аксессуары для сервосистем": "2954",
+    "Аксессуары для сервосистем": "2585",
     "Контакторы": "2947",
-    "Миниатюрные силовые реле": "2947",
-    "Сувенирная продукция": "2954",
-    "Реле тонкие": "2947",
-    "Кабели для датчиков": "2925",
+    "Миниатюрные силовые реле": "1559",
+    "Сувенирная продукция": "2598",
+    "Реле тонкие": "3624",
+    "Кабели для датчиков": "1266",
     "Миниконтакторы": "2947",
     "Миниконтакторы PULSE": "2947",
-    "Цоколи": "3067",
+    "Цоколи": "3062",
     "Климат + Свет": "3184",
     "Блок питания HDR в пластиковом корпусе": "2939",
     "Пластроны": "3124",
     "Блок питания MDR в пластиковом корпусе": "2939",
     "Боковые панели": "3069",
     "Секционирование": "3062",
-    "Индуктивные датчики": "1403",
+    "Индуктивные датчики": "1266",
     "Дополнительные контактные приставки для MCB": "3115",
     "Опции для устройств плавного пуска": "2968",
-    "Модули расширения ПЛК PMP20/PMP30": "3061",
+    "Модули расширения ПЛК PMP20/PMP30": "2273",
     "Блок питания NDR в металлическом корпусе": "2939",
     "Автоматы защиты двигателя PULSE": "2930",
     "Фотоэлектрические датчики": "2744",
@@ -92,44 +95,44 @@ GROUP_MAP = {
     "Потолочные панели": "3067",
     "Преобразователи частоты PD100": "2954",
     "Преобразователи частоты PD101": "2954",
-    "Тормозные резисторы": "2954",
+    "Тормозные резисторы": "1667",
     "Преобразователи частоты PD150": "2954",
-    "Панели оператора PH1": "3061",
+    "Панели оператора PH1": "2622",
     "Задние панели": "3069",
-    "Промышленные коммутаторы": "3413",
-    "Панели оператора PH": "3061",
-    "ЭМС фильтры": "2954",
+    "Промышленные коммутаторы": "3256",
+    "Панели оператора PH": "2273",
+    "ЭМС фильтры": "2926",
     "Сейсмостойкость": "3062",
-    "Дроссели dU/dt": "2954",
+    "Дроссели dU/dt": "2926",
     "Устройства плавного пуска P2S 050": "2968",
-    "Дроссели для цепей постоянного тока": "2954",
+    "Дроссели для цепей постоянного тока": "2926",
     "Преобразователи частоты PD210": "2954",
     "Преобразователи частоты PD110": "2954",
     "Устройства плавного пуска P2S 100": "2968",
-    "Сервоприводы": "2954",
-    "Регуляторы мощности": "2968",
-    "Программируемые логические контроллеры PMP20": "3061",
+    "Сервоприводы": "2585",
+    "Регуляторы мощности": "1556",
+    "Программируемые логические контроллеры PMP20": "2273",
     "Преобразователи частоты PD310": "2954",
-    "Электродвигатели класс энергоэфф. IE1": "2958",
-    "Электродвигатели класс энергоэффективности IE1": "2958",
-    "ПЛК PMP301": "3061",
-    "Программируемые логические контроллеры PMP301": "3061",
+    "Электродвигатели класс энергоэфф. IE1": "2178",
+    "Электродвигатели класс энергоэффективности IE1": "2178",
+    "ПЛК PMP301": "2273",
+    "Программируемые логические контроллеры PMP301": "2273",
     "Каркасы": "3072",
-    "Синус-фильтры": "2954",
+    "Синус-фильтры": "2926",
     "Внешние тормозные модули для ПЧ": "2954",
     "Преобразователи частоты PD310 IP54": "2954",
-    "Промышленный монитор": "3061",
+    "Промышленный монитор": "2273",
     "Устройства плавного пуска P2S 300": "2968",
-    "Промышленный ПК": "3061",
-    "ПЛК PMP30": "3061",
-    "Программируемые логические контроллеры PMP30": "3061",
-    "Панельный ПК": "3061",
-    "Кабели и аксессуары": "2804",
-    "Модули для ПЛК": "3061",
-    "Панели оператора UniMAT": "3061",
-    "ПЛК UniMAT": "3061",
-    "Программируемые логические контроллеры UniMAT": "3061",
-    "Серво": "2954"
+    "Промышленный ПК": "2273",
+    "ПЛК PMP30": "2273",
+    "Программируемые логические контроллеры PMP30": "2273",
+    "Панельный ПК": "2273",
+    "Кабели и аксессуары": "2273",
+    "Модули для ПЛК": "2273",
+    "Панели оператора UniMAT": "2273",
+    "ПЛК UniMAT": "2273",
+    "Программируемые логические контроллеры UniMAT": "2273",
+    "Серво": "2585"
 }
 
 NORMALIZED_GROUP_MAP = {k.strip().lower(): v for k, v in GROUP_MAP.items()}
@@ -142,7 +145,18 @@ UNIMAT_PICTURES =[
     "https://unimat-russia.ru/uploads/product-33.png"
 ]
 
-# ИСПРАВЛЕНИЕ: Список из 10 файлов .png с GitHub Pages
+UNIMAT_PDFS =[
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/HMI%20Catalogue%206-18.pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%201200%20series%20PLC.pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf",
+    "https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf"
+]
+
 DEFAULT_PROMPOWER_PICTURES =[
     f"https://brilka.github.io/feed-from-prompower-for-chipidip/{i}.png" for i in range(1, 11)
 ]
@@ -241,11 +255,21 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             if not path_str.startswith('/'): path_str = '/' + path_str
             url = f"{SITE_URL}/catalog{path_str}"
             
+        # --- НОВАЯ ЛОГИКА РАСЧЕТА costPrice ---
         if mrp_percent == 0:
             cost_price = (price_val * 1.22) / 0.85
             r_price = (price_val * 1.22) / 0.9
         else:
-            cost_price = (price_val * 1.22) * 0.85
+            K = 1.25
+            B = price_val * 1.22 * ((100 - mrp_percent) / 100)
+            while True:
+                A = (price_val * 1.22) / K
+                if A == 0: break
+                if (B / A) > 0.85:
+                    K -= 0.01
+                else:
+                    break
+            cost_price = (price_val * 1.22) / K
             r_price = price_val * 1.22
             
         cost_price = round(cost_price, 2)
@@ -299,7 +323,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
             offer_xml.append(f"<url>{escape(url)}</url>")
             
         if is_first_offer: 
-            offer_xml.append('<!--  costPrice - цена продажи (за единицу измерения) поставщика для Чип и Дип.  Для Prompower и Unimat costPrice определяется так: Вариант1. если MRPPercent в API для данной позиции отсутствует или равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и полученное значение разделить на 0.85. Вариант2. если MRPPercent в API для данной позиции присутствует и не равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и умножить на (0.85).  -->')
+            offer_xml.append('<!--  costPrice - цена продажи (за единицу измерения) поставщика для Чип и Дип. Для Prompower и Unimat costPrice определяется так: \nВариант1. если MRPPercent в API для данной позиции отсутствует или равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и полученное значение разделить на 0.85. \nВариант2. если MRPPercent в API для данной позиции присутствует и не равен 0, то нужно price (из API Prompower) умножить на НДС (1.22) и разделить на коэффициент K=(1.25). Обозначим полученное число A. Далее нужно осуществить проверку: нужно price (из API Prompower) умножить на НДС (1.22) и умножить на (100-discountPercent)/100. discountPercent взять из API Prompower. Обозначим полученное число B. Если B/A выше 0.85 - то нужно пересчитать costPrice с меньшим коэффициентом K - уменьшать его (с шагом 0.01) до тех пор, пока соотношение B/A не станет меньше или равно 0.85.\n-->')
         offer_xml.append(f'<price qty="1" costPrice="{cost_price}" rPrice="{r_price}"/>')
         
         if cat_id:
@@ -313,8 +337,8 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         if brand == "Unimat":
             final_images = UNIMAT_PICTURES
         else:
-            api_images = prod.get('img',[])
-            if isinstance(api_images, str): api_images = [api_images]
+            api_images = prod.get('img', [])
+            if isinstance(api_images, str): api_images =[api_images]
             if not api_images and prod.get('image'): api_images = [prod.get('image')]
             
             for img in api_images:
@@ -338,75 +362,161 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         if is_first_offer: offer_xml.append('<!--  Название производеителя (бренда) товара. Может быть полное или сокращенное название. Не оябязательное поле. Для Prompower нужно указывать Prompower. Для Unimat нужно указывать Unimat  -->')
         offer_xml.append(f"<vendor>{brand}</vendor>")
         
-        if is_first_offer: offer_xml.append('<!--  Описание товара. Может быть в формате html. Не оябязательное поле. Для Prompower и Unimat это description в API  -->')
-        if description: offer_xml.append(f"<description><![CDATA[{description}]]></description>")
+        # --- НОВАЯ ЛОГИКА DESCRIPTION ДЛЯ UNIMAT ---
+        if is_first_offer: 
+            desc_comment = """<!--  Описание товара. Может быть в формате html. Не обязательное поле. Для Prompower и Unimat это description в API. 
+Для Unimat дополнительно добавляется следующий текст:
+
+Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.
+
+Данный модуль Unimat [тут нужно вставить обозначение Unimat из тега partNumber] соответствует модулю Siemens [тут нужно указать то же обозначение из тега partNumber, только нужно заменить "UN " на "6ES7"].
+
+Модули Unimat поддерживаются на складе в России. 
+Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.
+
+Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.
+
+Сценарии использования модулей Unimat: 
++ в новых проектах (с оригинальным CPU Siemens) 
++ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)
++ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)
+  -->"""
+            offer_xml.append(desc_comment)
+            
+        final_desc = description
+        if brand == "Unimat" and title:
+            siemens_title = title.replace("UN ", "6ES7 ")
+            unimat_addition = f"""<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat {title} соответствует модулю Siemens {siemens_title}.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)"""
+            final_desc += unimat_addition
+            
+        if final_desc: offer_xml.append(f"<description><![CDATA[{final_desc}]]></description>")
             
         if is_first_offer: offer_xml.append('<!--  список параметров товара. Максимум 20 параметров для одного товара. -->')
-        for prop in prod.get('props', [])[:20]:
+        for prop in prod.get('props',[])[:20]:
             p_name, p_val = prop.get('name', ''), prop.get('value', '')
             match = param_regex.match(p_name)
             clean_name = match.group(1).strip() if match else p_name
             unit = match.group(2) if match and match.group(2) else ""
             offer_xml.append(f'<param name="{escape(clean_name)}" unit="{escape(unit)}">{escape(str(p_val))}</param>')
             
-        if is_first_offer: offer_xml.append('<!--  Дополнительные файлы для скачивания. Парсинг с кэшированием (обновляется 1 числа месяца). -->')
+        # --- НОВАЯ ЛОГИКА DOCFILE ДЛЯ PROMPOWER (Родители) И UNIMAT (Гитхаб) ---
+        if is_first_offer: 
+            doc_comment = """<!--  Дополнительные файлы для скачивания. Например чертеж товара, файл документации (datasheet), инструкция по использованию. Файлы не должны содержать ссылок и логотипов на сайт поставщика. Допустимый формат файла - pdf, docx.  Не обязательное поле. 
+Для Prompower доступные файлы pdf определяются следующим образом: нужно спарсить их названия и адрес со страницы, которая ранее получилась в тегах url. На этих страницах у некоторых товаров есть доступные файлы pdf. В коде страницы они расположены в разделе после названия раздела "Техническая документация и материалы для скачивания" и в следующем разделе после названия раздела "Чертежи, 3D-модели" (в class="v-list-group__items"). Сначала встречается ссылка на файл, например, href="/docs/pulse-nka/LVC_PULSE_Catalog.pdf" (ссылка неполная, поэтому в начале ещё нужно добавить www.prompower.ru), затем, после тега <div class="text-caption col col-10"> встречается название файла, например, "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта". 
+Дополнительно нужно добавить файлы pdf, которые отсутствуют на странице конкретного товара, но есть на странице сайта на уровень выше - парсить их нужно по такому же принципу, который описан выше.
+Если для какой-либо позиции Prompower после парсинга нет файла с названием "Краткий референс-лист проектов по автоматизации", то нужно добавить такой файл, его адрес https://prompower.ru/docs/referenceList.pdf 
+Парсинг с кэшированием (обновляется 1-го числа каждого месяца).
+
+Для позиций Unimat нужно добавлять следующие файлы:
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/HMI%20Catalogue%206-18.pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%201200%20series%20PLC.pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf
+название файлов указано после последнего слэш до ".pdf"
+  -->"""
+            offer_xml.append(doc_comment)
+
         if brand == "Prompower" and url:
+            all_product_docs = []
+            
+            # 1. Парсинг страницы товара
             if need_global_pdf_update or url not in pdf_cache["urls"]:
-                docs = scrape_docs(url)
-                if not docs and url in pdf_cache["urls"]: docs = pdf_cache["urls"][url]
-                pdf_cache["urls"][url] = docs
+                product_docs = scrape_docs(url)
+                pdf_cache["urls"][url] = product_docs
             else:
-                docs = pdf_cache["urls"][url]
-            for doc in docs: offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
+                product_docs = pdf_cache["urls"][url]
+            all_product_docs.extend(product_docs)
+            
+            # 2. Парсинг родительской страницы
+            parent_url = "/".join(url.split("/")[:-1])
+            if need_global_pdf_update or parent_url not in pdf_cache["urls"]:
+                parent_docs = scrape_docs(parent_url)
+                pdf_cache["urls"][parent_url] = parent_docs
+            else:
+                parent_docs = pdf_cache["urls"][parent_url]
+                
+            # Добавляем родительские доки, которых нет у продукта
+            existing_urls = [d['url'] for d in all_product_docs]
+            for p_doc in parent_docs:
+                if p_doc['url'] not in existing_urls:
+                    all_product_docs.append(p_doc)
+            
+            # 3. Добавление референс-листа, если его нет
+            has_ref = False
+            for d in all_product_docs:
+                if d['name'] == "Краткий референс-лист проектов по автоматизации":
+                    has_ref = True
+                    break
+            if not has_ref:
+                all_product_docs.append({
+                    "url": "https://prompower.ru/docs/referenceList.pdf",
+                    "name": "Краткий референс-лист проектов по автоматизации"
+                })
+                
+            for doc in all_product_docs: 
+                offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
+                
+        elif brand == "Unimat":
+            # Статичные файлы из GitHub с заменой blob на raw для правильного скачивания
+            for pdf_url in UNIMAT_PDFS:
+                file_name_encoded = pdf_url.split('/')[-1].replace('.pdf', '')
+                file_name = urllib.parse.unquote(file_name_encoded)
+                download_url = pdf_url.replace("/blob/main/", "/raw/main/")
+                offer_xml.append(f'<docFile url="{escape(download_url)}" name="{escape(file_name)}"/>')
                 
         if is_first_offer: 
             long_comment = """<!--  Код группы товара из каталога Чип и Дип. Если указан - товар будет размещен в данный раздел товара сайта Чип и Дип. Не обязательное поле. Для Prompower и Unimat вот сопоставление кодов и категорий: 
-2953;19“ комплектующие;
-2953;Аксессуары;
+3073;19“ комплектующие;
+3073;Аксессуары;
 3059;Двери;
-2968;Коллаборативные роботы;
-2958;Модификационные комплекты для моторов;
-3061;Модули расширения ПЛК PMP301;
+2584;Коллаборативные роботы;
+2178;Модификационные комплекты для моторов;
+2273;Модули расширения ПЛК PMP301;
 3054;Монтажные панели;
-2958;Моторные дроссели;
-2958;Моторы;
-2954;Серводвигатели;
-2954;Сетевые дроссели;
+2926;Моторные дроссели;
+2178;Моторы;
+2585;Серводвигатели;
+2926;Сетевые дроссели;
 3073;Соединительные комплекты;
 3073;Шасси;
 3073;Шкафы электротехнические;
-2958;Опции для двигателей;
-3061;Аксессуары для ПЛК;
-2947;Аксессуары для реле;
-2945;Дополнительные контактные приставки;
-3085;Заземление;
+2178;Опции для двигателей;
+2273;Аксессуары для ПЛК;
+2459;Аксессуары для реле;
+2947;Дополнительные контактные приставки;
+3073;Заземление;
 2954;Опции для преобразователей частоты;
-2945;Дополнительные контактные приставки PULSE;
-2926;Колодки для реле;
-2804;Прокладка кабеля;
+2947;Дополнительные контактные приставки PULSE;
+3010;Колодки для реле;
+3065;Прокладка кабеля;
 3109;MCB (Miniature Circuit Breaker);
-2947;Реле общего назначения;
+1559;Реле общего назначения;
 2947;Контакторы PULSE;
 3067;Панели основания;
-2954;Аксессуары для сервосистем;
+2585;Аксессуары для сервосистем;
 2947;Контакторы;
-2947;Миниатюрные силовые реле;
-2954;Сувенирная продукция;
-2947;Реле тонкие;
-2925;Кабели для датчиков;
+1559;Миниатюрные силовые реле;
+2598;Сувенирная продукция;
+3624;Реле тонкие;
+1266;Кабели для датчиков;
 2947;Миниконтакторы;
 2947;Миниконтакторы PULSE;
-3067;Цоколи;
+3062;Цоколи;
 3184;Климат + Свет;
 2939;Блок питания HDR в пластиковом корпусе;
 3124;Пластроны;
 2939;Блок питания MDR в пластиковом корпусе;
 3069;Боковые панели;
 3062;Секционирование;
-1403;Индуктивные датчики;
+1266;Индуктивные датчики;
 3115;Дополнительные контактные приставки для MCB;
 2968;Опции для устройств плавного пуска;
-3061;Модули расширения ПЛК PMP20/PMP30;
+2273;Модули расширения ПЛК PMP20/PMP30;
 2939;Блок питания NDR в металлическом корпусе;
 2930;Автоматы защиты двигателя PULSE;
 2744;Фотоэлектрические датчики;
@@ -414,40 +524,40 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
 3067;Потолочные панели;
 2954;Преобразователи частоты PD100;
 2954;Преобразователи частоты PD101;
-2954;Тормозные резисторы;
+1667;Тормозные резисторы;
 2954;Преобразователи частоты PD150;
-3061;Панели оператора PH1;
+2622;Панели оператора PH1;
 3069;Задние панели;
-3413;Промышленные коммутаторы;
-3061;Панели оператора PH;
-2954;ЭМС фильтры;
+3256;Промышленные коммутаторы;
+2273;Панели оператора PH;
+2926;ЭМС фильтры;
 3062;Сейсмостойкость;
-2954;Дроссели dU/dt;
+2926;Дроссели dU/dt;
 2968;Устройства плавного пуска P2S 050;
-2954;Дроссели для цепей постоянного тока;
+2926;Дроссели для цепей постоянного тока;
 2954;Преобразователи частоты PD210;
 2954;Преобразователи частоты PD110;
 2968;Устройства плавного пуска P2S 100;
-2954;Сервоприводы;
-2968;Регуляторы мощности;
-3061;Программируемые логические контроллеры PMP20;
+2585;Сервоприводы;
+1556;Регуляторы мощности;
+2273;Программируемые логические контроллеры PMP20;
 2954;Преобразователи частоты PD310;
-2958;Электродвигатели класс энергоэфф. IE1;
-3061;ПЛК PMP301;
+2178;Электродвигатели класс энергоэфф. IE1;
+2273;ПЛК PMP301;
 3072;Каркасы;
-2954;Синус-фильтры;
+2926;Синус-фильтры;
 2954;Внешние тормозные модули для ПЧ;
 2954;Преобразователи частоты PD310 IP54;
-3061;Промышленный монитор;
+2273;Промышленный монитор;
 2968;Устройства плавного пуска P2S 300;
-3061;Промышленный ПК;
-3061;ПЛК PMP30;
-3061;Панельный ПК;
-2804;Кабели и аксессуары;
-3061;Модули для ПЛК;
-3061;Панели оператора UniMAT;
-3061;ПЛК UniMAT;
-2954;Серво;
+2273;Промышленный ПК;
+2273;ПЛК PMP30;
+2273;Панельный ПК;
+2273;Кабели и аксессуары;
+2273;Модули для ПЛК;
+2273;Панели оператора UniMAT;
+2273;ПЛК UniMAT;
+2585;Серво;
    -->"""
             offer_xml.append(long_comment)
             
@@ -552,12 +662,28 @@ def main():
     xml_lines.append('</offers>')
     xml_lines.append('</shop>')
     
+    # СБОРКА ОСНОВНОГО ФАЙЛА
     try:
         with open(XML_FILENAME, "w", encoding="utf-8") as f:
             f.write("\n".join(xml_lines))
         print(f"\nФайл {XML_FILENAME} успешно сгенерирован!")
     except Exception as e:
-        print(f"Ошибка сохранения файла: {e}")
+        print(f"Ошибка сохранения основного файла: {e}")
+        
+    # СБОРКА АВАРИЙНОГО ФАЙЛА (ZEROwarehouse)
+    zero_xml_lines = []
+    for line in xml_lines:
+        # Заменяем любое число внутри тега <qty> на 0
+        if "<qty>" in line:
+            line = re.sub(r'<qty>.*?</qty>', '<qty>0</qty>', line)
+        zero_xml_lines.append(line)
+        
+    try:
+        with open(XML_ZERO_FILENAME, "w", encoding="utf-8") as f:
+            f.write("\n".join(zero_xml_lines))
+        print(f"Файл {XML_ZERO_FILENAME} (аварийный) успешно сгенерирован!")
+    except Exception as e:
+        print(f"Ошибка сохранения аварийного файла: {e}")
 
     print(f"Парсинг и формирование завершены за {time.time() - start_time:.2f} секунд.")
 
