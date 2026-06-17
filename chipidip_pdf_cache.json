@@ -74550,6 +74550,888 @@
         "url": "https://www.prompower.ru/docs/motors/1LE9_Cast_Iron_series.pdf",
         "name": "Чугунные низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
       }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-19inch-components": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/mcb": [
+      {
+        "url": "https://www.prompower.ru/docs/mcb/Catalog_ESM-Series.pdf",
+        "name": "Модульные автоматические выключатели PROMPOWER серии ESM. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/pulse-nka/pulse-motor-protection": [
+      {
+        "url": "https://www.prompower.ru/docs/pulse-nka/LVC_PULSE_Catalog.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-accessories": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/plc/plc-accessories": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/plc-accessories/PMP_JD_P03_manual.pdf",
+        "name": "Программатор PMP-JD-P03 для ПЛК PROMPOWER. Руководство по эксплуатации."
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/relays/relays-accessories": [
+      {
+        "url": "https://www.prompower.ru/docs/relays/Relays.pdf",
+        "name": "Реле PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/servo/servo-accessories": [
+      {
+        "url": "https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf",
+        "name": "Руководство по программному обеспечению PROMPOWER Servo"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/power-hdr": [
+      {
+        "url": "https://www.prompower.ru/docs/power-supply/HDR_MDR_NDR_power supply_specification.pdf",
+        "name": "Импульсные источники питания PROMPOWER серий HDR, MDR, NDR. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/power-supply/power-mdr": [
+      {
+        "url": "https://www.prompower.ru/docs/power-supply/HDR_MDR_NDR_power supply_specification.pdf",
+        "name": "Импульсные источники питания PROMPOWER серий HDR, MDR, NDR. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/power-supply/power-ndr": [
+      {
+        "url": "https://www.prompower.ru/docs/power-supply/HDR_MDR_NDR_power supply_specification.pdf",
+        "name": "Импульсные источники питания PROMPOWER серий HDR, MDR, NDR. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-side-panels": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/external-brake-units": [
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-doors": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/nka/auxilliary-contacts": [
+      {
+        "url": "https://www.prompower.ru/docs/nka/LVC.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/pulse-nka/pulse-auxilliary-contacts": [
+      {
+        "url": "https://www.prompower.ru/docs/pulse-nka/LVC_PULSE_Catalog.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/mcb/mcb-auxilliary-contacts": [
+      {
+        "url": "https://www.prompower.ru/docs/mcb/Catalog_ESM-Series.pdf",
+        "name": "Модульные автоматические выключатели PROMPOWER серии ESM. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverter-accessories/dudt-chokes": [
+      {
+        "url": "https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf",
+        "name": "Дроссели и синус-фильтры PROMPOWER. Технический каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverter-accessories/dc-chokes": [
+      {
+        "url": "https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf",
+        "name": "Дроссели и синус-фильтры PROMPOWER. Технический каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-rear-panels": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-grounding": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inductive-sensors": [
+      {
+        "url": "https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/sensor-cables": [
+      {
+        "url": "https://www.prompower.ru/docs/sensor-cables/K_sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/servo-cables-and-terminals": [],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-frames": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-climate-control-lighting": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/relays/relay-terminal": [
+      {
+        "url": "https://www.prompower.ru/docs/relays/Relays.pdf",
+        "name": "Реле PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/nka/contactors": [
+      {
+        "url": "https://www.prompower.ru/docs/nka/LVC.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/pulse-nka/pulse-contactors": [
+      {
+        "url": "https://www.prompower.ru/docs/pulse-nka/LVC_PULSE_Catalog.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/relays/mini-relays": [
+      {
+        "url": "https://www.prompower.ru/docs/relays/Relays.pdf",
+        "name": "Реле PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/nka/mini-contactors": [
+      {
+        "url": "https://www.prompower.ru/docs/nka/LVC.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/pulse-nka/pulse-mini-contactors": [
+      {
+        "url": "https://www.prompower.ru/docs/pulse-nka/LVC_PULSE_Catalog.pdf",
+        "name": "Низковольтная коммутационная аппаратура PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/plc/plc-modules": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/plc/plc-pmp301-modules": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/plc-pmp301-modules/PMP-01_extension_module.pdf",
+        "name": "Модули расширения PROMPOWER серии PMP-01. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-mounting-panels": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverter-accessories/motor-chokes": [
+      {
+        "url": "https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf",
+        "name": "Дроссели и синус-фильтры PROMPOWER. Технический каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/motors": [
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Al_Frame_series.pdf",
+        "name": "Алюминиевые низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Cast_Iron_series.pdf",
+        "name": "Чугунные низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Manual.pdf",
+        "name": "Трехфазные асинхронные моторы PROMPOWER серии 1LE9. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/motor-options": [
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Al_Frame_series.pdf",
+        "name": "Алюминиевые низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Cast_Iron_series.pdf",
+        "name": "Чугунные низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Manual.pdf",
+        "name": "Трехфазные асинхронные моторы PROMPOWER серии 1LE9. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/motor-options/R10/R11": [
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Al_Frame_series.pdf",
+        "name": "Алюминиевые низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Cast_Iron_series.pdf",
+        "name": "Чугунные низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Manual.pdf",
+        "name": "Трехфазные асинхронные моторы PROMPOWER серии 1LE9. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/inverter-options": [
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/softstarters/softstarter-options": [
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/softstarter-options/P2S-100_communication_manual.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-100. Описание протокола Modbus"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/hmi/ph": [
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph/PROMPOWER_HMI_Studio_2_Software_User_Manual.pdf",
+        "name": "Программное обеспечение PROMPOWER HMI Studio 2. Руководство пользователя"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH10_101S_FE_Datasheet.pdf",
+        "name": "Панель оператора PROMPOWER PH10-101S-FE. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH15_156S_FE_Datasheet.pdf",
+        "name": "Панель оператора PROMPOWER PH15-156S-FE. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH4_043S_F_Datasheet.pdf",
+        "name": "Панель оператора PROMPOWER PH4-043S-F. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH7_070S_FE_Datasheet.pdf",
+        "name": "Панель оператора PROMPOWER PH7-070S-FE. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/hmi/ph1": [
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph1/hmi_datasheet.pdf",
+        "name": "Сенсорные панели оператора PROMPOWER серии PH1. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/hmi/ph1/PROMPOWER_HMI_Studio_Software_User_Manual.pdf",
+        "name": "Программное обеспечение PROMPOWER HMI Studio. Руководство пользователя"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-base-panels": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/promyshlennye-kompyutery/panel-pc": [
+      {
+        "url": "https://www.prompower.ru/docs/promyshlennye-kompyutery/IPC_catalog.pdf",
+        "name": "Промышленные ПК PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-plastrons": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-shelves": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-ceiling-panels": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/pd100": [
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd100/PD100_manual.pdf",
+        "name": "Преобразователь частоты PROMPOWER серии PD100. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/pd101": [],
+    "https://www.prompower.ru/catalog/inverters/pd110": [],
+    "https://www.prompower.ru/catalog/inverters/pd150": [
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd150/pd150_datasheet.pdf",
+        "name": "Преобразователи частоты PROMPOWER PD150. Флаер"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd150/pd150_short_user_guide.pdf",
+        "name": "Преобразователи частоты PROMPOWER серии PD150. Руководство по быстрому вводу в эксплуатацию"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd150/pd150_user_guide.pdf",
+        "name": "Преобразователи частоты PROMPOWER серии PD150. Руководство пользователя"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/pd210": [],
+    "https://www.prompower.ru/catalog/inverters/pd310": [],
+    "https://www.prompower.ru/catalog/inverters/pd310-ip54": [],
+    "https://www.prompower.ru/catalog/plc/pmp20": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp20/PMP20_hardware_manual.pdf",
+        "name": "ПЛК серии PMP20. Руководство по эксплуатации (Аппаратное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp20/PMP20_software_manual.pdf",
+        "name": "ПЛК серии PMP20. Руководство по эксплуатации (Программное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp20/PMP20_TCPIP_manual.pdf",
+        "name": "Связь TCP/IP на основе Ethernet в PMP20. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp20/PMP20-HMI&PLC_Connection_Manual.pdf",
+        "name": "Контроллеры PROMPOWER серии PMP20. Руководство по эксплуатации (HMI&PLC)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/plc/pmp30": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp30/PMP3xx_hardware_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Аппаратное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp30/PMP3xx_motion_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Управление перемещениями)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp30/PMP3xx_software_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Программное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/plc/pmp301": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp301/PMP3xx_hardware_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Аппаратное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp301/PMP3xx_motion_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Управление перемещениями)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/pmp301/PMP3xx_software_manual.pdf",
+        "name": "ПЛК серии PMP3xx. Руководство по эксплуатации (Программное)"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-cable-routing": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/ethernet-switch": [
+      {
+        "url": "https://www.prompower.ru/docs/ethernet-switch/IPS_Switch.pdf",
+        "name": "Промышленные коммутаторы PROMPOWER серии PPS. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/promyshlennye-kompyutery/industrial-monitor": [
+      {
+        "url": "https://www.prompower.ru/docs/promyshlennye-kompyutery/IPC_catalog.pdf",
+        "name": "Промышленные ПК PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/promyshlennye-kompyutery/industrial-pc": [
+      {
+        "url": "https://www.prompower.ru/docs/promyshlennye-kompyutery/IPC_catalog.pdf",
+        "name": "Промышленные ПК PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/power-relays": [
+      {
+        "url": "https://www.prompower.ru/docs/power-relays/PPR_460_user_manual.pdf",
+        "name": "Регуляторы мощности PROMPOWER серии PPR-460. Руководство пользователя"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/relays/common-relays": [
+      {
+        "url": "https://www.prompower.ru/docs/relays/Relays.pdf",
+        "name": "Реле PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/relays/thin-relays": [
+      {
+        "url": "https://www.prompower.ru/docs/relays/Relays.pdf",
+        "name": "Реле PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-seismic-resistance": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-separation": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/servo/servo-motors": [
+      {
+        "url": "https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf",
+        "name": "Руководство по программному обеспечению PROMPOWER Servo"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/servo/servo-drivers": [
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5C1_manual.pdf",
+        "name": "Сервопривод с EtherCAT PROMPOWER серии PSD5C1. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5F_manual.pdf",
+        "name": "Полнофункциональный сервопривод PROMPOWER серии PSD5F. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5L1_manual.pdf",
+        "name": "Сервопривод с импульсным управлением PROMPOWER серии PSD5L1. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5P_manual.pdf",
+        "name": "Сервопривод с Profinet PROMPOWER серии PSD5P. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf",
+        "name": "Руководство по программному обеспечению PROMPOWER Servo"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverter-accessories/line-chokes": [
+      {
+        "url": "https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf",
+        "name": "Дроссели и синус-фильтры PROMPOWER. Технический каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverter-accessories/sinus-filters": [
+      {
+        "url": "https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf",
+        "name": "Дроссели и синус-фильтры PROMPOWER. Технический каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-connection-kits": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/prompower-style": [
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/brake-resistors": [
+      {
+        "url": "https://www.prompower.ru/docs/brake-resistors/brake_resistors.pdf",
+        "name": "Тормозные резисторы PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/softstarters/p2s-050": [
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/p2s-050/p2s_050_short_user_manual.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-050. Краткое руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/p2s-050/p2s_050_user_manual.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-050. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/softstarters/p2s-100": [
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/p2s-100/P2S-100_communication_manual.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-100. Описание протокола Modbus"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/p2s-100/P2S-100.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-100. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/softstarters/p2s-300": [
+      {
+        "url": "https://www.prompower.ru/docs/softstarters/p2s-300/P2S_300_manual.pdf",
+        "name": "Устройство плавного пуска PROMPOWER серии P2S-300. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/photo-sensors": [
+      {
+        "url": "https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf",
+        "name": "Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-basements": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets/cab-chassis": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/electrical-cabinets": [
+      {
+        "url": "https://www.prompower.ru/docs/electrical-cabinets/ppcab_catalog.pdf",
+        "name": "Электротехнические шкафы серии PPCAB. Каталог продукции"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/motors/ie1-motors": [
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Al_Frame_series.pdf",
+        "name": "Алюминиевые низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Cast_Iron_series.pdf",
+        "name": "Чугунные низковольтные асинхронные моторы PROMPOWER серии 1LE9. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/motors/1LE9_Manual.pdf",
+        "name": "Трехфазные асинхронные моторы PROMPOWER серии 1LE9. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/emi-filters": [
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
