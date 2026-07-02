@@ -85516,8 +85516,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">203.9</param>
 <param name="Высота" unit="мм">145</param>
 <param name="Глубина" unit="мм">36.6</param>
-<param name="Диагональ экрана" unit="дюймы">7</param>
 <param name="Сетевые подключения" unit="">Ethernet</param>
+<param name="Диагональ экрана" unit="дюймы">7</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_HMI_Studio_2_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio 2. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH10_101S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH10-101S-FE. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH15_156S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH15-156S-FE. Спецификация продукта"/>
@@ -85549,8 +85549,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">138</param>
 <param name="Высота" unit="мм">86</param>
 <param name="Глубина" unit="мм">31.5</param>
-<param name="Диагональ экрана" unit="дюймы">4,3</param>
 <param name="Сетевые подключения" unit="">COM1: RS232/RS485/RS422; COM3: RS232</param>
+<param name="Диагональ экрана" unit="дюймы">4,3</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_HMI_Studio_2_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio 2. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH10_101S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH10-101S-FE. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH15_156S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH15-156S-FE. Спецификация продукта"/>
@@ -85582,8 +85582,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">394</param>
 <param name="Высота" unit="мм">256</param>
 <param name="Глубина" unit="мм">35.6</param>
-<param name="Диагональ экрана" unit="дюймы">15,6</param>
 <param name="Сетевые подключения" unit="">2x Ethernet, COM1:RS232/RS422/RS485, COM2:RS485, COM3:RS232</param>
+<param name="Диагональ экрана" unit="дюймы">15,6</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_HMI_Studio_2_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio 2. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH10_101S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH10-101S-FE. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH15_156S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH15-156S-FE. Спецификация продукта"/>
@@ -85615,8 +85615,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">273</param>
 <param name="Высота" unit="мм">213</param>
 <param name="Глубина" unit="мм">38.7</param>
-<param name="Диагональ экрана" unit="дюймы">10,1</param>
 <param name="Сетевые подключения" unit="">Ethernet, COM1:RS232/RS422/RS485, COM2:RS485, COM3:RS232</param>
+<param name="Диагональ экрана" unit="дюймы">10,1</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_HMI_Studio_2_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio 2. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH10_101S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH10-101S-FE. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph/PROMPOWER_PH15_156S_FE_Datasheet.pdf" name="Панель оператора PROMPOWER PH15-156S-FE. Спецификация продукта"/>
@@ -85646,8 +85646,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">403</param>
 <param name="Высота" unit="мм">253</param>
 <param name="Глубина" unit="мм">35.2</param>
-<param name="Диагональ экрана" unit="дюймы">15</param>
 <param name="Сетевые подключения" unit="">Ethernet/RS232/RS485</param>
+<param name="Диагональ экрана" unit="дюймы">15</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/hmi_datasheet.pdf" name="Сенсорные панели оператора PROMPOWER серии PH1. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/PROMPOWER_HMI_Studio_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -85674,8 +85674,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">272</param>
 <param name="Высота" unit="мм">191</param>
 <param name="Глубина" unit="мм">41.5</param>
-<param name="Диагональ экрана" unit="дюймы">10,2</param>
 <param name="Сетевые подключения" unit="">Ethernet/RS232/RS485</param>
+<param name="Диагональ экрана" unit="дюймы">10,2</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/hmi_datasheet.pdf" name="Сенсорные панели оператора PROMPOWER серии PH1. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/PROMPOWER_HMI_Studio_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -85702,8 +85702,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">272</param>
 <param name="Высота" unit="мм">191</param>
 <param name="Глубина" unit="мм">41.5</param>
-<param name="Диагональ экрана" unit="дюймы">10,2</param>
 <param name="Сетевые подключения" unit="">RS232/RS422/RS485</param>
+<param name="Диагональ экрана" unit="дюймы">10,2</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/hmi_datasheet.pdf" name="Сенсорные панели оператора PROMPOWER серии PH1. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/PROMPOWER_HMI_Studio_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -85730,8 +85730,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">142</param>
 <param name="Высота" unit="мм">86</param>
 <param name="Глубина" unit="мм">30.3</param>
-<param name="Диагональ экрана" unit="дюймы">4,3</param>
 <param name="Сетевые подключения" unit="">RS232/RS422/RS485</param>
+<param name="Диагональ экрана" unit="дюймы">4,3</param>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/hmi_datasheet.pdf" name="Сенсорные панели оператора PROMPOWER серии PH1. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/hmi/ph1/PROMPOWER_HMI_Studio_Software_User_Manual.pdf" name="Программное обеспечение PROMPOWER HMI Studio. Руководство пользователя"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -113819,9 +113819,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">40</param>
 <param name="Высота" unit="мм">107</param>
 <param name="Глубина" unit="мм">111.7</param>
+<param name="Количество портов" unit="">6</param>
 <param name="Поддержка POE" unit="">Нет</param>
 <param name="Питание" unit="">24 В пост.тока</param>
-<param name="Количество портов" unit="">6</param>
 <param name="Бюджет POE" unit="Вт">0</param>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/docs/ethernet-switch/IPS_Switch.pdf" name="Промышленные коммутаторы PROMPOWER серии PPS. Руководство по эксплуатации"/>
@@ -113851,9 +113851,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">270</param>
 <param name="Высота" unit="мм">44.5</param>
 <param name="Глубина" unit="мм">181</param>
+<param name="Количество портов" unit="">18</param>
 <param name="Поддержка POE" unit="">Да</param>
 <param name="Питание" unit="">100-240 В перем.тока</param>
-<param name="Количество портов" unit="">18</param>
 <param name="Бюджет POE" unit="Вт">250</param>
 <docFile url="https://www.prompower.ru/docs/ethernet-switch/IPS_Switch.pdf" name="Промышленные коммутаторы PROMPOWER серии PPS. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -113882,9 +113882,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">29</param>
 <param name="Высота" unit="мм">127</param>
 <param name="Глубина" unit="мм">107</param>
+<param name="Количество портов" unit="">6</param>
 <param name="Поддержка POE" unit="">Да</param>
 <param name="Питание" unit="">12-48 В пост.тока</param>
-<param name="Количество портов" unit="">6</param>
 <param name="Бюджет POE" unit="Вт">120</param>
 <docFile url="https://www.prompower.ru/docs/ethernet-switch/IPS_Switch.pdf" name="Промышленные коммутаторы PROMPOWER серии PPS. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
@@ -114304,8 +114304,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">125</param>
 <param name="Глубина" unit="мм">50</param>
 <param name="ЦПУ" unit="">Intel Celeron J6412</param>
-<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Вид монтажа" unit="">Настенный монтаж (опционально на рейку)</param>
+<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 B/M-Key 2280，SATA 3.0 (По запросу)</param>
 <param name="Сеть" unit="">2x LAN, Intel I210；1x LAN, Intel I226</param>
@@ -114335,8 +114335,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">165</param>
 <param name="Глубина" unit="мм">63.5</param>
 <param name="ЦПУ" unit="">Tiger Lake U UP3 (i7-1165G7)</param>
-<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Вид монтажа" unit="">Настенный монтаж (опционально на рейку)</param>
+<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 64Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M/B-Key 2280，SATA3.0；1x SATA (По запросу)</param>
 <param name="Сеть" unit="">4x LAN, Intel I210-AT</param>
@@ -114367,8 +114367,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">165</param>
 <param name="Глубина" unit="мм">63.5</param>
 <param name="ЦПУ" unit="">Tiger Lake U UP3 (i5-1135G7)</param>
-<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Вид монтажа" unit="">Настенный монтаж (опционально на рейку)</param>
+<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 64Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M/B-Key 2280，SATA3.0；1x SATA (По запросу)</param>
 <param name="Сеть" unit="">4x LAN, Intel I210-AT</param>
@@ -114399,8 +114399,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">471.4</param>
 <param name="ЦПУ" unit="">Intel Core i9-12900K</param>
-<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Вид монтажа" unit="">В стойку</param>
+<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Оперативная память" unit="Мб">4x UDIMM DDR4，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1 x M.2 M-Key 2242/2280，SATA 3.0/NVMe；4 x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219-V；1x LAN, Intel I225-V</param>
@@ -114430,8 +114430,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">471.4</param>
 <param name="ЦПУ" unit="">Intel Core i7-12700K</param>
-<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Вид монтажа" unit="">В стойку</param>
+<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Оперативная память" unit="Мб">4x UDIMM DDR4，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1 x M.2 M-Key 2242/2280，SATA 3.0/NVMe；4 x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219-V；1x LAN, Intel I225-V</param>
@@ -114461,8 +114461,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">471.4</param>
 <param name="ЦПУ" unit="">Intel Core i7-12700</param>
-<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Вид монтажа" unit="">В стойку</param>
+<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Оперативная память" unit="Мб">4x UDIMM DDR4，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1 x M.2 M-Key 2242/2280，SATA 3.0/NVMe；4 x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219-V；1x LAN, Intel I225-V</param>
@@ -114492,8 +114492,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">471.4</param>
 <param name="ЦПУ" unit="">Intel Core i5-12400</param>
-<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Вид монтажа" unit="">В стойку</param>
+<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Оперативная память" unit="Мб">4x UDIMM DDR4，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1 x M.2 M-Key 2242/2280，SATA 3.0/NVMe；4 x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219-V；1x LAN, Intel I225-V</param>
@@ -114523,8 +114523,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">471.4</param>
 <param name="ЦПУ" unit="">Intel Core i3-12100</param>
-<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Вид монтажа" unit="">В стойку</param>
+<param name="Чипсет" unit="">Intel Q670</param>
 <param name="Оперативная память" unit="Мб">4x UDIMM DDR4，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1 x M.2 M-Key 2242/2280，SATA 3.0/NVMe；4 x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219-V；1x LAN, Intel I225-V</param>
@@ -114554,8 +114554,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i5-8400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 3x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM с поддержкой Wake-on-LAN；5x LAN, Intel I210AT</param>
@@ -114585,8 +114585,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i5-9400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 3x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114616,8 +114616,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i5-8400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 3x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114647,8 +114647,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i5-9400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 5x LAN, Intel I210AT</param>
@@ -114678,8 +114678,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i5-8400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 5x LAN, Intel I210AT</param>
@@ -114709,8 +114709,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i5-9400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114740,8 +114740,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i5-8400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114771,8 +114771,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">66</param>
 <param name="ЦПУ" unit="">Intel Core i5-8400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114802,8 +114802,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">66</param>
 <param name="ЦПУ" unit="">Intel Core i5-6400</param>
-<param name="Чипсет" unit="">H110</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H110</param>
 <param name="Оперативная память" unit="Мб">2x SODIMM DDR4，макс. 32Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA 3.0; 1 x SATA，поддержка 2.5''SSD/HDD (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219LM; 2x LAN, Intel I210AT</param>
@@ -114833,8 +114833,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">360</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i5-12400</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0；2x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -114864,8 +114864,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i7-12700</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -114896,8 +114896,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i5-12400</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -114927,8 +114927,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i3-12100</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；5x LAN, Intel I210</param>
@@ -114958,8 +114958,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i7-12700</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -114989,8 +114989,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i5-12400</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -115020,8 +115020,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">226</param>
 <param name="Глубина" unit="мм">75</param>
 <param name="ЦПУ" unit="">Intel Core i3-12100</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0 (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -115051,8 +115051,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">360</param>
 <param name="Глубина" unit="мм">176</param>
 <param name="ЦПУ" unit="">Intel Core i7-12700</param>
-<param name="Чипсет" unit="">H610</param>
 <param name="Вид монтажа" unit="">Настенный монтаж</param>
+<param name="Чипсет" unit="">H610</param>
 <param name="Оперативная память" unit="Мб">2 x SO-DIMM DDR5，макс. 128Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 M-Key 2280，SATA3.0；2x SATA (По запросу)</param>
 <param name="Сеть" unit="">1x LAN, Intel I219；2x LAN, Intel I210</param>
@@ -115082,8 +115082,8 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Высота" unit="мм">125</param>
 <param name="Глубина" unit="мм">50</param>
 <param name="ЦПУ" unit="">Intel N97</param>
-<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Вид монтажа" unit="">Настенный монтаж (опционально на рейку)</param>
+<param name="Чипсет" unit="">Intel® SoC Integrated</param>
 <param name="Оперативная память" unit="Мб">1x SODIMM DDR5, макс. 16Гб (По запросу)</param>
 <param name="Накопитель" unit="">1x M.2 B/M-Key 2280，SATA 3.0 (По запросу)</param>
 <param name="Сеть" unit="">2x LAN, Intel i210 GbE; 1x LAN, Realtek RTL8111H GbE</param>
@@ -126732,11 +126732,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">235</param>
 <param name="Глубина" unit="мм">240</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">75</param>
 <param name="Индуктивность" unit="мГн">0,08</param>
 <param name="Ток" unit="А">200</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,08-200.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,08-200"/>
@@ -126764,11 +126764,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">225</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">30</param>
 <param name="Индуктивность" unit="мГн">0,42</param>
 <param name="Ток" unit="А">70</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,42-70.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,42-70"/>
@@ -126796,11 +126796,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">146</param>
 <param name="Высота" unit="мм">160</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">15</param>
 <param name="Индуктивность" unit="мГн">0,42</param>
 <param name="Ток" unit="А">40</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,42-40.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,42-40"/>
@@ -126828,11 +126828,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">146</param>
 <param name="Высота" unit="мм">160</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">18,5</param>
 <param name="Индуктивность" unit="мГн">0,35</param>
 <param name="Ток" unit="А">50</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,35-50.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,35-50"/>
@@ -126860,11 +126860,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">142</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">11</param>
 <param name="Индуктивность" unit="мГн">0,98</param>
 <param name="Ток" unit="А">30</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,98-30.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,98-30"/>
@@ -126892,11 +126892,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">225</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">37</param>
 <param name="Индуктивность" unit="мГн">0,33</param>
 <param name="Ток" unit="А">90</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,33-90.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,33-90"/>
@@ -126924,11 +126924,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">146</param>
 <param name="Высота" unit="мм">160</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">22</param>
 <param name="Индуктивность" unit="мГн">0,28</param>
 <param name="Ток" unit="А">60</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,28-60.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,28-60"/>
@@ -126956,11 +126956,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">240</param>
 <param name="Глубина" unit="мм">240</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">45</param>
 <param name="Индуктивность" unit="мГн">0,27</param>
 <param name="Ток" unit="А">110</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,27-110.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,27-110"/>
@@ -126988,11 +126988,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">240</param>
 <param name="Глубина" unit="мм">240</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">45</param>
 <param name="Индуктивность" unit="мГн">0,24</param>
 <param name="Ток" unit="А">120</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,24-120.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,24-120"/>
@@ -127020,11 +127020,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">180</param>
 <param name="Высота" unit="мм">256</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">55</param>
 <param name="Индуктивность" unit="мГн">0,2</param>
 <param name="Ток" unit="А">150</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,2-150.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,2-150"/>
@@ -127052,11 +127052,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">260</param>
 <param name="Высота" unit="мм">435</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">560</param>
 <param name="Индуктивность" unit="мГн">0,011</param>
 <param name="Ток" unit="А">1200</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -127083,11 +127083,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">110</param>
 <param name="Высота" unit="мм">140</param>
 <param name="Глубина" unit="мм">125</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">1,5</param>
 <param name="Индуктивность" unit="мГн">3,8</param>
 <param name="Ток" unit="А">5</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-3,8-5.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-3,8-5"/>
@@ -127115,11 +127115,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">120</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">2,2</param>
 <param name="Индуктивность" unit="мГн">3,6</param>
 <param name="Ток" unit="А">8</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-3,6-8.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-3,6-8"/>
@@ -127147,11 +127147,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">300</param>
 <param name="Высота" unit="мм">470</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">630</param>
 <param name="Индуктивность" unit="мГн">0,012</param>
 <param name="Ток" unit="А">1600</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -127178,11 +127178,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">122</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">3,7</param>
 <param name="Индуктивность" unit="мГн">2,4</param>
 <param name="Ток" unit="А">12</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-2,4-12.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-2,4-12"/>
@@ -127210,11 +127210,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">122</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">5,5</param>
 <param name="Индуктивность" unit="мГн">1,8</param>
 <param name="Ток" unit="А">16</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-1,8-16.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-1,8-16"/>
@@ -127242,11 +127242,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">120</param>
 <param name="Высота" unit="мм">140</param>
 <param name="Глубина" unit="мм">125</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">4</param>
 <param name="Индуктивность" unit="мГн">1,5</param>
 <param name="Ток" unit="А">10</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-1,5-10.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-1,5-10"/>
@@ -127274,11 +127274,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">146</param>
 <param name="Высота" unit="мм">160</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">37</param>
 <param name="Индуктивность" unit="мГн">0,19</param>
 <param name="Ток" unit="А">90</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,19-90.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,19-90"/>
@@ -127306,11 +127306,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">146</param>
 <param name="Высота" unit="мм">160</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">30</param>
 <param name="Индуктивность" unit="мГн">0,19</param>
 <param name="Ток" unit="А">80</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,19-80.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,19-80"/>
@@ -127338,11 +127338,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">200</param>
 <param name="Высота" unit="мм">256</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">75</param>
 <param name="Индуктивность" unit="мГн">0,16</param>
 <param name="Ток" unit="А">180</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,16-180.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,16-180"/>
@@ -127370,11 +127370,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">160</param>
 <param name="Высота" unit="мм">175</param>
 <param name="Глубина" unit="мм">200</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">45</param>
 <param name="Индуктивность" unit="мГн">0,13</param>
 <param name="Ток" unit="А">120</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,13-120.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,13-120"/>
@@ -127402,11 +127402,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">200</param>
 <param name="Высота" unit="мм">256</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">110</param>
 <param name="Индуктивность" unit="мГн">0,11</param>
 <param name="Ток" unit="А">260</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,11-260.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,11-260"/>
@@ -127434,11 +127434,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">155</param>
 <param name="Высота" unit="мм">235</param>
 <param name="Глубина" unit="мм">240</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">55</param>
 <param name="Индуктивность" unit="мГн">0,11</param>
 <param name="Ток" unit="А">150</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,11-150.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,11-150"/>
@@ -127466,11 +127466,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">215</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">132</param>
 <param name="Индуктивность" unit="мГн">0,092</param>
 <param name="Ток" unit="А">320</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,092-320.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,092-320"/>
@@ -127498,11 +127498,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">142</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">7,5</param>
 <param name="Индуктивность" unit="мГн">1,2</param>
 <param name="Ток" unit="А">25</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-1,2-25.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-1,2-25"/>
@@ -127530,11 +127530,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">122</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">5,5</param>
 <param name="Индуктивность" unit="мГн">1</param>
 <param name="Ток" unit="А">15</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-1,0-15.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-1,0-15"/>
@@ -127562,11 +127562,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">225</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">15</param>
 <param name="Индуктивность" unit="мГн">0,82</param>
 <param name="Ток" unit="А">36</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,82-36.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,82-36"/>
@@ -127594,11 +127594,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">122</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">7,5</param>
 <param name="Индуктивность" unit="мГн">0,75</param>
 <param name="Ток" unit="А">20</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,75-20.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,75-20"/>
@@ -127626,11 +127626,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">190</param>
 <param name="Высота" unit="мм">260</param>
 <param name="Глубина" unit="мм">290</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">185</param>
 <param name="Индуктивность" unit="мГн">0,044</param>
 <param name="Ток" unit="А">400</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,044-400.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,044-400"/>
@@ -127658,11 +127658,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">265</param>
 <param name="Высота" unit="мм">350</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">250</param>
 <param name="Индуктивность" unit="мГн">0,047</param>
 <param name="Ток" unit="А">630</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,047-630.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,047-630"/>
@@ -127690,11 +127690,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">180</param>
 <param name="Высота" unit="мм">260</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">132</param>
 <param name="Индуктивность" unit="мГн">0,05</param>
 <param name="Ток" unit="А">290</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,05-290.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,05-290"/>
@@ -127722,11 +127722,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">180</param>
 <param name="Высота" unit="мм">260</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">160</param>
 <param name="Индуктивность" unit="мГн">0,05</param>
 <param name="Ток" unit="А">330</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,05-330.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,05-330"/>
@@ -127754,11 +127754,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">235</param>
 <param name="Высота" unit="мм">350</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">220</param>
 <param name="Индуктивность" unit="мГн">0,059</param>
 <param name="Ток" unit="А">500</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,059-500.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,059-500"/>
@@ -127786,11 +127786,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">240</param>
 <param name="Глубина" unit="мм">240</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">110</param>
 <param name="Индуктивность" unit="мГн">0,065</param>
 <param name="Ток" unit="А">250</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,065-250.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,065-250"/>
@@ -127818,11 +127818,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">250</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">160</param>
 <param name="Индуктивность" unit="мГн">0,074</param>
 <param name="Ток" unit="А">400</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,074-400.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,074-400"/>
@@ -127850,11 +127850,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">122</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">11</param>
 <param name="Индуктивность" unit="мГн">0,6</param>
 <param name="Ток" unit="А">30</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,6-30.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,6-30"/>
@@ -127882,11 +127882,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">225</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">18,5</param>
 <param name="Индуктивность" unit="мГн">0,59</param>
 <param name="Ток" unit="А">50</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,59-50.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,59-50"/>
@@ -127914,11 +127914,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">200</param>
 <param name="Высота" unit="мм">256</param>
 <param name="Глубина" unit="мм">270</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">90</param>
 <param name="Индуктивность" unit="мГн">0,13</param>
 <param name="Ток" unit="А">220</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,13-220.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,13-220"/>
@@ -127946,11 +127946,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">165</param>
 <param name="Высота" unit="мм">176</param>
 <param name="Глубина" unit="мм">225</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">22</param>
 <param name="Индуктивность" unit="мГн">0,48</param>
 <param name="Ток" unit="А">60</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,49-60.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,49-60"/>
@@ -127978,11 +127978,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">350</param>
 <param name="Высота" unit="мм">535</param>
 <param name="Глубина" unit="мм">540</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">560</param>
 <param name="Индуктивность" unit="мГн">0,024</param>
 <param name="Ток" unit="А">1250</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -128009,11 +128009,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">228</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">280</param>
 <param name="Индуктивность" unit="мГн">0,025</param>
 <param name="Ток" unit="А">600</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,025-660.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,025-600"/>
@@ -128041,11 +128041,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">240</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">315</param>
 <param name="Индуктивность" unit="мГн">0,025</param>
 <param name="Ток" unit="А">660</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,025-660.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,025-660"/>
@@ -128073,11 +128073,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">235</param>
 <param name="Высота" unit="мм">350</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">400</param>
 <param name="Индуктивность" unit="мГн">0,025</param>
 <param name="Ток" unit="А">800</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,025-800.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,025-800"/>
@@ -128105,11 +128105,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">340</param>
 <param name="Высота" unit="мм">535</param>
 <param name="Глубина" unit="мм">540</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">500</param>
 <param name="Индуктивность" unit="мГн">0,027</param>
 <param name="Ток" unit="А">1100</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -128136,11 +128136,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">320</param>
 <param name="Высота" unit="мм">490</param>
 <param name="Глубина" unit="мм">480</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">400</param>
 <param name="Индуктивность" unit="мГн">0,029</param>
 <param name="Ток" unit="А">1000</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -128167,11 +128167,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">290</param>
 <param name="Высота" unit="мм">490</param>
 <param name="Глубина" unit="мм">480</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">355</param>
 <param name="Индуктивность" unit="мГн">0,033</param>
 <param name="Ток" unit="А">900</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -128198,11 +128198,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">214</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">220</param>
 <param name="Индуктивность" unit="мГн">0,035</param>
 <param name="Ток" unit="А">490</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,035-490.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,035-490"/>
@@ -128230,11 +128230,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">213</param>
 <param name="Высота" unit="мм">320</param>
 <param name="Глубина" unit="мм">320</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">250</param>
 <param name="Индуктивность" unit="мГн">0,035</param>
 <param name="Ток" unit="А">530</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,035-530.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,035-530"/>
@@ -128262,11 +128262,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">280</param>
 <param name="Высота" unit="мм">350</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">315</param>
 <param name="Индуктивность" unit="мГн">0,037</param>
 <param name="Ток" unit="А">800</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-0,037-800.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-0,037-800"/>
@@ -128294,11 +128294,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">280</param>
 <param name="Высота" unit="мм">350</param>
 <param name="Глубина" unit="мм">420</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">280</param>
 <param name="Индуктивность" unit="мГн">0,042</param>
 <param name="Ток" unit="А">700</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2926</itemGroupId>
@@ -128325,11 +128325,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">120</param>
 <param name="Высота" unit="мм">140</param>
 <param name="Глубина" unit="мм">125</param>
-<param name="Падение напряжения" unit="%">2</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">2,2</param>
 <param name="Индуктивность" unit="мГн">2,5</param>
 <param name="Ток" unit="А">7</param>
+<param name="Падение напряжения" unit="%">2</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-2,5-7.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-2,5-7"/>
@@ -128357,11 +128357,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">120</param>
 <param name="Высота" unit="мм">167</param>
 <param name="Глубина" unit="мм">140</param>
-<param name="Падение напряжения" unit="%">4</param>
 <param name="Напряжение" unit="В">400</param>
 <param name="Мощность" unit="кВт">1,5</param>
 <param name="Индуктивность" unit="мГн">10,2</param>
 <param name="Ток" unit="А">6</param>
+<param name="Падение напряжения" unit="%">4</param>
 <docFile url="https://www.prompower.ru/docs/inverter-accessories/Chokes_Sinewave-Filters.pdf" name="Дроссели и синус-фильтры PROMPOWER. Технический каталог"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://www.prompower.ru/catalog/CAD/PD-INL-4,9-6.pdf" name="3D-модель 3-фазный дроссель Prompower PD-INL-4,9-6"/>
@@ -143255,9 +143255,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">25.4</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">PNP</param>
 <param name="Тип" unit="">Пересечение луча</param>
 <param name="Расстояние срабатывания" unit="м">15</param>
-<param name="Тип выхода" unit="">PNP</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -143285,9 +143285,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">25.4</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">NPN</param>
 <param name="Тип" unit="">Пересечение луча</param>
 <param name="Расстояние срабатывания" unit="м">15</param>
-<param name="Тип выхода" unit="">NPN</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -143315,9 +143315,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">31</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">PNP</param>
 <param name="Тип" unit="">Отражение от объекта</param>
 <param name="Расстояние срабатывания" unit="м">1</param>
-<param name="Тип выхода" unit="">PNP</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -143345,9 +143345,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">31</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">NPN</param>
 <param name="Тип" unit="">Отражение от объекта</param>
 <param name="Расстояние срабатывания" unit="м">1</param>
-<param name="Тип выхода" unit="">NPN</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -143374,9 +143374,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">31</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">NPN</param>
 <param name="Тип" unit="">Отражение от рефлектора</param>
 <param name="Расстояние срабатывания" unit="м">3</param>
-<param name="Тип выхода" unit="">NPN</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -143403,9 +143403,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <param name="Ширина" unit="мм">11</param>
 <param name="Высота" unit="мм">31</param>
 <param name="Глубина" unit="мм">20</param>
+<param name="Тип выхода" unit="">PNP</param>
 <param name="Тип" unit="">Отражение от рефлектора</param>
 <param name="Расстояние срабатывания" unit="м">3</param>
-<param name="Тип выхода" unit="">PNP</param>
 <docFile url="https://www.prompower.ru/docs/photo-sensors/photo_electric_sensors_manual.pdf" name="Компактные фотоэлектрические датчики PROMPOWER серии PK-L. Руководство по эксплуатации"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <itemGroupId>2744</itemGroupId>
@@ -166319,32 +166319,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UA407WWA30RAMS</id>
-<qty>0</qty>
-<price qty="1" costPrice="14644.88" rPrice="18306.1"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UA 407W-WA-30RAM-S Панельный контроллер Combo 7" HMI w/ SR30XPE smart plc</name>
-<partNumber>UA 407W-WA-30RAM-S</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UA 407W-WA-30RAM-S Панельный контроллер Combo 7" HMI w/ SR30XPE smart plc<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407W-WA-30RAM-S соответствует модулю Siemens UA 407W-WA-30RAM-S.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UH4042AU010AA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="9545.28" rPrice="11931.6"/>
@@ -166358,58 +166332,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UH 404-2AU01-0AA0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 4inch 1*com 1GHz 256Mb+256Mb<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 404-2AU01-0AA0 соответствует модулю Siemens UH 404-2AU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UA407WWA18RAMN</id>
-<qty>0</qty>
-<price qty="1" costPrice="14644.88" rPrice="18306.1"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UA 407W-WA-18RAM-N Контроллер ЭКРАН 7 дюймов , 24V DC ПИТАНИЕ, 1 network port, 10 ЦИФРОВЫХ ВХОДОВ, 8 РЕЛЕЙНЫХ ВЫХОДОВ, 4 АНАЛОГОВЫХ ВХОДА/2 АНАЛОГОВЫХ ВЫХОД</name>
-<partNumber>UA 407W-WA-18RAM-N</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UA 407W-WA-18RAM-N Контроллер ЭКРАН 7 дюймов , 24V DC ПИТАНИЕ, 1 network port, 10 ЦИФРОВЫХ ВХОДОВ, 8 РЕЛЕЙНЫХ ВЫХОДОВ, 4 АНАЛОГОВЫХ ВХОДА/2 АНАЛОГОВЫХ ВЫХОД<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407W-WA-18RAM-N соответствует модулю Siemens UA 407W-WA-18RAM-N.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UA407WWA18TAMN</id>
-<qty>0</qty>
-<price qty="1" costPrice="18306.83" rPrice="22883.54"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UA 407W-WA-18TAM-N Контроллер ЭКРАН 7 дюймов , 24V DC ПИТАНИЕ, 1 network port, 10 ЦИФРОВЫХ ВХОДОВ, 8 ТРАНЗИСТОРНЫХ ВЫХОДОВ, 4 АНАЛОГОВЫХ ВХОДА/2 АНАЛОГОВЫХ ВЫХОДА</name>
-<partNumber>UA 407W-WA-18TAM-N</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UA 407W-WA-18TAM-N Контроллер ЭКРАН 7 дюймов , 24V DC ПИТАНИЕ, 1 network port, 10 ЦИФРОВЫХ ВХОДОВ, 8 ТРАНЗИСТОРНЫХ ВЫХОДОВ, 4 АНАЛОГОВЫХ ВХОДА/2 АНАЛОГОВЫХ ВЫХОДА<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407W-WA-18TAM-N соответствует модулю Siemens UA 407W-WA-18TAM-N.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
