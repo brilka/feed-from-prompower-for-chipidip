@@ -75452,6 +75452,42 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
+    ],
+    "https://www.prompower.ru/catalog/inverters/pd100/PD100A4015": [
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd100/PD100_manual.pdf",
+        "name": "Преобразователь частоты PROMPOWER серии PD100. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/pd110/PD110A4015": [
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd110/PD110_manual.pdf",
+        "name": "Преобразователь частоты PROMPOWER серии PD110. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd110/PDO-IO_manual.pdf",
+        "name": "PDO-IO PROMPOWER. User Guide"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd110/PDO-LCD_manual.pdf",
+        "name": "PDO-LCD PROMPOWER. User Manual"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd110/PDO-Profibus_manual.pdf",
+        "name": "PDO-Profibus PROMPOWER. User Guide"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/inverters/pd110/PDO-USB_manual.pdf",
+        "name": "PDO-USB PROMPOWER. User Manual"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
