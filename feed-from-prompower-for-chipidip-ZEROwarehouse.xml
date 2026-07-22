@@ -162496,6 +162496,57 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <depth>384</depth>
 </offer>
 <offer>
+<id>UN3901AB600AA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="783.42" rPrice="947.94"/>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm</name>
+<partNumber>UN 390-1AB60-0AA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 390-1AB60-0AA0 соответствует модулю Siemens 6ES7 390-1AB60-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN9720BA520XA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="1513.4" rPrice="1831.22"/>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 972-0BA52-0XA0 КОННЕКТОР 900  bus connector for Profibus    w/o program port, instant connection</name>
+<partNumber>UN 972-0BA52-0XA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 972-0BA52-0XA0 КОННЕКТОР 900  bus connector for Profibus    w/o program port, instant connection<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 972-0BA52-0XA0 соответствует модулю Siemens 6ES7 972-0BA52-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<param name="Тип электроустановочного изделия" unit="">нет в справочнике</param>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN9720BA410XA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="648.31" rPrice="784.46"/>
@@ -162573,31 +162624,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN8300EH100AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="162.33" rPrice="196.42"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable</name>
-<partNumber>UN 830-0EH10-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 830-0EH10-0AA0 соответствует модулю Siemens 6ES7 830-0EH10-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UA4AIBD</id>
 <qty>0</qty>
 <price qty="1" costPrice="4565.42" rPrice="5524.16"/>
@@ -162623,18 +162649,18 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2918GF230XA0</id>
+<id>UN8300EH100AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="675.54" rPrice="817.4"/>
+<price qty="1" costPrice="162.33" rPrice="196.42"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 291-8GF23-0XA0 КАРТА ПАМЯТИ ДЛЯ CPU 200 И 120 СЕРИЙ</name>
-<partNumber>UN 291-8GF23-0XA0</partNumber>
+<name>UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable</name>
+<partNumber>UN 830-0EH10-0AA0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 291-8GF23-0XA0 КАРТА ПАМЯТИ ДЛЯ CPU 200 И 120 СЕРИЙ<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 291-8GF23-0XA0 соответствует модулю Siemens 6ES7 291-8GF23-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 830-0EH10-0AA0 КАБЕЛЬ Profibus cable<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 830-0EH10-0AA0 соответствует модулю Siemens 6ES7 830-0EH10-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -162648,18 +162674,18 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN3901AB600AA0</id>
+<id>UN2918GF230XA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="783.42" rPrice="947.94"/>
+<price qty="1" costPrice="675.54" rPrice="817.4"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm</name>
-<partNumber>UN 390-1AB60-0AA0</partNumber>
+<name>UN 291-8GF23-0XA0 КАРТА ПАМЯТИ ДЛЯ CPU 200 И 120 СЕРИЙ</name>
+<partNumber>UN 291-8GF23-0XA0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 390-1AB60-0AA0 ДИНРЕЙКА DIN Rail 160mm<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 390-1AB60-0AA0 соответствует модулю Siemens 6ES7 390-1AB60-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 291-8GF23-0XA0 КАРТА ПАМЯТИ ДЛЯ CPU 200 И 120 СЕРИЙ<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 291-8GF23-0XA0 соответствует модулю Siemens 6ES7 291-8GF23-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -162850,6 +162876,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN9720BB520XA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="1566.84" rPrice="1895.88"/>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 972-0BB52-0XA0 ШИННЫЙ СОЕДИНИТЕЛЬ ДЛЯ ПОДКЛЮЧЕНИЯ К СЕТЯМ PROFIBUS ДО 12 МБИТ/С, ОТВОД КАБЕЛЯ ПОД УГЛОМ 90 ГРАДУСОВ, 15,8 X 59 X 35,6 MM (ШXВXГ), IPCD, ТЕХНОЛОГИЯ FAST CONNECT, С РАЗЪЁМОМ ДЛЯ ПОДКЛЮЧЕНИЯ ПРОГРАММАТОРА</name>
+<partNumber>UN 972-0BB52-0XA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 972-0BB52-0XA0 ШИННЫЙ СОЕДИНИТЕЛЬ ДЛЯ ПОДКЛЮЧЕНИЯ К СЕТЯМ PROFIBUS ДО 12 МБИТ/С, ОТВОД КАБЕЛЯ ПОД УГЛОМ 90 ГРАДУСОВ, 15,8 X 59 X 35,6 MM (ШXВXГ), IPCD, ТЕХНОЛОГИЯ FAST CONNECT, С РАЗЪЁМОМ ДЛЯ ПОДКЛЮЧЕНИЯ ПРОГРАММАТОРА<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 972-0BB52-0XA0 соответствует модулю Siemens 6ES7 972-0BB52-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<param name="Тип электроустановочного изделия" unit="">нет в справочнике</param>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN9720BB410XA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="728.98" rPrice="882.06"/>
@@ -162902,6 +162954,31 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN2906AA200XA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="378.1" rPrice="457.5"/>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 290-6AA20-0XA0 АДАПТЕР UN200 Bus cable</name>
+<partNumber>UN 290-6AA20-0XA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 290-6AA20-0XA0 АДАПТЕР UN200 Bus cable<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 290-6AA20-0XA0 соответствует модулю Siemens 6ES7 290-6AA20-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN9720CB200XA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="10806.58" rPrice="13075.96"/>
@@ -162939,83 +163016,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 972-0CA23-0XA0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 972-0CA23-0XA0 АДАПТЕР MPIconnect HMI adapter<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 972-0CA23-0XA0 соответствует модулю Siemens 6ES7 972-0CA23-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN9720BB520XA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="1566.84" rPrice="1895.88"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 972-0BB52-0XA0 ШИННЫЙ СОЕДИНИТЕЛЬ ДЛЯ ПОДКЛЮЧЕНИЯ К СЕТЯМ PROFIBUS ДО 12 МБИТ/С, ОТВОД КАБЕЛЯ ПОД УГЛОМ 90 ГРАДУСОВ, 15,8 X 59 X 35,6 MM (ШXВXГ), IPCD, ТЕХНОЛОГИЯ FAST CONNECT, С РАЗЪЁМОМ ДЛЯ ПОДКЛЮЧЕНИЯ ПРОГРАММАТОРА</name>
-<partNumber>UN 972-0BB52-0XA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 972-0BB52-0XA0 ШИННЫЙ СОЕДИНИТЕЛЬ ДЛЯ ПОДКЛЮЧЕНИЯ К СЕТЯМ PROFIBUS ДО 12 МБИТ/С, ОТВОД КАБЕЛЯ ПОД УГЛОМ 90 ГРАДУСОВ, 15,8 X 59 X 35,6 MM (ШXВXГ), IPCD, ТЕХНОЛОГИЯ FAST CONNECT, С РАЗЪЁМОМ ДЛЯ ПОДКЛЮЧЕНИЯ ПРОГРАММАТОРА<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 972-0BB52-0XA0 соответствует модулю Siemens 6ES7 972-0BB52-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<param name="Тип электроустановочного изделия" unit="">нет в справочнике</param>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN9720BA520XA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="1513.4" rPrice="1831.22"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 972-0BA52-0XA0 КОННЕКТОР 900  bus connector for Profibus    w/o program port, instant connection</name>
-<partNumber>UN 972-0BA52-0XA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 972-0BA52-0XA0 КОННЕКТОР 900  bus connector for Profibus    w/o program port, instant connection<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 972-0BA52-0XA0 соответствует модулю Siemens 6ES7 972-0BA52-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<param name="Тип электроустановочного изделия" unit="">нет в справочнике</param>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN2906AA200XA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="378.1" rPrice="457.5"/>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 290-6AA20-0XA0 АДАПТЕР UN200 Bus cable</name>
-<partNumber>UN 290-6AA20-0XA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 290-6AA20-0XA0 АДАПТЕР UN200 Bus cable<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 290-6AA20-0XA0 соответствует модулю Siemens 6ES7 290-6AA20-0XA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -163154,32 +163154,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1211BF220XA8</id>
-<qty>0</qty>
-<price qty="1" costPrice="3451.88" rPrice="2934.1"/>
-<categoryId>47</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 121-1BF22-0XA8 МОДУЛЬ ВВОДА ДИСКРЕТНЫХ СИГНАЛОВ EM121 8DI,24VDC</name>
-<partNumber>UN 121-1BF22-0XA8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 121-1BF22-0XA8 МОДУЛЬ ВВОДА ДИСКРЕТНЫХ СИГНАЛОВ EM121 8DI,24VDC<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 121-1BF22-0XA8 соответствует модулю Siemens 6ES7 121-1BF22-0XA8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1211BH220XA8</id>
 <qty>0</qty>
 <price qty="1" costPrice="5178.54" rPrice="4401.76"/>
@@ -163232,6 +163206,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN2883AT080AA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="16452.86" rPrice="19907.96"/>
+<categoryId>47</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 288-3AT08-0AA0 МОДУЛЬ ТЕРМОПАР EM AT08 8TC </name>
+<partNumber>UN 288-3AT08-0AA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 288-3AT08-0AA0 МОДУЛЬ ТЕРМОПАР EM AT08 8TC <br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-3AT08-0AA0 соответствует модулю Siemens 6ES7 288-3AT08-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN2883AT080AB0</id>
 <qty>0</qty>
 <price qty="1" costPrice="16452.86" rPrice="19907.96"/>
@@ -163271,32 +163271,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 288-5AE01-0AA0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 288-5AE01-0AA0 МОДУЛЬ АНАЛОГОВЫХ ВХОДОВ SB AE01 1AI<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-5AE01-0AA0 соответствует модулю Siemens 6ES7 288-5AE01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN2885BA010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="1891.5" rPrice="2288.72"/>
-<categoryId>47</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 288-5BA01-0AA0 БАТАРЕЯ BA01. Поддержка CR1025</name>
-<partNumber>UN 288-5BA01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 288-5BA01-0AA0 БАТАРЕЯ BA01. Поддержка CR1025<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-5BA01-0AA0 соответствует модулю Siemens 6ES7 288-5BA01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -163596,6 +163570,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
+<id>UN2885BA010AA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="1891.5" rPrice="2288.72"/>
+<categoryId>47</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 288-5BA01-0AA0 БАТАРЕЯ BA01. Поддержка CR1025</name>
+<partNumber>UN 288-5BA01-0AA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 288-5BA01-0AA0 БАТАРЕЯ BA01. Поддержка CR1025<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-5BA01-0AA0 соответствует модулю Siemens 6ES7 288-5BA01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
 <id>UN2885CM010AA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="3403.9" rPrice="4118.72"/>
@@ -163804,19 +163804,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2231BL320XB0</id>
+<id>UN2231PH320XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="14940.46" rPrice="18077.96"/>
+<price qty="1" costPrice="9077.4" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 223-1BL32-0XB0 Модуль цифровых входов-выходов SM1223 16DI 24VDC/16DO 24VDC (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
-<partNumber>UN 223-1BL32-0XB0</partNumber>
+<name>UN 223-1PH32-0XB0 Модуль цифровых входов, релейных выходов SM1223 8DI 24VDC/8DO RELAY (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
+<partNumber>UN 223-1PH32-0XB0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 223-1BL32-0XB0 Модуль цифровых входов-выходов SM1223 16DI 24VDC/16DO 24VDC (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 223-1BL32-0XB0 соответствует модулю Siemens 6ES7 223-1BL32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 223-1PH32-0XB0 Модуль цифровых входов, релейных выходов SM1223 8DI 24VDC/8DO RELAY (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 223-1PH32-0XB0 соответствует модулю Siemens 6ES7 223-1PH32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -163934,19 +163934,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN3325HF000AB0</id>
+<id>UN1211BF220XA8</id>
 <qty>0</qty>
-<price qty="1" costPrice="47954.07" rPrice="58024.42"/>
+<price qty="1" costPrice="3451.88" rPrice="2934.1"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 332-5HF00-0AB0 МОДУЛЬ АНАЛОГОВОГО ВЫВОДА SM332 8AO, 12 bits</name>
-<partNumber>UN 332-5HF00-0AB0</partNumber>
+<name>UN 121-1BF22-0XA8 МОДУЛЬ ВВОДА ДИСКРЕТНЫХ СИГНАЛОВ EM121 8DI,24VDC</name>
+<partNumber>UN 121-1BF22-0XA8</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 332-5HF00-0AB0 МОДУЛЬ АНАЛОГОВОГО ВЫВОДА SM332 8AO, 12 bits<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 332-5HF00-0AB0 соответствует модулю Siemens 6ES7 332-5HF00-0AB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 121-1BF22-0XA8 МОДУЛЬ ВВОДА ДИСКРЕТНЫХ СИГНАЛОВ EM121 8DI,24VDC<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 121-1BF22-0XA8 соответствует модулю Siemens 6ES7 121-1BF22-0XA8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -163999,32 +163999,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 231-5QD32-0XB0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 231-5QD32-0XB0 Модуль температурный SM1231 4TC 16BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 231-5QD32-0XB0 соответствует модулю Siemens 6ES7 231-5QD32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN2315QF320XB0</id>
-<qty>0</qty>
-<price qty="1" costPrice="24017.87" rPrice="29061.62"/>
-<categoryId>47</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 231-5QF32-0XB0 Модуль температурный SM1231 8TC 16BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
-<partNumber>UN 231-5QF32-0XB0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 231-5QF32-0XB0 Модуль температурный SM1231 8TC 16BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 231-5QF32-0XB0 соответствует модулю Siemens 6ES7 231-5QF32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -164350,19 +164324,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2324HB320XB0</id>
+<id>UN2315QF320XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="12481.31" rPrice="15102.38"/>
+<price qty="1" costPrice="24017.87" rPrice="29061.62"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 232-4HB32-0XB0 Модуль аналоговых выходов SM1232 2AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
-<partNumber>UN 232-4HB32-0XB0</partNumber>
+<name>UN 231-5QF32-0XB0 Модуль температурный SM1231 8TC 16BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
+<partNumber>UN 231-5QF32-0XB0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 232-4HB32-0XB0 Модуль аналоговых выходов SM1232 2AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 232-4HB32-0XB0 соответствует модулю Siemens 6ES7 232-4HB32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 231-5QF32-0XB0 Модуль температурный SM1231 8TC 16BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 231-5QF32-0XB0 соответствует модулю Siemens 6ES7 231-5QF32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -164714,19 +164688,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2324HD320XB0</id>
+<id>UN3325HF000AB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="19856.76" rPrice="24026.68"/>
+<price qty="1" costPrice="47954.07" rPrice="58024.42"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 232-4HD32-0XB0 Модуль аналоговых выходов SM1232 4AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
-<partNumber>UN 232-4HD32-0XB0</partNumber>
+<name>UN 332-5HF00-0AB0 МОДУЛЬ АНАЛОГОВОГО ВЫВОДА SM332 8AO, 12 bits</name>
+<partNumber>UN 332-5HF00-0AB0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 232-4HD32-0XB0 Модуль аналоговых выходов SM1232 4AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 232-4HD32-0XB0 соответствует модулю Siemens 6ES7 232-4HD32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 332-5HF00-0AB0 МОДУЛЬ АНАЛОГОВОГО ВЫВОДА SM332 8AO, 12 bits<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 332-5HF00-0AB0 соответствует модулю Siemens 6ES7 332-5HF00-0AB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -164753,6 +164727,58 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 341-1CH02-0AE0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 341-1CH02-0AE0 КОММУНИКАЦИОНЫЙ ПРОЦЕССОР CP341 С ИНТЕРФЕЙСОМ RS422/485<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 341-1CH02-0AE0 соответствует модулю Siemens 6ES7 341-1CH02-0AE0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN2324HB320XB0</id>
+<qty>0</qty>
+<price qty="1" costPrice="12481.31" rPrice="15102.38"/>
+<categoryId>47</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 232-4HB32-0XB0 Модуль аналоговых выходов SM1232 2AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
+<partNumber>UN 232-4HB32-0XB0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 232-4HB32-0XB0 Модуль аналоговых выходов SM1232 2AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 232-4HB32-0XB0 соответствует модулю Siemens 6ES7 232-4HB32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN2324HD320XB0</id>
+<qty>0</qty>
+<price qty="1" costPrice="19856.76" rPrice="24026.68"/>
+<categoryId>47</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 232-4HD32-0XB0 Модуль аналоговых выходов SM1232 4AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
+<partNumber>UN 232-4HD32-0XB0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 232-4HD32-0XB0 Модуль аналоговых выходов SM1232 4AO 14BITS (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 232-4HD32-0XB0 соответствует модулю Siemens 6ES7 232-4HD32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -165572,19 +165598,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2231PH320XB0</id>
+<id>UN2231BL320XB0</id>
 <qty>0</qty>
-<price qty="1" costPrice="9077.4" rPrice="10983.66"/>
+<price qty="1" costPrice="14940.46" rPrice="18077.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 223-1PH32-0XB0 Модуль цифровых входов, релейных выходов SM1223 8DI 24VDC/8DO RELAY (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
-<partNumber>UN 223-1PH32-0XB0</partNumber>
+<name>UN 223-1BL32-0XB0 Модуль цифровых входов-выходов SM1223 16DI 24VDC/16DO 24VDC (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)</name>
+<partNumber>UN 223-1BL32-0XB0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 223-1PH32-0XB0 Модуль цифровых входов, релейных выходов SM1223 8DI 24VDC/8DO RELAY (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 223-1PH32-0XB0 соответствует модулю Siemens 6ES7 223-1PH32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[UN 223-1BL32-0XB0 Модуль цифровых входов-выходов SM1223 16DI 24VDC/16DO 24VDC (необходимо, чтобы версия прошивки контроллера была не ниже 4.0)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 223-1BL32-0XB0 соответствует модулю Siemens 6ES7 223-1BL32-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -166327,19 +166353,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN2883AT080AA0</id>
+<id>UH510W3WF010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="16452.86" rPrice="19907.96"/>
-<categoryId>47</categoryId>
+<price qty="1" costPrice="20505.07" rPrice="24811.14"/>
+<categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 288-3AT08-0AA0 МОДУЛЬ ТЕРМОПАР EM AT08 8TC </name>
-<partNumber>UN 288-3AT08-0AA0</partNumber>
+<name>10" WIFI</name>
+<partNumber>UH 510W-3WF01-0AA0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 288-3AT08-0AA0 МОДУЛЬ ТЕРМОПАР EM AT08 8TC <br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-3AT08-0AA0 соответствует модулю Siemens 6ES7 288-3AT08-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[10" WIFI<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 510W-3WF01-0AA0 соответствует модулю Siemens UH 510W-3WF01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -166418,84 +166444,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UA 407AE-20RDM-00</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[ПАНЕЛЬНЫЙ КОНТРОЛЛЕР 7inch 10DI 10DO RLY 1*Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407AE-20RDM-00 соответствует модулю Siemens UA 407AE-20RDM-00.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UH407A2AU010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="12022.55" rPrice="14547.28"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com</name>
-<partNumber>UH 407A-2AU01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 407A-2AU01-0AA0 соответствует модулю Siemens UH 407A-2AU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UH407A2EU010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="7321.01" rPrice="8858.42"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com 1*Ethernet</name>
-<partNumber>UH 407A-2EU01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com 1*Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 407A-2EU01-0AA0 соответствует модулю Siemens UH 407A-2EU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UH4104EU010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="16209.87" rPrice="19613.94"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UH 410-4EU01-0AA0 ПАНЕЛЬ ОПЕРАТОРА HMI 400 10" w/ethernet</name>
-<partNumber>UH 410-4EU01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UH 410-4EU01-0AA0 ПАНЕЛЬ ОПЕРАТОРА HMI 400 10" w/ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 410-4EU01-0AA0 соответствует модулю Siemens UH 410-4EU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -166743,58 +166691,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UH510W3WF010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="20505.07" rPrice="24811.14"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>10" WIFI</name>
-<partNumber>UH 510W-3WF01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[10" WIFI<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 510W-3WF01-0AA0 соответствует модулю Siemens UH 510W-3WF01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UH4042AU010AA0</id>
-<qty>0</qty>
-<price qty="1" costPrice="9860.83" rPrice="11931.6"/>
-<categoryId>43</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>ПАНЕЛЬ ОПЕРАТОРА 4inch 1*com 1GHz 256Mb+256Mb</name>
-<partNumber>UH 404-2AU01-0AA0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 4inch 1*com 1GHz 256Mb+256Mb<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 404-2AU01-0AA0 соответствует модулю Siemens UH 404-2AU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UH4042EU010AA0</id>
 <qty>0</qty>
 <price qty="1" costPrice="8644.86" rPrice="10460.28"/>
@@ -166821,19 +166717,19 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UA407WWA20RAMS</id>
+<id>UH4042AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="14318.36" rPrice="17325.22"/>
+<price qty="1" costPrice="9860.83" rPrice="11931.6"/>
 <categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UA 407W-WA-20RAM-S Панельный контроллер Combo 7" HMI w/ SR20XPE smart plc</name>
-<partNumber>UA 407W-WA-20RAM-S</partNumber>
+<name>ПАНЕЛЬ ОПЕРАТОРА 4inch 1*com 1GHz 256Mb+256Mb</name>
+<partNumber>UH 404-2AU01-0AA0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UA 407W-WA-20RAM-S Панельный контроллер Combo 7" HMI w/ SR20XPE smart plc<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407W-WA-20RAM-S соответствует модулю Siemens UA 407W-WA-20RAM-S.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 4inch 1*com 1GHz 256Mb+256Mb<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 404-2AU01-0AA0 соответствует модулю Siemens UH 404-2AU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -166899,19 +166795,97 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1242BE230XB8</id>
+<id>UH407A2AU010AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="12466.96" rPrice="10596.92"/>
-<categoryId>44</categoryId>
+<price qty="1" costPrice="12022.55" rPrice="14547.28"/>
+<categoryId>43</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 124-2BE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124E-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485. Ethernet</name>
-<partNumber>UN 124-2BE23-0XB8</partNumber>
+<name>ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com</name>
+<partNumber>UH 407A-2AU01-0AA0</partNumber>
 <vendor>Unimat</vendor>
-<description><![CDATA[UN 124-2BE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124E-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485. Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 124-2BE23-0XB8 соответствует модулю Siemens 6ES7 124-2BE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 407A-2AU01-0AA0 соответствует модулю Siemens UH 407A-2AU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UA407WWA20RAMS</id>
+<qty>0</qty>
+<price qty="1" costPrice="14318.36" rPrice="17325.22"/>
+<categoryId>43</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UA 407W-WA-20RAM-S Панельный контроллер Combo 7" HMI w/ SR20XPE smart plc</name>
+<partNumber>UA 407W-WA-20RAM-S</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UA 407W-WA-20RAM-S Панельный контроллер Combo 7" HMI w/ SR20XPE smart plc<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UA 407W-WA-20RAM-S соответствует модулю Siemens UA 407W-WA-20RAM-S.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UH407A2EU010AA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="7321.01" rPrice="8858.42"/>
+<categoryId>43</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com 1*Ethernet</name>
+<partNumber>UH 407A-2EU01-0AA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[ПАНЕЛЬ ОПЕРАТОРА 7inch 1*com 1*Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 407A-2EU01-0AA0 соответствует модулю Siemens UH 407A-2EU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UH4104EU010AA0</id>
+<qty>0</qty>
+<price qty="1" costPrice="16209.87" rPrice="19613.94"/>
+<categoryId>43</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UH 410-4EU01-0AA0 ПАНЕЛЬ ОПЕРАТОРА HMI 400 10" w/ethernet</name>
+<partNumber>UH 410-4EU01-0AA0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UH 410-4EU01-0AA0 ПАНЕЛЬ ОПЕРАТОРА HMI 400 10" w/ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 410-4EU01-0AA0 соответствует модулю Siemens UH 410-4EU01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -167003,32 +166977,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1262AE230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="15644.71" rPrice="13298.0"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 126-2AE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126E-2Q DC/DC/DC 24DI/16DO 2PPI 1ETH.</name>
-<partNumber>UN 126-2AE23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 126-2AE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126E-2Q DC/DC/DC 24DI/16DO 2PPI 1ETH.<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 126-2AE23-0XB8 соответствует модулю Siemens 6ES7 126-2AE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN1262BE230XB8</id>
 <qty>0</qty>
 <price qty="1" costPrice="16988.14" rPrice="14439.92"/>
@@ -167042,6 +166990,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 126-2BE23-0XB8</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 126-2BE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126E-2R AC/DC/RLY 24DI/16DO 2PPI 1ETH.<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 126-2BE23-0XB8 соответствует модулю Siemens 6ES7 126-2BE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN1262AE230XB8</id>
+<qty>0</qty>
+<price qty="1" costPrice="15644.71" rPrice="13298.0"/>
+<categoryId>44</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 126-2AE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126E-2Q DC/DC/DC 24DI/16DO 2PPI 1ETH.</name>
+<partNumber>UN 126-2AE23-0XB8</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 126-2AE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU126E-2Q DC/DC/DC 24DI/16DO 2PPI 1ETH.<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 126-2AE23-0XB8 соответствует модулю Siemens 6ES7 126-2AE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -167120,6 +167094,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 214-1BD23-0XB8</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 214-1BD23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224, ПИТАНИЕ ПЕРЕМЕННЫМ ТОКОМ, 14DI =24В; 10DO С ЗАМЫК. КОНТАКТАМИ РЕЛЕ. Communication ports: 2RS485 with PPI Protocol <br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 214-1BD23-0XB8 соответствует модулю Siemens 6ES7 214-1BD23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN2142AD230XB0</id>
+<qty>0</qty>
+<price qty="1" costPrice="17020.51" rPrice="20594.82"/>
+<categoryId>44</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 214-2AD23-0XB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224XP ПИТАНИЕ ПОСТОЯННЫМ ТОКОМ DC/DC/DC. Local Digital 14DI/10DO,Analog 2AI/1AO. Communication ports: 2(two) RS485 with PPI Protocol</name>
+<partNumber>UN 214-2AD23-0XB0</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 214-2AD23-0XB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224XP ПИТАНИЕ ПОСТОЯННЫМ ТОКОМ DC/DC/DC. Local Digital 14DI/10DO,Analog 2AI/1AO. Communication ports: 2(two) RS485 with PPI Protocol<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 214-2AD23-0XB0 соответствует модулю Siemens 6ES7 214-2AD23-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -167250,32 +167250,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 214-2BD23-0XB0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 214-2BD23-0XB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224XP ПИТАНИЕ ПЕРЕМЕННЫМ ТОКОМ AC/DC/RLY. Local Digital 14DI/10DO,Analog 2AI/1AO. Communication ports: 2(two) RS485 with PPI Protocol<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 214-2BD23-0XB0 соответствует модулю Siemens 6ES7 214-2BD23-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
-<id>UN2142AD230XB0</id>
-<qty>0</qty>
-<price qty="1" costPrice="17020.51" rPrice="20594.82"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 214-2AD23-0XB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224XP ПИТАНИЕ ПОСТОЯННЫМ ТОКОМ DC/DC/DC. Local Digital 14DI/10DO,Analog 2AI/1AO. Communication ports: 2(two) RS485 with PPI Protocol</name>
-<partNumber>UN 214-2AD23-0XB0</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 214-2AD23-0XB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU 224XP ПИТАНИЕ ПОСТОЯННЫМ ТОКОМ DC/DC/DC. Local Digital 14DI/10DO,Analog 2AI/1AO. Communication ports: 2(two) RS485 with PPI Protocol<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 214-2AD23-0XB0 соответствует модулю Siemens 6ES7 214-2AD23-0XB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -167497,32 +167471,6 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>UN1221BA230XB8</id>
-<qty>0</qty>
-<price qty="1" costPrice="6520.54" rPrice="5542.46"/>
-<categoryId>44</categoryId>
-<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
-<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
-<name>UN 122-1BA23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU122 AC/DC/Relay 8DI/6DO 1PPI</name>
-<partNumber>UN 122-1BA23-0XB8</partNumber>
-<vendor>Unimat</vendor>
-<description><![CDATA[UN 122-1BA23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU122 AC/DC/Relay 8DI/6DO 1PPI<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 122-1BA23-0XB8 соответствует модулю Siemens 6ES7 122-1BA23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
-<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
-<itemGroupId>2273</itemGroupId>
-<unitID>шт</unitID>
-</offer>
-<offer>
 <id>UN2881SR600AB0</id>
 <qty>0</qty>
 <price qty="1" costPrice="19290.12" rPrice="23341.04"/>
@@ -167536,6 +167484,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 288-1SR60-0AB0</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 288-1SR60-0AB0 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU SR60 36DI/24DO Rly 220V AC power<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 288-1SR60-0AB0 соответствует модулю Siemens 6ES7 288-1SR60-0AB0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN1221BA230XB8</id>
+<qty>0</qty>
+<price qty="1" costPrice="6520.54" rPrice="5542.46"/>
+<categoryId>44</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 122-1BA23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU122 AC/DC/Relay 8DI/6DO 1PPI</name>
+<partNumber>UN 122-1BA23-0XB8</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 122-1BA23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU122 AC/DC/Relay 8DI/6DO 1PPI<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 122-1BA23-0XB8 соответствует модулю Siemens 6ES7 122-1BA23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
@@ -167874,6 +167848,32 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 <partNumber>UN 124-2AE23-0XB8</partNumber>
 <vendor>Unimat</vendor>
 <description><![CDATA[UN 124-2AE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124E-2Q DC/DC/DC. Local Digital 14DI/10DO, Transistor output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485. Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 124-2AE23-0XB8 соответствует модулю Siemens 6ES7 124-2AE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%201200%20series%20PLC.pdf" name="UN 1200 series PLC"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20200%20Series%20PLC%20(29-60(%E6%9B%B4%E6%96%B0%EF%BC%89).pdf" name="UN 200 Series PLC (29-60(更新）)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20300%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20(3-28).pdf" name="UN 300 модули (3-28)"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UniMAT%20%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0.pdf" name="UniMAT Листовка"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf" name="Unimat - 2025 брошюра"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf" name="Модули UniMAT UN 300 = Siemens S7-300 (100% аналог)"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+</offer>
+<offer>
+<id>UN1242BE230XB8</id>
+<qty>0</qty>
+<price qty="1" costPrice="12466.96" rPrice="10596.92"/>
+<categoryId>44</categoryId>
+<picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-1654002861798-0.35138493486299605.jpg</picture>
+<picture>https://unimat-russia.ru/uploads/product-33.png</picture>
+<name>UN 124-2BE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124E-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485. Ethernet</name>
+<partNumber>UN 124-2BE23-0XB8</partNumber>
+<vendor>Unimat</vendor>
+<description><![CDATA[UN 124-2BE23-0XB8 ЦЕНТРАЛЬНЫЙ ПРОЦЕССОР CPU124E-2R AC/DC/RLY. Local Digital 14DI/10DO, relay output. Digital: 128 ( 64DI/64DO), Analog: 32 (16AI/16AO). Communication ports: 2(two) RS485. Ethernet<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UN 124-2BE23-0XB8 соответствует модулю Siemens 6ES7 124-2BE23-0XB8.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(61-82(%E6%9B%B4%E6%96%B0).pdf" name="UN 120 Series PLC (61-82(更新)"/>
