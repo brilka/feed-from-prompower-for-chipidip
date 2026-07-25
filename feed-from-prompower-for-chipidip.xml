@@ -5730,7 +5730,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>ESM263D403</id>
-<qty>63</qty>
+<qty>66</qty>
 <url>https://www.prompower.ru/catalog/mcb/ESM263D403</url>
 <price qty="1" costPrice="2044.72" rPrice="2555.9"/>
 <categoryId>4</categoryId>
@@ -6877,7 +6877,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>ESM163C21</id>
-<qty>3</qty>
+<qty>2</qty>
 <url>https://www.prompower.ru/catalog/mcb/ESM163C21</url>
 <price qty="1" costPrice="1068.72" rPrice="1335.9"/>
 <categoryId>4</categoryId>
@@ -7249,7 +7249,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>ESM163C101</id>
-<qty>68</qty>
+<qty>67</qty>
 <url>https://www.prompower.ru/catalog/mcb/ESM163C101</url>
 <price qty="1" costPrice="633.42" rPrice="791.78"/>
 <categoryId>4</categoryId>
@@ -10594,7 +10594,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PGV2ME03</id>
-<qty>45</qty>
+<qty>48</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-motor-protection/PGV2ME03</url>
 <price qty="1" costPrice="2922.14" rPrice="3652.68"/>
 <categoryId>60</categoryId>
@@ -10790,7 +10790,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PGV2ME14</id>
-<qty>5</qty>
+<qty>4</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-motor-protection/PGV2ME14</url>
 <price qty="1" costPrice="3304.74" rPrice="4130.92"/>
 <categoryId>60</categoryId>
@@ -10986,7 +10986,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PGV3ME80</id>
-<qty>55</qty>
+<qty>54</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-motor-protection/PGV3ME80</url>
 <price qty="1" costPrice="8573.18" rPrice="10716.48"/>
 <categoryId>60</categoryId>
@@ -13212,7 +13212,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>LMDK</id>
-<qty>1076</qty>
+<qty>1070</qty>
 <url>https://www.prompower.ru/catalog/relays/relays-accessories/LMDK</url>
 <price qty="1" costPrice="144.45" rPrice="180.56"/>
 <categoryId>34</categoryId>
@@ -15622,7 +15622,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>HDR3012</id>
-<qty>71</qty>
+<qty>70</qty>
 <url>https://www.prompower.ru/catalog/power-hdr/HDR3012</url>
 <price qty="1" costPrice="1466.93" rPrice="1833.66"/>
 <categoryId>29</categoryId>
@@ -15742,7 +15742,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>HDR6024</id>
-<qty>165</qty>
+<qty>163</qty>
 <url>https://www.prompower.ru/catalog/power-hdr/HDR6024</url>
 <price qty="1" costPrice="1789.01" rPrice="2236.26"/>
 <categoryId>29</categoryId>
@@ -15832,7 +15832,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>MDR10012</id>
-<qty>65</qty>
+<qty>63</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-mdr/MDR10012</url>
 <price qty="1" costPrice="3540.93" rPrice="4426.16"/>
 <categoryId>101</categoryId>
@@ -16093,7 +16093,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>MDR6024</id>
-<qty>863</qty>
+<qty>852</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-mdr/MDR6024</url>
 <price qty="1" costPrice="1919.79" rPrice="2399.74"/>
 <categoryId>101</categoryId>
@@ -16122,7 +16122,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>NDR48024</id>
-<qty>34</qty>
+<qty>33</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR48024</url>
 <price qty="1" costPrice="8903.07" rPrice="11128.84"/>
 <categoryId>30</categoryId>
@@ -16441,7 +16441,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>NDR24024</id>
-<qty>744</qty>
+<qty>690</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR24024</url>
 <price qty="1" costPrice="4131.41" rPrice="5164.26"/>
 <categoryId>30</categoryId>
@@ -16557,7 +16557,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>NDR12024</id>
-<qty>397</qty>
+<qty>396</qty>
 <url>https://www.prompower.ru/catalog/power-supply/power-ndr/NDR12024</url>
 <price qty="1" costPrice="2873.34" rPrice="3591.68"/>
 <categoryId>30</categoryId>
@@ -26540,7 +26540,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PGV3-A01</id>
-<qty>125</qty>
+<qty>124</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-auxilliary-contacts/PGV3-A01</url>
 <price qty="1" costPrice="1099.95" rPrice="1374.94"/>
 <categoryId>61</categoryId>
@@ -30652,7 +30652,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>KJ112D04PADS1250TA</id>
-<qty>953</qty>
+<qty>949</qty>
 <url>https://www.prompower.ru/catalog/inductive-sensors/KJ112D04PADS1250TA</url>
 <price qty="1" costPrice="1536.22" rPrice="1920.28"/>
 <categoryId>76</categoryId>
@@ -32267,7 +32267,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>KJTJ8S3TA</id>
-<qty>531</qty>
+<qty>528</qty>
 <url>https://www.prompower.ru/catalog/sensor-cables/KJTJ8S3TA</url>
 <price qty="1" costPrice="870.59" rPrice="1088.24"/>
 <categoryId>36</categoryId>
@@ -40160,7 +40160,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PPYF14ESNB</id>
-<qty>3633</qty>
+<qty>3632</qty>
 <url>https://www.prompower.ru/catalog/relays/relay-terminal/PPYF14ESNB</url>
 <price qty="1" costPrice="478.24" rPrice="597.8"/>
 <categoryId>23</categoryId>
@@ -41583,7 +41583,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PLC1D80M7</id>
-<qty>12</qty>
+<qty>10</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-contactors/PLC1D80M7</url>
 <price qty="1" costPrice="7839.23" rPrice="9799.04"/>
 <categoryId>62</categoryId>
@@ -41670,7 +41670,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PLC1D25BD</id>
-<qty>21</qty>
+<qty>19</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-contactors/PLC1D25BD</url>
 <price qty="1" costPrice="5796.46" rPrice="7245.58"/>
 <categoryId>62</categoryId>
@@ -41757,7 +41757,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PLC1D12M7</id>
-<qty>0</qty>
+<qty>3</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-contactors/PLC1D12M7</url>
 <price qty="1" costPrice="1445.46" rPrice="1806.82"/>
 <categoryId>62</categoryId>
@@ -41931,7 +41931,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PLC1D95M7</id>
-<qty>18</qty>
+<qty>16</qty>
 <url>https://www.prompower.ru/catalog/pulse-nka/pulse-contactors/PLC1D95M7</url>
 <price qty="1" costPrice="8483.39" rPrice="10604.24"/>
 <categoryId>62</categoryId>
@@ -85688,7 +85688,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PH1043SF</id>
-<qty>65</qty>
+<qty>59</qty>
 <url>https://www.prompower.ru/catalog/hmi/ph1/PH1043SF</url>
 <price qty="1" costPrice="9926.49" rPrice="8437.52"/>
 <categoryId>99</categoryId>
@@ -107707,7 +107707,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD150A4040B</id>
-<qty>13</qty>
+<qty>11</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4040B</url>
 <price qty="1" costPrice="11181.06" rPrice="13976.32"/>
 <categoryId>70</categoryId>
@@ -107777,7 +107777,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD150A4075B</id>
-<qty>37</qty>
+<qty>35</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4075B</url>
 <price qty="1" costPrice="17894.96" rPrice="22368.7"/>
 <categoryId>70</categoryId>
@@ -107847,7 +107847,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD150A4150B</id>
-<qty>16</qty>
+<qty>15</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd150/PD150A4150B</url>
 <price qty="1" costPrice="26910.27" rPrice="33637.84"/>
 <categoryId>70</categoryId>
@@ -108382,7 +108382,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD210A4040B</id>
-<qty>182</qty>
+<qty>174</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4040B</url>
 <price qty="1" costPrice="21719.9" rPrice="27149.88"/>
 <categoryId>49</categoryId>
@@ -108454,7 +108454,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD210A4015B</id>
-<qty>144</qty>
+<qty>143</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd210/PD210A4015B</url>
 <price qty="1" costPrice="16226.0" rPrice="20282.5"/>
 <categoryId>49</categoryId>
@@ -109595,7 +109595,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A4007B</id>
-<qty>75</qty>
+<qty>71</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4007B</url>
 <price qty="1" costPrice="22063.46" rPrice="27579.32"/>
 <categoryId>42</categoryId>
@@ -109685,7 +109685,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A4022B</id>
-<qty>33</qty>
+<qty>31</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4022B</url>
 <price qty="1" costPrice="23952.02" rPrice="29940.02"/>
 <categoryId>42</categoryId>
@@ -109730,7 +109730,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A4040B</id>
-<qty>34</qty>
+<qty>32</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4040B</url>
 <price qty="1" costPrice="28802.74" rPrice="36003.42"/>
 <categoryId>42</categoryId>
@@ -109820,7 +109820,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A4075B</id>
-<qty>134</qty>
+<qty>133</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4075B</url>
 <price qty="1" costPrice="43226.06" rPrice="54032.58"/>
 <categoryId>42</categoryId>
@@ -110360,7 +110360,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A420K</id>
-<qty>1</qty>
+<qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A420K</url>
 <price qty="1" costPrice="787297.23" rPrice="984121.54"/>
 <categoryId>42</categoryId>
@@ -111620,7 +111620,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PD310A4750</id>
-<qty>0</qty>
+<qty>1</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310/PD310A4750</url>
 <price qty="1" costPrice="254119.17" rPrice="317648.96"/>
 <categoryId>42</categoryId>
@@ -114107,7 +114107,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PPS1G0612</id>
-<qty>86</qty>
+<qty>586</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PPS1G0612</url>
 <price qty="1" costPrice="9443.78" rPrice="11804.72"/>
 <categoryId>19</categoryId>
@@ -115700,7 +115700,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PG2RVSR500AC230</id>
-<qty>8837</qty>
+<qty>8822</qty>
 <url>https://www.prompower.ru/catalog/relays/thin-relays/PG2RVSR500AC230</url>
 <price qty="1" costPrice="976.98" rPrice="1221.22"/>
 <categoryId>11</categoryId>
@@ -115756,7 +115756,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>PG2RVSR500DC24</id>
-<qty>4809</qty>
+<qty>4799</qty>
 <url>https://www.prompower.ru/catalog/relays/thin-relays/PG2RVSR500DC24</url>
 <price qty="1" costPrice="821.79" rPrice="1027.24"/>
 <categoryId>11</categoryId>
@@ -162572,7 +162572,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN9720CB200XA0</id>
-<qty>32</qty>
+<qty>30</qty>
 <price qty="1" costPrice="10806.58" rPrice="13075.96"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -162848,7 +162848,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN3901AE800AA0</id>
-<qty>32</qty>
+<qty>31</qty>
 <price qty="1" costPrice="1161.52" rPrice="1405.44"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
@@ -163623,7 +163623,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN2211BH320XB0</id>
-<qty>159</qty>
+<qty>157</qty>
 <price qty="1" costPrice="9077.4" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -163805,7 +163805,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN2231PL320XB0</id>
-<qty>38</qty>
+<qty>35</qty>
 <price qty="1" costPrice="14940.46" rPrice="18077.96"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -163883,7 +163883,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN2314HF320XB0</id>
-<qty>26</qty>
+<qty>24</qty>
 <price qty="1" costPrice="19100.56" rPrice="23111.68"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -164404,7 +164404,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN3221BL000AA0</id>
-<qty>99</qty>
+<qty>95</qty>
 <price qty="1" costPrice="18397.8" rPrice="22261.34"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
@@ -165548,7 +165548,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
 </offer>
 <offer>
 <id>UN2231PH320XB0</id>
-<qty>53</qty>
+<qty>55</qty>
 <price qty="1" costPrice="9077.4" rPrice="10983.66"/>
 <categoryId>47</categoryId>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
