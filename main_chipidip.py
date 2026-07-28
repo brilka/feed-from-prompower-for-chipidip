@@ -274,6 +274,7 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         instock = str(prod.get('instock', 0))
         description = str(prod.get('description', ''))
         title = str(prod.get('title', ''))
+        tnved = str(prod.get('tnved') or '').strip()
         
         # Формируем корректную ссылку на карточку товара
         url = ""
@@ -431,11 +432,18 @@ rPrice - рекомендуемая цена продажи на сайте Чи
         safe_name = (description if description else (title if title else "Товар без названия"))[:250]
         offer_xml.append(f"<name>{escape(safe_name)}</name>")
         
+        # АРТИКУЛ
         if is_first_offer: offer_xml.append('<!--  Артикул (оригинальный парт номер) по каталогу производителя данного товара. Не оябязательное поле. Для Prompower и Unimat это title в API  -->')
         if title: offer_xml.append(f"<partNumber>{escape(title)}</partNumber>")
             
+        # ВЕНДОР
         if is_first_offer: offer_xml.append('<!--  Название производеителя (бренда) товара. Может быть полное или сокращенное название. Не оябязательное поле. Для Prompower нужно указывать Prompower. Для Unimat нужно указывать Unimat  -->')
         offer_xml.append(f"<vendor>{brand}</vendor>")
+
+        # ТН ВЭД (НОВОЕ)
+        if is_first_offer: offer_xml.append('<!--  Код ТН ВЭД товара. Не обязательное поле. У Prompower в API это tnved. -->')
+        if tnved:
+            offer_xml.append(f"<tnvedcode>{escape(tnved)}</tnvedcode>")
         
         # ОПИСАНИЕ И СПЕЦИАЛЬНЫЙ ТЕКСТ ДЛЯ UNIMAT
         if is_first_offer: 
