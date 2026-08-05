@@ -75987,6 +75987,36 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
+    ],
+    "https://www.prompower.ru/catalog/inductive-sensors/KJ208D02NADS845TA": [
+      {
+        "url": "https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      },
+      {
+        "url": "https://www.prompower.ru/catalog/CAD/KJ208-D02NA-DS845-TA.pdf",
+        "name": "Габаритный чертеж индуктивный датчик PROMPOWER KJ208-D02NA-DS845-TA (pdf)"
+      }
+    ],
+    "https://www.prompower.ru/catalog/inverters/inverter-options/PDCommsRepeater": [
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/promyshlennye-kompyutery/panel-pc/PICI57200U15R": [
+      {
+        "url": "https://www.prompower.ru/docs/promyshlennye-kompyutery/IPC_catalog.pdf",
+        "name": "Промышленные ПК PROMPOWER. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
