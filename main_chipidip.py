@@ -420,7 +420,7 @@ rPrice - рекомендуемая цена продажи на сайте Чи
                     img_url = img if img.startswith('http') else SITE_URL + img
                     final_images.append(img_url)
             
-            # Если после всех проверок картинок нет, берем дефолтные 10 штук
+            # Если после всех проверок картинок нет, берем дефолтные
             if len(final_images) == 0:
                 final_images = DEFAULT_PROMPOWER_PICTURES
                 
@@ -440,7 +440,7 @@ rPrice - рекомендуемая цена продажи на сайте Чи
         if is_first_offer: offer_xml.append('<!--  Название производеителя (бренда) товара. Может быть полное или сокращенное название. Не оябязательное поле. Для Prompower нужно указывать Prompower. Для Unimat нужно указывать Unimat  -->')
         offer_xml.append(f"<vendor>{brand}</vendor>")
 
-        # ТН ВЭД (НОВОЕ)
+        # ТН ВЭД
         if is_first_offer: offer_xml.append('<!--  Код ТН ВЭД товара. Не обязательное поле. У Prompower в API это tnved. -->')
         if tnved:
             offer_xml.append(f"<tnvedcode>{escape(tnved)}</tnvedcode>")
@@ -478,7 +478,6 @@ rPrice - рекомендуемая цена продажи на сайте Чи
         if is_first_offer: offer_xml.append('<!--  список параметров товара. Максимум 20 параметров для одного товара. -->')
         for prop in prod.get('props', [])[:20]:
             p_name, p_val = prop.get('name', ''), prop.get('value', '')
-            # Парсим название и единицу измерения (если она в скобках)
             match = param_regex.match(p_name)
             clean_name = match.group(1).strip() if match else p_name
             unit = match.group(2) if match and match.group(2) else ""
@@ -503,6 +502,9 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/UniM
 https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/Unimat%20-%202025%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0.pdf
 https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%20UniMAT%20UN%20300%20%3D%20Siemens%20S7-300%20(100%25%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3).pdf
 название файлов указано после последнего слэш до ".pdf"
+
+Также для всех товаров Prompower и Unimat добавляется файл (документ со ссылкой на Яндекс Диск с сертификатами ТР ТС):
+https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf
   -->"""
             offer_xml.append(doc_comment)
 
@@ -556,6 +558,10 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/main/Unimat/%D0%
                 # Меняем blob на raw, чтобы робот мог скачать сам файл, а не страницу гитхаба
                 download_url = pdf_url.replace("/blob/main/", "/raw/main/")
                 offer_xml.append(f'<docFile url="{escape(download_url)}" name="{escape(file_name)}"/>')
+
+        # ДОБАВЛЕНИЕ: Общий сертификат ТР ТС для всех позиций (Prompower и Unimat)
+        common_cert_url = "https://github.com/brilka/feed-from-prompower-for-chipidip/raw/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf"
+        offer_xml.append(f'<docFile url="{escape(common_cert_url)}" name="Ссылка на сертификаты ТР ТС"/>')
                 
         # ГРУППА ТОВАРА
         if is_first_offer: 
