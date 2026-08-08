@@ -76017,6 +76017,51 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
-    ]
+    ],
+    "https://www.prompower.ru/catalog/servo/servo-motors/PSM6G130CM15B222P3": [
+      {
+        "url": "https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf",
+        "name": "Руководство по программному обеспечению PROMPOWER Servo"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН806030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets": [
+      {
+        "url": "https://www.prompower.ru/docs/stainless-steel-cabinets/PROMPOWER_StainlessSteelCabinets.pdf",
+        "name": "Презентация шкафы из нержавеющей стали серии \"ШН\" PROMPOWER"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
+    ],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН1006030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН1008030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН12010030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН12014040": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН1206030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН1208030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН1208040": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН14012030": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН302015": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН302515": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН303015": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН303020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН403015": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН403020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН404020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН406020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН406025": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН504020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН504025": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН605025": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН606025": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН705020": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН705025": [],
+    "https://www.prompower.ru/catalog/stainless-steel-cabinets/ШН806025": []
   }
 }
