@@ -6,7 +6,7 @@
 1. Забирает данные по API поставщика.
 2. Рассчитывает costPrice и rPrice с учетом НДС 22% (1.22) и скидок (по сложной формуле с коэффициентом K).
 3. Раз в месяц (1-го числа) обходит сайт и кэширует ссылки на PDF-файлы. В остальные дни использует кэш.
-4. Генерирует XML-feed, строго соблюдая ограничения на длину строк (name) и требуемые теги.
+4. Генерирует XML-feed, строго соблюдая ограничения на длину строк (name) и требуемые теги, заменяя спецсимволы и кавычки.
 5. Генерирует аварийный XML-feed ZEROwarehouse, где все остатки (qty) равны 0.
 """
 
@@ -43,6 +43,13 @@ SITE_URL = "https://www.prompower.ru"
 XML_FILENAME = "feed-from-prompower-for-chipidip.xml"
 XML_ZERO_FILENAME = "feed-from-prompower-for-chipidip-ZEROwarehouse.xml"
 CACHE_FILENAME = "chipidip_pdf_cache.json"
+
+# --- ФУНКЦИЯ ДЛЯ 100% ВАЛИДНОГО XML ---
+def xml_escape(text):
+    """Экранирует <, >, &, а также заменяет двойные и одинарные кавычки на &quot; и &apos;"""
+    if text is None:
+        return ""
+    return escape(str(text), {'"': '&quot;', "'": '&apos;'})
 
 # --- СЛОВАРЬ СОПОСТАВЛЕНИЯ КАТЕГОРИЙ ---
 # Ключ: Название категории от Prompower/Unimat. Значение: Код группы для Чип и Дип.
@@ -375,14 +382,14 @@ def process_products(products, brand, categories_dict, pdf_cache, is_first_offer
         offer_xml = ["<offer>"]
         
         if is_first_offer: offer_xml.append('<!--  уникальный идентификатор товара поставщика. может быть буквенно-цифровой. используется для дальнейшей трансляции заказов поставщику. У Prompower и Unimat это article в API.  -->')
-        offer_xml.append(f"<id>{escape(article)}</id>")
+        offer_xml.append(f"<id>{xml_escape(article)}</id>")
         
         if is_first_offer: offer_xml.append('<!--  кол-во товара, доступное для продажи. В API Prompower и Unimat это instock -->')
         offer_xml.append(f"<qty>{instock}</qty>")
         
         if url:
             if is_first_offer: offer_xml.append('<!--  ссылка на карточку товара на сайте поставщика. Используется для просмотра информации о товаре складом или отделом закупок Чип и Дип. У Prompower это значение в path в API (но в path в API указан неполный путь, например, /mcb/ESM163C12 - поэтому в начале нужно дописать www.prompower.ru ). Для Unimat url недоступен.  -->')
-            offer_xml.append(f"<url>{escape(url)}</url>")
+            offer_xml.append(f"<url>{xml_escape(url)}</url>")
             
         # Комментарий к costPrice (дословно из ТЗ)
         if is_first_offer: 
@@ -420,21 +427,21 @@ rPrice - рекомендуемая цена продажи на сайте Чи
                     img_url = img if img.startswith('http') else SITE_URL + img
                     final_images.append(img_url)
             
-            # Если после всех проверок картинок нет, берем дефолтные
+            # Если после всех проверок картинок нет, берем дефолтные 10 штук
             if len(final_images) == 0:
                 final_images = DEFAULT_PROMPOWER_PICTURES
                 
         for pic in final_images[:10]:
-            offer_xml.append(f"<picture>{escape(pic)}</picture>")
+            offer_xml.append(f"<picture>{xml_escape(pic)}</picture>")
             
         # НАЗВАНИЕ
         if is_first_offer: offer_xml.append('<!--  Наименование товара. Макс. 250 символов. Обязателльное поле. Для Prompower и Unimat это description в API  -->')
         safe_name = (description if description else (title if title else "Товар без названия"))[:250]
-        offer_xml.append(f"<name>{escape(safe_name)}</name>")
+        offer_xml.append(f"<name>{xml_escape(safe_name)}</name>")
         
         # АРТИКУЛ
         if is_first_offer: offer_xml.append('<!--  Артикул (оригинальный парт номер) по каталогу производителя данного товара. Не оябязательное поле. Для Prompower и Unimat это title в API  -->')
-        if title: offer_xml.append(f"<partNumber>{escape(title)}</partNumber>")
+        if title: offer_xml.append(f"<partNumber>{xml_escape(title)}</partNumber>")
             
         # ВЕНДОР
         if is_first_offer: offer_xml.append('<!--  Название производеителя (бренда) товара. Может быть полное или сокращенное название. Не оябязательное поле. Для Prompower нужно указывать Prompower. Для Unimat нужно указывать Unimat  -->')
@@ -443,7 +450,7 @@ rPrice - рекомендуемая цена продажи на сайте Чи
         # ТН ВЭД
         if is_first_offer: offer_xml.append('<!--  Код ТН ВЭД товара. Не обязательное поле. У Prompower в API это tnved. -->')
         if tnved:
-            offer_xml.append(f"<tnvedcode>{escape(tnved)}</tnvedcode>")
+            offer_xml.append(f"<tnvedcode>{xml_escape(tnved)}</tnvedcode>")
         
         # ОПИСАНИЕ И СПЕЦИАЛЬНЫЙ ТЕКСТ ДЛЯ UNIMAT
         if is_first_offer: 
@@ -472,16 +479,18 @@ rPrice - рекомендуемая цена продажи на сайте Чи
             unimat_addition = f"""<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat {title} соответствует модулю Siemens {siemens_title}.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)"""
             final_desc += unimat_addition
             
+        # CDATA не экранируется (оно специально для того и создано)
         if final_desc: offer_xml.append(f"<description><![CDATA[{final_desc}]]></description>")
             
         # ПАРАМЕТРЫ ТОВАРА (Характеристики)
         if is_first_offer: offer_xml.append('<!--  список параметров товара. Максимум 20 параметров для одного товара. -->')
         for prop in prod.get('props', [])[:20]:
             p_name, p_val = prop.get('name', ''), prop.get('value', '')
+            # Парсим название и единицу измерения (если она в скобках)
             match = param_regex.match(p_name)
             clean_name = match.group(1).strip() if match else p_name
             unit = match.group(2) if match and match.group(2) else ""
-            offer_xml.append(f'<param name="{escape(clean_name)}" unit="{escape(unit)}">{escape(str(p_val))}</param>')
+            offer_xml.append(f'<param name="{xml_escape(clean_name)}" unit="{xml_escape(unit)}">{xml_escape(str(p_val))}</param>')
             
         # ДОКУМЕНТАЦИЯ (PDF файлы)
         if is_first_offer: 
@@ -548,7 +557,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
                 
             # Генерируем теги docFile
             for doc in all_product_docs: 
-                offer_xml.append(f'<docFile url="{escape(doc["url"])}" name="{escape(doc["name"])}"/>')
+                offer_xml.append(f'<docFile url="{xml_escape(doc["url"])}" name="{xml_escape(doc["name"])}"/>')
                 
         # Обработка файлов Unimat (Прямые ссылки на GitHub)
         elif brand == "Unimat":
@@ -557,11 +566,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
                 file_name = urllib.parse.unquote(file_name_encoded)
                 # Меняем blob на raw, чтобы робот мог скачать сам файл, а не страницу гитхаба
                 download_url = pdf_url.replace("/blob/main/", "/raw/main/")
-                offer_xml.append(f'<docFile url="{escape(download_url)}" name="{escape(file_name)}"/>')
+                offer_xml.append(f'<docFile url="{xml_escape(download_url)}" name="{xml_escape(file_name)}"/>')
 
         # ДОБАВЛЕНИЕ: Общий сертификат ТР ТС для всех позиций (Prompower и Unimat)
         common_cert_url = "https://github.com/brilka/feed-from-prompower-for-chipidip/raw/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf"
-        offer_xml.append(f'<docFile url="{escape(common_cert_url)}" name="Ссылка на сертификаты ТР ТС"/>')
+        offer_xml.append(f'<docFile url="{xml_escape(common_cert_url)}" name="Ссылка на сертификаты ТР ТС"/>')
                 
         # ГРУППА ТОВАРА
         if is_first_offer: 
@@ -670,7 +679,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
                 weight_grams = int(float(weight) * 1000)
                 offer_xml.append(f"<weight>{weight_grams}</weight>")
             except (ValueError, TypeError):
-                offer_xml.append(f"<weight>{escape(str(weight))}</weight>")
+                offer_xml.append(f"<weight>{xml_escape(str(weight))}</weight>")
                 
         # ГАБАРИТЫ ТОВАРА (Ширина, Высота, Глубина)
         item_width = None
@@ -695,15 +704,15 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
                     
         if is_first_offer: offer_xml.append('<!--  Ширина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
         if item_width is not None:
-            offer_xml.append(f"<width>{escape(str(item_width))}</width>")
+            offer_xml.append(f"<width>{xml_escape(str(item_width))}</width>")
             
         if is_first_offer: offer_xml.append('<!--  Высота товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
         if item_height is not None:
-            offer_xml.append(f"<height>{escape(str(item_height))}</height>")
+            offer_xml.append(f"<height>{xml_escape(str(item_height))}</height>")
             
         if is_first_offer: offer_xml.append('<!--  Глубина товара, в миллиметрах. В API Prompower находится в props среди остальных записей. У Unimat отсутствуют данные. -->')
         if item_depth is not None:
-            offer_xml.append(f"<depth>{escape(str(item_depth))}</depth>")
+            offer_xml.append(f"<depth>{xml_escape(str(item_depth))}</depth>")
             
         offer_xml.append("</offer>")
         items_xml.append("\n".join(offer_xml))
@@ -754,7 +763,7 @@ def main():
     # Добавляем все категории
     for cat_id, data in categories_dict.items():
         parent_attr = f' parentId="{data["parentId"]}"' if data['parentId'] else ''
-        xml_lines.append(f'<category id="{cat_id}"{parent_attr}>{escape(data["title"])}</category>')
+        xml_lines.append(f'<category id="{cat_id}"{parent_attr}>{xml_escape(data["title"])}</category>')
         
     xml_lines.append('</categories>')
     xml_lines.append('<!--  список товаров к продаже  -->')
