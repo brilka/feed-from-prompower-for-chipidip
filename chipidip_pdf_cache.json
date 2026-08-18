@@ -79486,6 +79486,32 @@
         "url": "https://www.prompower.ru/catalog/CAD/PDBR-2K2-120R-5-T1.pdf",
         "name": "Габаритный чертеж PDBR-2K2-120R-5-T1 (pdf)"
       }
+    ],
+    "https://www.prompower.ru/catalog/servo/servo-drivers/PSD5K120P7PTA": [
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5C1_manual.pdf",
+        "name": "Сервопривод с EtherCAT PROMPOWER серии PSD5C1. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5F_manual.pdf",
+        "name": "Полнофункциональный сервопривод PROMPOWER серии PSD5F. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5L1_manual.pdf",
+        "name": "Сервопривод с импульсным управлением PROMPOWER серии PSD5L1. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/servo-drivers/PSD5P_manual.pdf",
+        "name": "Сервопривод с Profinet PROMPOWER серии PSD5P. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf",
+        "name": "Руководство по программному обеспечению PROMPOWER Servo"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
