@@ -131082,7 +131082,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Серводвигатель серии PSM6, без тормоза, 3 кВт, 400 В, 9,8Н*м, 3000об/мин, оптический энкодер 23 бит.</name>
 <partNumber>PSM6S-130TH30B2-43P0</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8501522009</tnvedcode>
+<tnvedcode>8504409100</tnvedcode>
 <description><![CDATA[Серводвигатель серии PSM6, без тормоза, 3 кВт, 400 В, 9,8Н*м, 3000об/мин, оптический энкодер 23 бит.]]></description>
 <param name="Ширина" unit="мм">130</param>
 <param name="Высота" unit="мм">229.3</param>
@@ -134013,7 +134013,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">175</param>
 <param name="Глубина" unit="мм">163.6</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,1</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134051,7 +134051,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">175</param>
 <param name="Глубина" unit="мм">163.6</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,2</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134089,7 +134089,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">175</param>
 <param name="Глубина" unit="мм">163.6</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,4</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134127,7 +134127,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185.4</param>
 <param name="Глубина" unit="мм">174</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,75</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134165,7 +134165,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">169.4</param>
 <param name="Глубина" unit="мм">174.6</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134203,7 +134203,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1,5</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134241,7 +134241,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">2,3</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134279,7 +134279,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">2,6</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -134317,7 +134317,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -134355,7 +134355,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1,5</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -134393,7 +134393,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">2,3</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -134430,7 +134430,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">185</param>
 <param name="Глубина" unit="мм">190.3</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">импульсное</param>
+<param name="Тип управления" unit="">Импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">3</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -136352,7 +136352,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">178</param>
 <param name="Глубина" unit="мм">175.1</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,1</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136390,7 +136390,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">178</param>
 <param name="Глубина" unit="мм">175.1</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,2</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136428,7 +136428,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">178</param>
 <param name="Глубина" unit="мм">175.1</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,4</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136465,7 +136465,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">183</param>
 <param name="Глубина" unit="мм">181.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">0,75</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136503,7 +136503,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">191.3</param>
 <param name="Глубина" unit="мм">193.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136574,7 +136574,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">191.3</param>
 <param name="Глубина" unit="мм">193.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1,5</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136612,7 +136612,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">191.3</param>
 <param name="Глубина" unit="мм">193.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">2,3</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136650,7 +136650,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">191.3</param>
 <param name="Глубина" unit="мм">193.3</param>
 <param name="Количество фаз" unit="">1</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">2,6</param>
 <param name="Номинальное напряжение" unit="В">200</param>
@@ -136688,7 +136688,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">186</param>
 <param name="Глубина" unit="мм">191.6</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -136726,7 +136726,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">186</param>
 <param name="Глубина" unit="мм">191.6</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">1,5</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -136764,7 +136764,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">210.1</param>
 <param name="Глубина" unit="мм">210.1</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">3</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -136802,7 +136802,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">256.6</param>
 <param name="Глубина" unit="мм">256.6</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">5,5</param>
 <param name="Номинальное напряжение" unit="В">400</param>
@@ -136840,7 +136840,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Высота" unit="мм">256.6</param>
 <param name="Глубина" unit="мм">256.6</param>
 <param name="Количество фаз" unit="">3</param>
-<param name="Тип управления" unit="">аналоговое/импульсное</param>
+<param name="Тип управления" unit="">Аналогово-импульсное, Modbus</param>
 <param name="RS485" unit="">да</param>
 <param name="Номинальная мощность" unit="кВт">7,5</param>
 <param name="Номинальное напряжение" unit="В">400</param>
