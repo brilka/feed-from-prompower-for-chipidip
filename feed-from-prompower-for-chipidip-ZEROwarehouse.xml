@@ -120402,6 +120402,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Промышленный сенсорный монитор PROMPOWER 15 дюймов PID-15R</name>
 <partNumber>PID-15R</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8528521000</tnvedcode>
 <description><![CDATA[Промышленный сенсорный монитор PROMPOWER 15 дюймов PID-15R]]></description>
 <param name="Ширина" unit="мм">376.1</param>
 <param name="Высота" unit="мм">285.3</param>
@@ -135978,6 +135979,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Сервопривод серии PSD5C2. 0.7 кВт, 1x200В, EtherCAT</name>
 <partNumber>PSD5C2-20P7-PTA</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8504409100</tnvedcode>
 <description><![CDATA[Сервопривод серии PSD5C2. 0.7 кВт, 1x200В, EtherCAT]]></description>
 <param name="Ширина" unit="мм">55</param>
 <param name="Высота" unit="мм">180</param>
@@ -174675,7 +174677,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <offer>
 <id>UN8402AH100AA0</id>
 <qty>0</qty>
-<price qty="1" costPrice="222.83" rPrice="269.62"/>
+<price qty="1" costPrice="247.02" rPrice="298.9"/>
 <picture>https://unimat-russia.ru/uploads/product-1654003344077-0.4960815358606392.png</picture>
 <picture>https://unimat-russia.ru/uploads/product-1654005665354-0.5424921694625866.jpg</picture>
 <picture>https://unimat-russia.ru/uploads/product-1703188936539-0.01815614639060681.jpg</picture>
