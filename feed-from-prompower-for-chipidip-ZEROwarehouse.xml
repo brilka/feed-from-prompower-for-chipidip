@@ -130873,11 +130873,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <price qty="1" costPrice="23463.04" rPrice="29328.8"/>
 <categoryId>53</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PSM6H-60CS30B3-20P2_STEP0000.png</picture>
-<name>Серводвигатель серии PSM6, с тормозом, 0,4 кВт, 200В, 3000об/мин, абсолютный энкодер, многооборотный 17 бит.</name>
+<name>Серводвигатель серии PSM6S, без тормоза, 400 Вт, 200В, 3000об/мин</name>
 <partNumber>PSM6S-60CM30B3-20P4</partNumber>
 <vendor>Prompower</vendor>
 <tnvedcode>8501510009</tnvedcode>
-<description><![CDATA[Серводвигатель серии PSM6, с тормозом, 0,4 кВт, 200В, 3000об/мин, абсолютный энкодер, многооборотный 17 бит.]]></description>
+<description><![CDATA[Серводвигатель серии PSM6S, без тормоза, 400 Вт, 200В, 3000об/мин]]></description>
 <param name="Ширина" unit="мм">60</param>
 <param name="Высота" unit="мм">68.8</param>
 <param name="Глубина" unit="мм">128.4</param>
