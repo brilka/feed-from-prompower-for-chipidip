@@ -17048,6 +17048,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>CM-L15B-16(PS) Кабель силовой для серводвигателей без тормоза. 16 метров.</name>
 <partNumber>CM-L15B-16(PS)</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8544429009</tnvedcode>
 <description><![CDATA[CM-L15B-16(PS) Кабель силовой для серводвигателей без тормоза. 16 метров.]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
@@ -46939,6 +46940,36 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <itemGroupId>2273</itemGroupId>
 <unitID>шт</unitID>
 <width>30.1</width>
+<height>111.5</height>
+<depth>85</depth>
+</offer>
+<offer>
+<id>PMP01E16X16YT</id>
+<qty>0</qty>
+<url>https://www.prompower.ru/catalog/plc/plc-pmp301-modules/PMP01E16X16YT</url>
+<price qty="1" costPrice="13034.84" rPrice="15772.16"/>
+<categoryId>74</categoryId>
+<picture>https://www.prompower.ru/catalog/products/PMP-01-E16X16YT.png</picture>
+<name>Модуль расширения для PMP301 и PMP-SEC. 16 входов(NPN)/16 выходов(NPN). Питание 24VDC.</name>
+<partNumber>PMP-01-E16X16YT</partNumber>
+<vendor>Prompower</vendor>
+<tnvedcode>8538909200</tnvedcode>
+<description><![CDATA[Модуль расширения для PMP301 и PMP-SEC. 16 входов(NPN)/16 выходов(NPN). Питание 24VDC.]]></description>
+<param name="Ширина" unit="мм">41.1</param>
+<param name="Высота" unit="мм">111.5</param>
+<param name="Глубина" unit="мм">85</param>
+<param name="Напряжение питания" unit="">24 В пост.тока</param>
+<param name="Количество входов" unit="">16</param>
+<param name="Тип входа" unit="">NPN</param>
+<param name="Количество выходов" unit="">16</param>
+<param name="Тип выхода" unit="">NPN</param>
+<docFile url="https://www.prompower.ru/docs/plc/plc-pmp301-modules/PMP-01_extension_module.pdf" name="Модули расширения PROMPOWER серии PMP-01. Руководство по эксплуатации"/>
+<docFile url="https://www.prompower.ru/docs/plc/PMP_catalog.pdf" name="ПЛК PROMPOWER. Каталог"/>
+<docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
+<docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf" name="Ссылка на сертификаты ТР ТС"/>
+<itemGroupId>2273</itemGroupId>
+<unitID>шт</unitID>
+<width>41.1</width>
 <height>111.5</height>
 <depth>85</depth>
 </offer>
@@ -132745,7 +132776,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Серводвигатель серии PSM6, с тормозом, 21 кВт, 400В, 1700об/мин, абсолютный энкодер, многооборотный 23 бит. </name>
 <partNumber>PSM6G-200TH17BZ2-421P0-F</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8501522009</tnvedcode>
+<tnvedcode>8501523000</tnvedcode>
 <description><![CDATA[Серводвигатель серии PSM6, с тормозом, 21 кВт, 400В, 1700об/мин, абсолютный энкодер, многооборотный 23 бит. ]]></description>
 <param name="Ширина" unit="мм">278</param>
 <param name="Высота" unit="мм">311.7</param>
@@ -133364,6 +133395,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Серводвигатель серии PSM6, с тормозом, 2,3 кВт, 400 В, 14,6Н*м, 1500об/мин, оптический энкодер 23 бит.</name>
 <partNumber>PSM6G-130TH15BZ2-42P3</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8501510009</tnvedcode>
 <description><![CDATA[Серводвигатель серии PSM6, с тормозом, 2,3 кВт, 400 В, 14,6Н*м, 1500об/мин, оптический энкодер 23 бит.]]></description>
 <param name="Ширина" unit="мм">130</param>
 <param name="Высота" unit="мм">225.6</param>
@@ -134971,6 +135003,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>PSD5C2-422P0-PTA Сервопривод серии PSD5. 22 кВт, 3х400В, импульсное управление, управление по шине EtherCat</name>
 <partNumber>PSD5C2-422P0-PTA</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8504409100</tnvedcode>
 <description><![CDATA[PSD5C2-422P0-PTA Сервопривод серии PSD5. 22 кВт, 3х400В, импульсное управление, управление по шине EtherCat]]></description>
 <param name="Ширина" unit="мм">275</param>
 <param name="Высота" unit="мм">460</param>

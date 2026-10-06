@@ -79762,6 +79762,20 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
+    ],
+    "https://www.prompower.ru/catalog/plc/plc-pmp301-modules/PMP01E16X16YT": [
+      {
+        "url": "https://www.prompower.ru/docs/plc/plc-pmp301-modules/PMP-01_extension_module.pdf",
+        "name": "Модули расширения PROMPOWER серии PMP-01. Руководство по эксплуатации"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/plc/PMP_catalog.pdf",
+        "name": "ПЛК PROMPOWER. Каталог"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      }
     ]
   }
 }
