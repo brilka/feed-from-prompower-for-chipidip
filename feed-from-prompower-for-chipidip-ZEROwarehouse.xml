@@ -14479,11 +14479,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <price qty="1" costPrice="6418.61" rPrice="7766.52"/>
 <categoryId>55</categoryId>
 <picture>https://www.prompower.ru/catalog/products/cp-se-bm.jpg</picture>
-<name>CP-SE-BM-25(PS) Кабель энкодера 25 метров.</name>
+<name>CP-SE-BM-25(PS) Кабель энкодера 5 метров.</name>
 <partNumber>CP-SE-BM-25(PS)</partNumber>
 <vendor>Prompower</vendor>
 <tnvedcode>8544429007</tnvedcode>
-<description><![CDATA[CP-SE-BM-25(PS) Кабель энкодера 25 метров.]]></description>
+<description><![CDATA[CP-SE-BM-25(PS) Кабель энкодера 5 метров.]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
 <param name="Глубина" unit="мм">0</param>
@@ -15014,7 +15014,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
 <param name="Глубина" unit="мм">0</param>
-<param name="Длина кабеля" unit="м">5</param>
+<param name="Длина кабеля" unit="м">20</param>
 <docFile url="https://www.prompower.ru/docs/servo/PROMPOWER_Servo_software_manual.pdf" name="Руководство по программному обеспечению PROMPOWER Servo"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf" name="Ссылка на сертификаты ТР ТС"/>
@@ -46186,11 +46186,11 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <price qty="1" costPrice="16218.94" rPrice="19624.92"/>
 <categoryId>47</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PMP-E2WT-D_0000.jpg</picture>
-<name>Модуль расширения PMP-E2WT-D для PMP20/PMP30. Весовой модуль. 1 канал. Питание 24VDC</name>
+<name>Модуль расширения PMP-E1WT-D для PMP20/PMP30. Весовой модуль. 1 канал. Питание 24VDC </name>
 <partNumber>PMP-E1WT-D</partNumber>
 <vendor>Prompower</vendor>
 <tnvedcode>8538909200</tnvedcode>
-<description><![CDATA[Модуль расширения PMP-E2WT-D для PMP20/PMP30. Весовой модуль. 1 канал. Питание 24VDC]]></description>
+<description><![CDATA[Модуль расширения PMP-E1WT-D для PMP20/PMP30. Весовой модуль. 1 канал. Питание 24VDC ]]></description>
 <param name="Ширина" unit="мм">63</param>
 <param name="Высота" unit="мм">108</param>
 <param name="Глубина" unit="мм">89.9</param>
