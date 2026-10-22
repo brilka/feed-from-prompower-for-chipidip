@@ -29110,7 +29110,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Независимый расцепитель MCB MX Alarm на DIN-рейку для серий автоматических выключателей ESM1, ESM2</name>
 <partNumber>MCB MX Alarm</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8536302000</tnvedcode>
+<tnvedcode>8536490000</tnvedcode>
 <description><![CDATA[Независимый расцепитель MCB MX Alarm на DIN-рейку для серий автоматических выключателей ESM1, ESM2]]></description>
 <param name="Ширина" unit="мм">18</param>
 <param name="Высота" unit="мм">83</param>
@@ -34554,20 +34554,20 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <unitID>шт</unitID>
 </offer>
 <offer>
-<id>KT118D16PAD355LY</id>
+<id>KT118D16PAD355TA</id>
 <qty>0</qty>
-<url>https://www.prompower.ru/catalog/inductive-sensors/KT118D16PAD355LY</url>
+<url>https://www.prompower.ru/catalog/inductive-sensors/KT118D16PAD355TA</url>
 <price qty="1" costPrice="1930.53" rPrice="2413.16"/>
 <categoryId>76</categoryId>
 <picture>https://www.prompower.ru/catalog/products/KT118-D16-D355_0000.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/KT118-D16-D355_0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/KT118-D16-D355_0003.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/KT118-D16-D355_0004.jpg</picture>
-<name>Индуктивный датчик KT118-D16PA-D355-LY, никелированная латунь, незаподлицо, диаметр М18, расстояние срабатывания 16 мм, PNP-НО, 3х проводное подключение, кабель 2 метра</name>
-<partNumber>KT118-D16PA-D355-LY</partNumber>
+<name>Индуктивный датчик KT118-D16PA-D355-TA, никелированная латунь, незаподлицо, диаметр М18, расстояние срабатывания 16 мм, PNP-НО, 3х проводное подключение, кабель 2 метра</name>
+<partNumber>KT118-D16PA-D355-TA</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8536501906</tnvedcode>
-<description><![CDATA[Индуктивный датчик KT118-D16PA-D355-LY, никелированная латунь, незаподлицо, диаметр М18, расстояние срабатывания 16 мм, PNP-НО, 3х проводное подключение, кабель 2 метра]]></description>
+<tnvedcode>9031803400</tnvedcode>
+<description><![CDATA[Индуктивный датчик KT118-D16PA-D355-TA, никелированная латунь, незаподлицо, диаметр М18, расстояние срабатывания 16 мм, PNP-НО, 3х проводное подключение, кабель 2 метра]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
 <param name="Глубина" unit="мм">0</param>
@@ -34577,8 +34577,10 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <param name="Функция переключения" unit="">НО</param>
 <param name="Тип 3-х проводного подключения" unit="">Встроенный кабель 2м</param>
 <param name="Тип монтажа" unit="">Незаподлицо</param>
-<docFile url="https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf" name="Индуктивные датчики PROMPOWER серии K. Спецификация продукта"/>
+<docFile url="https://www.prompower.ru/docs/inductive-sensors/K-sensors.pdf" name="Индуктивные датчики PROMPOWER серии K. Спецификация продукта"/>
 <docFile url="https://www.prompower.ru/docs/referenceList.pdf" name="Краткий референс-лист проектов по автоматизации"/>
+<docFile url="https://www.prompower.ru/catalog/CAD/KT118-D16PA-D355-TA.pdf" name="Габаритный чертеж индуктивный датчик PROMPOWER KT118-D16PA-D355-TA (pdf)"/>
+<docFile url="https://www.prompower.ru/docs/inductive-sensors/K_sensors.pdf" name="Индуктивные датчики PROMPOWER серии K. Спецификация продукта"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/cc58148495a4db33e65ae255e720914c295e4fb0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B%20%D0%A2%D0%A0%20%D0%A2%D0%A1.pdf" name="Ссылка на сертификаты ТР ТС"/>
 <itemGroupId>1266</itemGroupId>
 <unitID>шт</unitID>
@@ -118549,7 +118551,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4022BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4022BS</url>
-<price qty="1" costPrice="84028.72" rPrice="105035.9"/>
+<price qty="1" costPrice="42203.39" rPrice="35872.88"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118591,7 +118593,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4220BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4220BS</url>
-<price qty="1" costPrice="196082.3" rPrice="245102.88"/>
+<price qty="1" costPrice="98482.71" rPrice="83710.3"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -118633,7 +118635,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4007B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4007B</url>
-<price qty="1" costPrice="45994.0" rPrice="57492.5"/>
+<price qty="1" costPrice="23101.06" rPrice="19635.9"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118675,7 +118677,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4007BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4007BS</url>
-<price qty="1" costPrice="80739.6" rPrice="100924.5"/>
+<price qty="1" costPrice="40551.36" rPrice="34468.66"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118717,7 +118719,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4015B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4015B</url>
-<price qty="1" costPrice="46232.14" rPrice="57790.18"/>
+<price qty="1" costPrice="23220.19" rPrice="19737.16"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118759,7 +118761,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4015BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4015BS</url>
-<price qty="1" costPrice="80977.74" rPrice="101222.18"/>
+<price qty="1" costPrice="40670.49" rPrice="34569.92"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118801,7 +118803,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4022B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4022B</url>
-<price qty="1" costPrice="48615.54" rPrice="60769.42"/>
+<price qty="1" costPrice="24417.22" rPrice="20754.64"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118843,7 +118845,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4040BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4040BS</url>
-<price qty="1" costPrice="90939.78" rPrice="113674.72"/>
+<price qty="1" costPrice="45673.93" rPrice="38822.84"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118885,7 +118887,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4055B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4055B</url>
-<price qty="1" costPrice="64343.78" rPrice="80429.72"/>
+<price qty="1" costPrice="32317.08" rPrice="27469.52"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118927,7 +118929,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4055BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4055BS</url>
-<price qty="1" costPrice="103332.05" rPrice="129165.06"/>
+<price qty="1" costPrice="51898.8" rPrice="44113.98"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>
@@ -118969,7 +118971,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4075B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4075B</url>
-<price qty="1" costPrice="80549.28" rPrice="100686.6"/>
+<price qty="1" costPrice="40455.2" rPrice="34386.92"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0002.jpg</picture>
@@ -119011,7 +119013,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4075BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4075BS</url>
-<price qty="1" costPrice="119680.05" rPrice="149600.06"/>
+<price qty="1" costPrice="60108.68" rPrice="51092.38"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0002.jpg</picture>
@@ -119053,7 +119055,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4110B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4110B</url>
-<price qty="1" costPrice="92941.55" rPrice="116176.94"/>
+<price qty="1" costPrice="46680.07" rPrice="39678.06"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0002.jpg</picture>
@@ -119095,7 +119097,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4110BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4110BS</url>
-<price qty="1" costPrice="127401.18" rPrice="159251.48"/>
+<price qty="1" costPrice="63986.85" rPrice="54388.82"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-7_5-11KW-0002.jpg</picture>
@@ -119137,7 +119139,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4150B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4150B</url>
-<price qty="1" costPrice="118583.02" rPrice="148228.78"/>
+<price qty="1" costPrice="59558.96" rPrice="50625.12"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -119179,7 +119181,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4150BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4150BS</url>
-<price qty="1" costPrice="179400.51" rPrice="224250.64"/>
+<price qty="1" costPrice="90103.46" rPrice="76587.94"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -119221,7 +119223,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4185B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4185B</url>
-<price qty="1" costPrice="121443.68" rPrice="151804.6"/>
+<price qty="1" costPrice="60994.26" rPrice="51845.12"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -119263,7 +119265,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4185BS</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4185BS</url>
-<price qty="1" costPrice="181592.61" rPrice="226990.76"/>
+<price qty="1" costPrice="91205.76" rPrice="77524.9"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -119305,7 +119307,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4220B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4220B</url>
-<price qty="1" costPrice="138172.32" rPrice="172715.4"/>
+<price qty="1" costPrice="69396.47" rPrice="58987.0"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-ip54-15-22kw-0002.jpg</picture>
@@ -119347,7 +119349,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PD310D4040B</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/inverters/pd310-ip54/PD310D4040B</url>
-<price qty="1" costPrice="57194.58" rPrice="71493.22"/>
+<price qty="1" costPrice="28725.98" rPrice="24417.08"/>
 <categoryId>51</categoryId>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0001.jpg</picture>
 <picture>https://www.prompower.ru/catalog/products/PD310-00-IP54-0_75-5_5-0002.jpg</picture>

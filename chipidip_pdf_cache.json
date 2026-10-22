@@ -81282,6 +81282,20 @@
         "url": "https://www.prompower.ru/docs/referenceList.pdf",
         "name": "Краткий референс-лист проектов по автоматизации"
       }
+    ],
+    "https://www.prompower.ru/catalog/inductive-sensors/KT118D16PAD355TA": [
+      {
+        "url": "https://www.prompower.ru/docs/inductive-sensors/K-sensors.pdf",
+        "name": "Индуктивные датчики PROMPOWER серии K. Спецификация продукта"
+      },
+      {
+        "url": "https://www.prompower.ru/docs/referenceList.pdf",
+        "name": "Краткий референс-лист проектов по автоматизации"
+      },
+      {
+        "url": "https://www.prompower.ru/catalog/CAD/KT118-D16PA-D355-TA.pdf",
+        "name": "Габаритный чертеж индуктивный датчик PROMPOWER KT118-D16PA-D355-TA (pdf)"
+      }
     ]
   }
 }
