@@ -13840,7 +13840,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Адаптер PROMPOWER USB-COM(PS) для кабелей PMP-XVPDVP и DB9F</name>
 <partNumber>USB-COM(PS)</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8536699008</tnvedcode>
+<tnvedcode>8544429007</tnvedcode>
 <description><![CDATA[Адаптер PROMPOWER USB-COM(PS) для кабелей PMP-XVPDVP и DB9F]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
@@ -182318,6 +182318,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Панель оператора (HMI)</name>
 <partNumber>UH 507W-3WA01-0AA0</partNumber>
 <vendor>Unimat</vendor>
+<tnvedcode>8537101000</tnvedcode>
 <description><![CDATA[Панель оператора (HMI)<br><br>Модули Unimat на 100% совместимы (взаимозаменяемы) с соответствующими модулями Siemens S7-200, S7-300, S7-1200. Чтобы получить артикул Unimat, нужно у артикула Siemens заменить 6ES7- на UN-, а остальную часть артикула оставить без изменений.<br><br>Данный модуль Unimat UH 507W-3WA01-0AA0 соответствует модулю Siemens UH 507W-3WA01-0AA0.<br><br>Модули Unimat поддерживаются на складе в России.<br>Кабель Profibus и ProfiNET от Unimat соответствует кабелю Siemens.<br><br>Модули UniMAT монтируются в оригинальный ПЛК Siemens, определяются средой разработки как оригинальные модули Siemens без каких-либо дополнительных манипуляций со стороны программиста.<br><br>Сценарии использования модулей Unimat:<br>+ в новых проектах (с оригинальным CPU Siemens)<br>+ в проектах модернизации производства, где установлены ПЛК Siemens S7-200, S7-300 и S7-1200 и требуется их расширение (или замена модулей)<br>+ станции удалённого (распределённого) ввода-вывода от Unimat (Profibus; Profinet)]]></description>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/HMI%20Catalogue%206-18.pdf" name="HMI Catalogue 6-18"/>
 <docFile url="https://github.com/brilka/feed-from-prompower-for-chipidip/raw/main/Unimat/UN%20120%20Series%20PLC%20(1-2).pdf" name="UN 120 Series PLC (1-2)"/>
