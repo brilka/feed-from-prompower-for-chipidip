@@ -120002,7 +120002,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PPS1G18230</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PPS1G18230</url>
-<price qty="1" costPrice="22400.18" rPrice="28000.22"/>
+<price qty="1" costPrice="32941.44" rPrice="28000.22"/>
 <categoryId>19</categoryId>
 <picture>https://www.prompower.ru/catalog/products/pps-1g18230_1.png</picture>
 <picture>https://www.prompower.ru/catalog/products/pps-1g18230_2.png</picture>
@@ -131958,7 +131958,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Серводвигатель серии PSM6, без тормоза, 3 кВт, 400 В, 9,8Н*м, 3000об/мин, оптический энкодер 23 бит.</name>
 <partNumber>PSM6S-130TH30B2-43P0</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8504409100</tnvedcode>
+<tnvedcode>8501522009</tnvedcode>
 <description><![CDATA[Серводвигатель серии PSM6, без тормоза, 3 кВт, 400 В, 9,8Н*м, 3000об/мин, оптический энкодер 23 бит.]]></description>
 <param name="Ширина" unit="мм">130</param>
 <param name="Высота" unit="мм">229.3</param>
@@ -136405,6 +136405,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Сервопривод серии PSD5L2. 3 кВт, 3x400В, Импульсное, Modbus</name>
 <partNumber>PSD5L2-43P0-PTA</partNumber>
 <vendor>Prompower</vendor>
+<tnvedcode>8504409100</tnvedcode>
 <description><![CDATA[Сервопривод серии PSD5L2. 3 кВт, 3x400В, Импульсное, Modbus]]></description>
 <param name="Ширина" unit="мм">83</param>
 <param name="Высота" unit="мм">185</param>
