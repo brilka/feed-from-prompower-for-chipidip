@@ -32762,7 +32762,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Индуктивный датчик KJ118-D08PA-D355-TA, никелированная латунь, заподлицо, диаметр М18, расстояние срабатывания 8 мм, PNP-НО, 3х проводное подключение, кабель 2 метра</name>
 <partNumber>KJ118-D08PA-D355-TA</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8536501906</tnvedcode>
+<tnvedcode>9031803400</tnvedcode>
 <description><![CDATA[Индуктивный датчик KJ118-D08PA-D355-TA, никелированная латунь, заподлицо, диаметр М18, расстояние срабатывания 8 мм, PNP-НО, 3х проводное подключение, кабель 2 метра]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
@@ -33996,7 +33996,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <name>Индуктивный датчик KJ118-D08NA-D355-TA, никелированная латунь, заподлицо, диаметр М18, расстояние срабатывания 8 мм, NPN-НО, 3х проводное подключение, кабель 2 метра</name>
 <partNumber>KJ118-D08NA-D355-TA</partNumber>
 <vendor>Prompower</vendor>
-<tnvedcode>8536501906</tnvedcode>
+<tnvedcode>9031803400</tnvedcode>
 <description><![CDATA[Индуктивный датчик KJ118-D08NA-D355-TA, никелированная латунь, заподлицо, диаметр М18, расстояние срабатывания 8 мм, NPN-НО, 3х проводное подключение, кабель 2 метра]]></description>
 <param name="Ширина" unit="мм">0</param>
 <param name="Высота" unit="мм">0</param>
@@ -120004,7 +120004,7 @@ https://github.com/brilka/feed-from-prompower-for-chipidip/blob/cc58148495a4db33
 <id>PPS1G18230</id>
 <qty>0</qty>
 <url>https://www.prompower.ru/catalog/ethernet-switch/PPS1G18230</url>
-<price qty="1" costPrice="32941.44" rPrice="28000.22"/>
+<price qty="1" costPrice="28000.22" rPrice="28000.22"/>
 <categoryId>19</categoryId>
 <picture>https://www.prompower.ru/catalog/products/pps-1g18230_1.png</picture>
 <picture>https://www.prompower.ru/catalog/products/pps-1g18230_2.png</picture>
